@@ -1,0 +1,34 @@
+OEIS DRAFT (staged 2026-09-01 — NOT submitted; Tyler sequences submissions, see ../OEIS_DRAFTS_NOTE.md)
+
+%N (NAME — ends in a period)
+Number of free polyforms of the Pn-3m 7-facet cell honeycomb with n cells.
+
+%O (OFFSET)
+1
+
+%D (DATA, n = 1..6)
+1, 7, 19, 135, 819, 6012
+
+%C (COMMENTS — each paragraph pasted separately, signed with ~~~~ so the OEIS editor auto-signs; do not type a name or date by hand)
+the Pn-3m 7-facet cell is a 7-faced space-filling polyhedron (3^2 4^3 6^2 faces) arising as the Voronoi cell of the orbit of the point (1/8, 1/6, 5/12) under space group Pn-3m (IT 224); its honeycomb has 48 cell types (translation classes), each cell with 7 face-neighbors. Polyforms are face-connected clusters of cells, counted up to the full point-symmetry group of the honeycomb (translations, rotations and improper maps).
+The tiling, its symmetry group (order 48 modulo lattice translations, 24 proper) and the counts are certified in exact rational arithmetic: facet-pairing tiling certificate verified by two independent implementations, and the Burnside identity |G|*free(n) = Sum_g Fix_g(n) checked exactly for n <= 4.
+The cell's combinatorial type is not matched against the records checked as of 2026-09-01 (Schmitt 2016 printed cubic tables incl. exact recomputation at every printed representative point, Bernhard 2026 printed cell data, classical space-filler lists); this is a diligence statement, not a proof of novelty.
+Computed with the assistance of Claude (Anthropic); every count produced by the same published enumerator that generated A398957-A398959, with the exact-arithmetic verification above. - ~~~~
+
+%H (LINKS)
+Tyler Satchel Orden, <a href="/A______/a______.txt">Honeycomb adjacency and symmetry tables, with the enumeration program and run instructions</a> [a-file: oeis_afile.txt in this folder]
+Mathias Bernhard, <a href="https://arxiv.org/abs/2604.07160">The Josehedron</a>, arXiv:2604.07160 [math.MG], 2026 (method precedent; roundness benchmark).
+
+%o (PROG)
+(C++) // Redelmeier-style table-driven enumerator; see the a-file (same program as A398957).
+
+%K (KEYWORD)
+nonn
+
+%Y (CROSSREFS)
+Cf. A398957, A398958, A398959 (Josehedron polyforms, same enumerator); A385028, A397707-A397709 (polyforms on other space-filler honeycombs). [Cross-reference this shape's other two sequences once A-numbers exist.]
+
+%A (AUTHOR)
+Tyler Satchel Orden, [date auto-filled by ~~~~ in the editor]
+
+NOTE before submitting: (1) run the OEIS existence search on the terms; (2) replace the a-file placeholder with the assigned A-number; (3) per OEIS rule 17, host the program on the first assigned entry and cite it from the others; (4) b-file not needed at this term count (DATA line suffices).

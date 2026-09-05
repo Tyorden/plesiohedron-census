@@ -1,0 +1,1902 @@
+{
+ "snapshot": "2026-09-04",
+ "version": 2,
+ "printed_rows": {
+  "cubic": 881,
+  "tetragonal": 1476,
+  "hexagonal": 958
+ },
+ "totals": {
+  "cubic": {
+   "his_rows": 986,
+   "his_distinct_f": 986,
+   "a_fvec_matched": 292,
+   "a_our_types_at_matched_f": 309,
+   "b_our_f_absent_from_his_table": 33,
+   "b_our_types_at_absent_f": 34,
+   "c_his_f_not_reached_by_our_menu": 694,
+   "c_his_rows_not_reached": 694,
+   "c_of_which_reproduced_by_P2_at_his_point": 0,
+   "c_of_which_no_stored_type_at_all": 694
+  },
+  "tetragonal": {
+   "his_rows": 1641,
+   "his_distinct_f": 1639,
+   "a_fvec_matched": 700,
+   "a_our_types_at_matched_f": 988,
+   "b_our_f_absent_from_his_table": 67,
+   "b_our_types_at_absent_f": 68,
+   "c_his_f_not_reached_by_our_menu": 939,
+   "c_his_rows_not_reached": 941,
+   "c_of_which_reproduced_by_P2_at_his_point": 669,
+   "c_of_which_no_stored_type_at_all": 270,
+   "a_matched_at_same_c_over_a": 355
+  },
+  "hexagonal": {
+   "his_rows": 1276,
+   "his_distinct_f": 1276,
+   "a_fvec_matched": 510,
+   "a_our_types_at_matched_f": 728,
+   "b_our_f_absent_from_his_table": 40,
+   "b_our_types_at_absent_f": 42,
+   "c_his_f_not_reached_by_our_menu": 766,
+   "c_his_rows_not_reached": 766,
+   "c_of_which_reproduced_by_P2_at_his_point": 733,
+   "c_of_which_no_stored_type_at_all": 0,
+   "a_matched_at_same_c_over_a": 278,
+   "c_of_which_reproduced_read_only_cell_stored": 33
+  }
+ },
+ "system_level": {
+  "cubic": {
+   "his_distinct_fvectors_whole_system": 194,
+   "our_menu_distinct_fvectors_whole_system": 63,
+   "shared": 62,
+   "ours_menu_not_in_any_of_his_tables_for_the_system": [
+    "(16,25,11)"
+   ],
+   "his_not_reached_by_our_menu_anywhere_in_the_system": 132,
+   "his_not_reached_even_counting_P2": 132
+  },
+  "tetragonal": {
+   "his_distinct_fvectors_whole_system": 163,
+   "our_menu_distinct_fvectors_whole_system": 80,
+   "shared": 80,
+   "ours_menu_not_in_any_of_his_tables_for_the_system": [],
+   "his_not_reached_by_our_menu_anywhere_in_the_system": 83,
+   "his_not_reached_even_counting_P2": 4
+  },
+  "hexagonal": {
+   "his_distinct_fvectors_whole_system": 177,
+   "our_menu_distinct_fvectors_whole_system": 95,
+   "shared": 94,
+   "ours_menu_not_in_any_of_his_tables_for_the_system": [
+    "(20,36,18)"
+   ],
+   "his_not_reached_by_our_menu_anywhere_in_the_system": 83,
+   "his_not_reached_even_counting_P2": 0
+  }
+ },
+ "hexagonal_cross_family_fvectors": {
+  "his_hexagonal_family_distinct_f": 177,
+  "of_which_also_printed_in_his_cubic_tables": 137,
+  "of_which_also_printed_in_his_tetragonal_tables": 152,
+  "of_which_printed_in_no_cubic_or_tetragonal_table": 3,
+  "our_hexagonal_first_distinct_f": 167,
+  "our_hexagonal_first_menu_distinct_f": 84,
+  "our_hexagonal_first_menu_f_printed_in_no_table_of_any_family": [
+   "(20,36,18)"
+  ],
+  "our_hexagonal_first_menu_f_printed_in_no_hexagonal_family_table": [
+   "(20,36,18)"
+  ]
+ },
+ "finalists_hexagonal_scan": [
+  {
+   "type_id": "8cf50403cf88c455",
+   "name": "Satchelhedron",
+   "group": 220,
+   "f": "(16,25,11)",
+   "own_group_table": "ABSENT",
+   "printed_in_hexagonal_groups": [
+    [
+     148,
+     "3497/1000",
+     "(-63/250,-61/250,1/1500)",
+     90
+    ],
+    [
+     155,
+     "3497/1000",
+     "(-63/250,-61/250,1/1500)",
+     96
+    ],
+    [
+     166,
+     "3497/1000",
+     "(-63/250,-61/250,1/1500)",
+     104
+    ],
+    [
+     167,
+     "3497/1000",
+     "(-31/375,0,47/750)",
+     106
+    ],
+    [
+     180,
+     "3497/1000",
+     "(62/125,61/125,31/375)",
+     115
+    ],
+    [
+     181,
+     "3497/1000",
+     "(62/125,61/125,31/375)",
+     115
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     148,
+     [
+      "3f5fce0d11d8899e"
+     ]
+    ],
+    [
+     155,
+     [
+      "3f5fce0d11d8899e"
+     ]
+    ],
+    [
+     166,
+     [
+      "3f5fce0d11d8899e"
+     ]
+    ],
+    [
+     167,
+     [
+      "3f5fce0d11d8899e"
+     ]
+    ],
+    [
+     180,
+     [
+      "28f754a17236ade8"
+     ]
+    ],
+    [
+     181,
+     [
+      "28f754a17236ade8"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "2de0a21129cabe90",
+   "name": "Ordenhedron",
+   "group": 201,
+   "f": "(20,33,15)",
+   "own_group_table": "ABSENT",
+   "printed_in_hexagonal_groups": [
+    [
+     148,
+     "4/5",
+     "(-97/375,-27/125,1/20)",
+     91
+    ],
+    [
+     155,
+     "527/1000",
+     "(-203/750,-47/250,0)",
+     96
+    ],
+    [
+     165,
+     "3497/1000",
+     "(307/1500,-97/500,1/125)",
+     103
+    ],
+    [
+     166,
+     "527/1000",
+     "(-203/750,-47/250,0)",
+     105
+    ],
+    [
+     167,
+     "3497/1000",
+     "(-64/375,-1/125,1/25)",
+     106
+    ],
+    [
+     171,
+     "1/2",
+     "(1/54,0,0)",
+     109
+    ],
+    [
+     172,
+     "1/2",
+     "(1/54,0,0)",
+     109
+    ],
+    [
+     180,
+     "3497/1000",
+     "(62/125,0,11/375)",
+     115
+    ],
+    [
+     181,
+     "3497/1000",
+     "(62/125,0,11/375)",
+     115
+    ],
+    [
+     182,
+     "3497/1000",
+     "(17/100,-73/500,1/500)",
+     117
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     148,
+     [
+      "2185d1de22e99f29"
+     ]
+    ],
+    [
+     155,
+     [
+      "1a804bb88ddff3e2"
+     ]
+    ],
+    [
+     165,
+     [
+      "001cbd004f823a98"
+     ]
+    ],
+    [
+     166,
+     [
+      "1a804bb88ddff3e2"
+     ]
+    ],
+    [
+     167,
+     [
+      "001cbd004f823a98"
+     ]
+    ],
+    [
+     171,
+     [
+      "5ecea070beaf2efa"
+     ]
+    ],
+    [
+     172,
+     [
+      "5ecea070beaf2efa"
+     ]
+    ],
+    [
+     180,
+     []
+    ],
+    [
+     181,
+     [
+      "6e1c279805390881"
+     ]
+    ],
+    [
+     182,
+     [
+      "001cbd004f823a98"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "c4ea3f32fdd6dc51",
+   "name": "Pn3m_11facet",
+   "group": 224,
+   "f": "(14,23,11)",
+   "own_group_table": "ABSENT",
+   "printed_in_hexagonal_groups": [
+    [
+     148,
+     "3497/1000",
+     "(-83/250,-1/250,0)",
+     90
+    ],
+    [
+     155,
+     "3497/1000",
+     "(-83/250,-1/250,0)",
+     96
+    ],
+    [
+     163,
+     "3497/1000",
+     "(33/100,-1/500,0)",
+     102
+    ],
+    [
+     165,
+     "3497/1000",
+     "(33/100,-1/500,0)",
+     103
+    ],
+    [
+     166,
+     "3497/1000",
+     "(-83/250,-1/250,0)",
+     104
+    ],
+    [
+     167,
+     "3497/1000",
+     "(-1/375,0,1/12)",
+     106
+    ],
+    [
+     177,
+     "3497/1000",
+     "(33/100,-1/500,1/4)",
+     112
+    ],
+    [
+     180,
+     "1/2",
+     "(123/250,119/250,17/750)",
+     115
+    ],
+    [
+     181,
+     "1/2",
+     "(123/250,119/250,17/750)",
+     115
+    ],
+    [
+     184,
+     "3497/1000",
+     "(5647/16956,-1/5652,0)",
+     118
+    ],
+    [
+     190,
+     "4/5",
+     "(29/125,-13/125,1/5)",
+     121
+    ],
+    [
+     192,
+     "3497/1000",
+     "(33/100,-1/500,0)",
+     122
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     148,
+     [
+      "7f99db4f8ceb12b6"
+     ]
+    ],
+    [
+     155,
+     [
+      "7f99db4f8ceb12b6"
+     ]
+    ],
+    [
+     163,
+     [
+      "7824c3404ec7c532"
+     ]
+    ],
+    [
+     165,
+     [
+      "7824c3404ec7c532"
+     ]
+    ],
+    [
+     166,
+     [
+      "7f99db4f8ceb12b6"
+     ]
+    ],
+    [
+     167,
+     [
+      "7f99db4f8ceb12b6"
+     ]
+    ],
+    [
+     177,
+     [
+      "7824c3404ec7c532"
+     ]
+    ],
+    [
+     180,
+     [
+      "45cb5c5233427d61"
+     ]
+    ],
+    [
+     181,
+     [
+      "45cb5c5233427d61"
+     ]
+    ],
+    [
+     184,
+     [
+      "7824c3404ec7c532"
+     ]
+    ],
+    [
+     190,
+     [
+      "40dce96307e59597"
+     ]
+    ],
+    [
+     192,
+     [
+      "7824c3404ec7c532"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "f98a3ee5675fc121",
+   "name": "Pn3m_7facet",
+   "group": 224,
+   "f": "(10,15,7)",
+   "own_group_table": "ABSENT",
+   "printed_in_hexagonal_groups": [
+    [
+     147,
+     "3497/1000",
+     "(33/100,-1/500,0)",
+     89
+    ],
+    [
+     148,
+     "797/1000",
+     "(-51/250,-51/250,0)",
+     90
+    ],
+    [
+     160,
+     "797/1000",
+     "(250/2997,749/2997,0)",
+     100
+    ],
+    [
+     163,
+     "3497/1000",
+     "(499/1500,-1/500,13/500)",
+     102
+    ],
+    [
+     164,
+     "3497/1000",
+     "(33/100,-1/500,3/250)",
+     102
+    ],
+    [
+     166,
+     "3497/1000",
+     "(-163/750,-1/250,43/1500)",
+     104
+    ],
+    [
+     167,
+     "797/1000",
+     "(-22/125,-22/125,0)",
+     105
+    ],
+    [
+     168,
+     "3497/1000",
+     "(5647/16956,-1/5652,0)",
+     108
+    ],
+    [
+     175,
+     "3497/1000",
+     "(33/100,-1/500,1/4)",
+     111
+    ],
+    [
+     176,
+     "3497/1000",
+     "(33/100,-1/500,0)",
+     111
+    ],
+    [
+     182,
+     "3497/1000",
+     "(499/1500,-1/500,13/500)",
+     117
+    ],
+    [
+     186,
+     "797/1000",
+     "(5647/16956,-1/5652,0)",
+     119
+    ],
+    [
+     190,
+     "3497/1000",
+     "(499/1500,-1/500,13/500)",
+     121
+    ],
+    [
+     194,
+     "3497/1000",
+     "(499/1500,-1/500,13/500)",
+     123
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     147,
+     [
+      "52392121966e66eb"
+     ]
+    ],
+    [
+     148,
+     [
+      "5aa8e199fd7ddb2f"
+     ]
+    ],
+    [
+     160,
+     [
+      "5aa8e199fd7ddb2f"
+     ]
+    ],
+    [
+     163,
+     [
+      "ca9a19039647d676"
+     ]
+    ],
+    [
+     164,
+     [
+      "ca9a19039647d676"
+     ]
+    ],
+    [
+     166,
+     [
+      "5aa8e199fd7ddb2f"
+     ]
+    ],
+    [
+     167,
+     [
+      "5aa8e199fd7ddb2f"
+     ]
+    ],
+    [
+     168,
+     [
+      "52392121966e66eb"
+     ]
+    ],
+    [
+     175,
+     [
+      "52392121966e66eb"
+     ]
+    ],
+    [
+     176,
+     [
+      "52392121966e66eb"
+     ]
+    ],
+    [
+     182,
+     [
+      "ca9a19039647d676"
+     ]
+    ],
+    [
+     186,
+     [
+      "ca9a19039647d676"
+     ]
+    ],
+    [
+     190,
+     [
+      "ca9a19039647d676"
+     ]
+    ],
+    [
+     194,
+     [
+      "ca9a19039647d676"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "ceb70631e274e727",
+   "name": "IT212_37-57-22_HELD",
+   "group": 212,
+   "f": "(37,57,22)",
+   "own_group_table": "present",
+   "printed_in_hexagonal_groups": [
+    [
+     152,
+     "136/125",
+     "(7/50,101/250,1/12)",
+     95
+    ],
+    [
+     154,
+     "136/125",
+     "(7/50,101/250,1/12)",
+     95
+    ],
+    [
+     167,
+     "769/500",
+     "(-68/375,-52/125,1/15)",
+     107
+    ],
+    [
+     178,
+     "797/1000",
+     "(57/250,-3/250,2/25)",
+     114
+    ],
+    [
+     179,
+     "797/1000",
+     "(57/250,-3/250,2/25)",
+     114
+    ],
+    [
+     180,
+     "797/1000",
+     "(52/125,49/125,1/12)",
+     116
+    ],
+    [
+     181,
+     "797/1000",
+     "(52/125,49/125,1/12)",
+     116
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     152,
+     [
+      "f2ca3002be16e624"
+     ]
+    ],
+    [
+     154,
+     [
+      "f2ca3002be16e624"
+     ]
+    ],
+    [
+     167,
+     [
+      "a447ff728729e3b8"
+     ]
+    ],
+    [
+     178,
+     [
+      "1b1ac6860317aea8"
+     ]
+    ],
+    [
+     179,
+     [
+      "1b1ac6860317aea8"
+     ]
+    ],
+    [
+     180,
+     []
+    ],
+    [
+     181,
+     [
+      "8bd6a83d55f18ed6"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "359beee832567a71",
+   "name": "IT230_40-61-23_HELD",
+   "group": 230,
+   "f": "(40,61,23)",
+   "own_group_table": "present",
+   "printed_in_hexagonal_groups": [
+    [
+     155,
+     "797/1000",
+     "(-53/750,-43/250,1/12)",
+     97
+    ],
+    [
+     167,
+     "797/1000",
+     "(-127/750,-111/250,109/1500)",
+     107
+    ],
+    [
+     178,
+     "977/1000",
+     "(4/125,-3/125,1/60)",
+     114
+    ],
+    [
+     179,
+     "977/1000",
+     "(4/125,-3/125,1/60)",
+     114
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     155,
+     [
+      "aa98eb9bdc2a5fc1"
+     ]
+    ],
+    [
+     167,
+     [
+      "24ec08378bbbe887"
+     ]
+    ],
+    [
+     178,
+     [
+      "e4ff2fde16abc8a8"
+     ]
+    ],
+    [
+     179,
+     [
+      "e4ff2fde16abc8a8"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "aa6b0077c3234d24",
+   "name": "IT214_30-47-19_HELD",
+   "group": 214,
+   "f": "(30,47,19)",
+   "own_group_table": "present",
+   "printed_in_hexagonal_groups": [
+    [
+     152,
+     "797/1000",
+     "(57/250,119/250,0)",
+     95
+    ],
+    [
+     154,
+     "797/1000",
+     "(57/250,119/250,0)",
+     95
+    ],
+    [
+     155,
+     "3497/1000",
+     "(-39/125,-3/125,1/300)",
+     97
+    ],
+    [
+     167,
+     "3497/1000",
+     "(-1/150,-1/250,61/750)",
+     107
+    ],
+    [
+     178,
+     "4/5",
+     "(36/125,-16/125,3/500)",
+     113
+    ],
+    [
+     179,
+     "4/5",
+     "(36/125,-16/125,3/500)",
+     113
+    ],
+    [
+     182,
+     "3497/1000",
+     "(33/100,-1/500,13/500)",
+     117
+    ]
+   ],
+   "hexagonal_rows_with_stored_P2_cell": [
+    [
+     152,
+     [
+      "71735d01128c3326"
+     ]
+    ],
+    [
+     154,
+     [
+      "71735d01128c3326"
+     ]
+    ],
+    [
+     155,
+     [
+      "1691bbed1350a06b"
+     ]
+    ],
+    [
+     167,
+     [
+      "7c11e29fe6def4a8"
+     ]
+    ],
+    [
+     178,
+     [
+      "0105f5c3d7eb0b30"
+     ]
+    ],
+    [
+     179,
+     [
+      "0105f5c3d7eb0b30"
+     ]
+    ],
+    [
+     182,
+     [
+      "5aed4eedad8d6cf6"
+     ]
+    ]
+   ],
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  }
+ ],
+ "top10_hexagonal_survivors": [
+  {
+   "type_id": "c49077384aaebeb0",
+   "rank": 1,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "5/4",
+   "f": "(44,66,24)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    152,
+    154,
+    169,
+    170,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    91,
+    92,
+    95,
+    96,
+    98,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "59585d778cb3a7a4",
+   "rank": 2,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "3/4",
+   "f": "(40,60,22)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    110,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "095ce61d28388c98",
+   "rank": 3,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1",
+   "f": "(40,60,22)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    110,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "9be0f2271a14b6a9",
+   "rank": 4,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1",
+   "f": "(36,54,20)",
+   "aut": 4,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    199,
+    230
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "2d654c836f3731c6",
+   "rank": 5,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1",
+   "f": "(36,54,20)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    199,
+    230
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "b0f80776885f3ae1",
+   "rank": 6,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1/2",
+   "f": "(36,54,20)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    199,
+    230
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "a348875c3f707895",
+   "rank": 7,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1/2",
+   "f": "(36,54,20)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    199,
+    230
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "dcc38ea9177089b9",
+   "rank": 8,
+   "group": 178,
+   "symbol": "P6_122",
+   "c_over_a": "1/2",
+   "f": "(36,54,20)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    169,
+    170,
+    171,
+    172,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    199,
+    230
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "5b86a254c715306c",
+   "rank": 9,
+   "group": 169,
+   "symbol": "P6_1",
+   "c_over_a": "797/1000",
+   "f": "(40,60,22)",
+   "aut": 1,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    151,
+    152,
+    153,
+    154,
+    170,
+    171,
+    172,
+    178,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    110,
+    118,
+    122,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  },
+  {
+   "type_id": "f05f0b009e0929f6",
+   "rank": 10,
+   "group": 169,
+   "symbol": "P6_1",
+   "c_over_a": "3/4",
+   "f": "(32,48,18)",
+   "aut": 2,
+   "own_group_table": "present",
+   "other_hex_groups_printing_f": [
+    144,
+    145,
+    151,
+    152,
+    153,
+    154,
+    170,
+    171,
+    172,
+    178,
+    179,
+    180,
+    181
+   ],
+   "cubic_groups_printing_f": [
+    198,
+    212
+   ],
+   "tetragonal_groups_printing_f": [
+    76,
+    78,
+    80,
+    82,
+    86,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    98,
+    109,
+    110,
+    114,
+    116,
+    118,
+    120,
+    122,
+    133,
+    141,
+    142
+   ],
+   "g4": "certified-hexagonal",
+   "chiral_solid": true,
+   "type_level": "DIFFERENT from every checked printed representative (not identity evidence; sampling caveat)"
+  }
+ ],
+ "v5_open_wall_verdict_counts": {
+  "cubic": {
+   "OPEN": 6,
+   "WALL": 1,
+   "ONE-SIDED": 0,
+   "not-computed": 95
+  },
+  "tetragonal": {
+   "OPEN": 13,
+   "WALL": 1,
+   "ONE-SIDED": 0,
+   "not-computed": 775
+  },
+  "hexagonal": {
+   "OPEN": 102,
+   "WALL": 40,
+   "ONE-SIDED": 9,
+   "not-computed": 541
+  }
+ },
+ "v5_schmitt_type_status_counts": {
+  "cubic": {
+   "SURVIVOR": 0,
+   "COLLISION": 0,
+   "UNRESOLVED": 0,
+   "printed-only": 0,
+   "not-screened": 102
+  },
+  "tetragonal": {
+   "SURVIVOR": 203,
+   "COLLISION": 201,
+   "UNRESOLVED": 0,
+   "printed-only": 385,
+   "not-screened": 0
+  },
+  "hexagonal": {
+   "SURVIVOR": 151,
+   "COLLISION": 124,
+   "UNRESOLVED": 13,
+   "printed-only": 404,
+   "not-screened": 0
+  }
+ },
+ "v5_open_wall_x_schmitt_type_status": {
+  "cubic": {
+   "OPEN": {
+    "SURVIVOR": 0,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 6
+   },
+   "WALL": {
+    "SURVIVOR": 0,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 1
+   },
+   "ONE-SIDED": {
+    "SURVIVOR": 0,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "not-computed": {
+    "SURVIVOR": 0,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 95
+   }
+  },
+  "tetragonal": {
+   "OPEN": {
+    "SURVIVOR": 13,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "WALL": {
+    "SURVIVOR": 1,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "ONE-SIDED": {
+    "SURVIVOR": 0,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "not-computed": {
+    "SURVIVOR": 189,
+    "COLLISION": 201,
+    "UNRESOLVED": 0,
+    "printed-only": 385,
+    "not-screened": 0
+   }
+  },
+  "hexagonal": {
+   "OPEN": {
+    "SURVIVOR": 102,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "WALL": {
+    "SURVIVOR": 40,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "ONE-SIDED": {
+    "SURVIVOR": 9,
+    "COLLISION": 0,
+    "UNRESOLVED": 0,
+    "printed-only": 0,
+    "not-screened": 0
+   },
+   "not-computed": {
+    "SURVIVOR": 0,
+    "COLLISION": 124,
+    "UNRESOLVED": 13,
+    "printed-only": 404,
+    "not-screened": 0
+   }
+  }
+ },
+ "v5_naming_pool": {
+  "cubic": {
+   "definition": "G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)",
+   "n_certified_open_unnamed": 0,
+   "n_certified": 12,
+   "n_certified_open": 6,
+   "n_certified_not_computed": 5,
+   "catalog_ids": [],
+   "type_ids": []
+  },
+  "tetragonal": {
+   "definition": "G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)",
+   "n_certified_open_unnamed": 13,
+   "n_certified": 14,
+   "n_certified_open": 13,
+   "n_certified_not_computed": 0,
+   "catalog_ids": [
+    "MINT-T004",
+    "MINT-T005",
+    "MINT-T076",
+    "MINT-T137",
+    "MINT-T151",
+    "MINT-T152",
+    "MINT-T264",
+    "MINT-T716",
+    "MINT-T721",
+    "MINT-T722",
+    "MINT-T758",
+    "MINT-T766",
+    "MINT-T767"
+   ],
+   "type_ids": [
+    "164d4bd63d82d0c3",
+    "6797ab70c6015039",
+    "1497877268495988",
+    "7575121042ade3b3",
+    "3ebbca7ed2eda199",
+    "4f6d3e68cbd9e729",
+    "f654982d74d740f6",
+    "086ac96faf390886",
+    "4e9c9b076cfec323",
+    "e0d18e5ea938d649",
+    "2e8e49eb28497267",
+    "5dc2479b9bc14edc",
+    "213c7a114d5a97a8"
+   ]
+  },
+  "hexagonal": {
+   "definition": "G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)",
+   "n_certified_open_unnamed": 102,
+   "n_certified": 151,
+   "n_certified_open": 102,
+   "n_certified_not_computed": 0,
+   "catalog_ids": [
+    "MINT-H002",
+    "MINT-H003",
+    "MINT-H007",
+    "MINT-H021",
+    "MINT-H024",
+    "MINT-H025",
+    "MINT-H034",
+    "MINT-H035",
+    "MINT-H041",
+    "MINT-H045",
+    "MINT-H047",
+    "MINT-H050",
+    "MINT-H051",
+    "MINT-H052",
+    "MINT-H055",
+    "MINT-H058",
+    "MINT-H059",
+    "MINT-H063",
+    "MINT-H065",
+    "MINT-H070",
+    "MINT-H072",
+    "MINT-H073",
+    "MINT-H095",
+    "MINT-H105",
+    "MINT-H112",
+    "MINT-H120",
+    "MINT-H121",
+    "MINT-H126",
+    "MINT-H127",
+    "MINT-H128",
+    "MINT-H129",
+    "MINT-H131",
+    "MINT-H133",
+    "MINT-H135",
+    "MINT-H136",
+    "MINT-H137",
+    "MINT-H141",
+    "MINT-H142",
+    "MINT-H145",
+    "MINT-H146",
+    "MINT-H147",
+    "MINT-H148",
+    "MINT-H150",
+    "MINT-H153",
+    "MINT-H157",
+    "MINT-H158",
+    "MINT-H159",
+    "MINT-H160",
+    "MINT-H161",
+    "MINT-H162",
+    "MINT-H163",
+    "MINT-H165",
+    "MINT-H166",
+    "MINT-H167",
+    "MINT-H168",
+    "MINT-H169",
+    "MINT-H176",
+    "MINT-H177",
+    "MINT-H194",
+    "MINT-H201",
+    "MINT-H203",
+    "MINT-H207",
+    "MINT-H208",
+    "MINT-H635",
+    "MINT-H636",
+    "MINT-H637",
+    "MINT-H638",
+    "MINT-H639",
+    "MINT-H640",
+    "MINT-H641",
+    "MINT-H642",
+    "MINT-H643",
+    "MINT-H645",
+    "MINT-H646",
+    "MINT-H648",
+    "MINT-H650",
+    "MINT-H651",
+    "MINT-H652",
+    "MINT-H653",
+    "MINT-H654",
+    "MINT-H655",
+    "MINT-H660",
+    "MINT-H661",
+    "MINT-H663",
+    "MINT-H664",
+    "MINT-H665",
+    "MINT-H667",
+    "MINT-H668",
+    "MINT-H670",
+    "MINT-H671",
+    "MINT-H672",
+    "MINT-H673",
+    "MINT-H674",
+    "MINT-H675",
+    "MINT-H676",
+    "MINT-H678",
+    "MINT-H679",
+    "MINT-H680",
+    "MINT-H681",
+    "MINT-H683",
+    "MINT-H687",
+    "MINT-H692"
+   ],
+   "type_ids": [
+    "bff9b24ce78050f5",
+    "c0071756347c5a8a",
+    "7b9cfe26fe4a9c4b",
+    "f0b07b168368759b",
+    "f429e996b3f455a6",
+    "56918d2cff883e22",
+    "ce3b42c8a4ceff6f",
+    "36ec4ad2f530e145",
+    "e98412e7cb95aea2",
+    "847d2695a14ae424",
+    "5838282f46223111",
+    "72bcd959be4ab7dd",
+    "e198aac88f223892",
+    "23594bd7053503aa",
+    "b2430fc4bea4e06d",
+    "542cbe76934b484b",
+    "3d6b109f392fda19",
+    "2c121297dbaa80af",
+    "64203f15fcf6c09b",
+    "a46cbaad3c23e834",
+    "c3b4b14633c9d4d5",
+    "d9bf7fb7a80eaa38",
+    "9d4396ca0b08fc3c",
+    "ab801b11bead62ef",
+    "36c92427e3d084dc",
+    "057255f61286b052",
+    "6de3dac5f334cfed",
+    "85244add8d1f2d55",
+    "f05f0b009e0929f6",
+    "16025e0680843c36",
+    "a35623e347ef03b4",
+    "9c0b7e0c29dfebb2",
+    "2b9726574a0a8bed",
+    "3ddc41389e6d484f",
+    "29bbba1adec778da",
+    "cff2d5fb5e0d4149",
+    "a348875c3f707895",
+    "2d654c836f3731c6",
+    "b0f80776885f3ae1",
+    "59585d778cb3a7a4",
+    "095ce61d28388c98",
+    "c49077384aaebeb0",
+    "9be0f2271a14b6a9",
+    "dcc38ea9177089b9",
+    "34351050a4f29035",
+    "24a6b511067d37b2",
+    "042c19cbfdc869cb",
+    "7a448bed1119dfad",
+    "f6f8b3050a1eef42",
+    "d718e083bd23d2b1",
+    "8cc8c5ab3cf36d8f",
+    "d176b8d859dd651a",
+    "30f2a1e483babf55",
+    "437fbe758a6dd8e3",
+    "0948aa6184f13a8a",
+    "a182e87006c7a00d",
+    "e19babba732f5fd4",
+    "dd3fb07fe11d73d3",
+    "257b627a90b78038",
+    "e0bf1a48f096c10d",
+    "f14a8c4e7c5b3e3a",
+    "7715c7010e513b71",
+    "505a4911e298c933",
+    "cda1d1c03659b67d",
+    "2165f5c5260120de",
+    "d10bb4a25bbf4c80",
+    "c82ebc15c49c1413",
+    "4a560e459032166a",
+    "87c94384d7851cb2",
+    "466b12546dd936c3",
+    "c53bc05bc306c97d",
+    "74a69fba4266de3b",
+    "5b86a254c715306c",
+    "ac4489d658eb445e",
+    "af8b2135c913b13b",
+    "e598ffd8a1cac138",
+    "a93f8fe7ecdc5851",
+    "75bbbcb4a37e70e8",
+    "3a491fd6426d90b2",
+    "fac4317d5a65b959",
+    "5f812747976b224a",
+    "d0c5a15c25ab6413",
+    "07d543d89e2934f2",
+    "d770abfcee4deb90",
+    "cbead3df2d2f1d0e",
+    "fcffad0da2b5b62f",
+    "59b28b3a59c27092",
+    "37aa18e6e10583be",
+    "2081d7b9a734e4fe",
+    "27dbb77012555d28",
+    "e1a38303b2378f17",
+    "6f4101f83371033d",
+    "d9ac68100a276dfe",
+    "646b518ccf3bd724",
+    "322d5ff451e4101d",
+    "8d90c524c89922d9",
+    "d07f950b8309de82",
+    "27d463eac6cda5ea",
+    "aef8972953d53d20",
+    "7e05ce00d8a7cbf6",
+    "0b5d9beb0fc972f6",
+    "43e4e46001b4d8b9"
+   ]
+  }
+ },
+ "v5_schmitt_type_status_tetragonal_storeside": {
+  "source": "v4: harness/collision_phase2_tetragonal_storeside.json (subagent #152, 2026-09-04; rule = COLLISION_PHASE2_HEX_RESULTS.md section 1 store-side rule re-implemented, hexagonal equivalence asserted 151/124/13; dated addendum in harness/COLLISION_PHASE2_RESULTS.md)",
+  "json_md5": "64cc7bb82e85164914d7ec441cfc1304",
+  "n_menu_sighted": 404,
+  "n_s_cells": 176,
+  "counts_pure_store_side_rule": {
+   "COLLISION": 176,
+   "SURVIVOR": 116,
+   "UNRESOLVED": 112
+  },
+  "counts_with_recomputed_pairs_overlaid": {
+   "COLLISION": 177,
+   "SURVIVOR": 121,
+   "UNRESOLVED": 106
+  },
+  "counts_catalog_v3": {
+   "COLLISION": 1,
+   "SURVIVOR": 14,
+   "not-screened": 389
+  },
+  "transitions_v3_to_v4": {
+   "COLLISION -> COLLISION": 1,
+   "SURVIVOR -> SURVIVOR": 14,
+   "not-screened -> COLLISION": 176,
+   "not-screened -> SURVIVOR": 107,
+   "not-screened -> UNRESOLVED": 106
+  },
+  "shortlist_disagreements": [],
+  "note": "the overlay = the 27 printed pairs recomputed in collision_phase2_check.py resolve their rows (SAME -> COLLISION; DIFFERENT on an unstored row -> row resolved); under the pure rule alone 5 of the 14 certified survivors and the 1 collision read UNRESOLVED because their worklist rows were unstored; [v5] the 106 UNRESOLVED of this block are settled in the block schmitt_type_status_tetragonal_unresolved_recomputed"
+ },
+ "v5_schmitt_type_status_tetragonal_unresolved_recomputed": {
+  "source": "v5: harness/collision_phase2_tetragonal_unresolved_overlay.json + collision_phase2_tetragonal_rows_recomputed.json (subagent #154, 2026-09-04; script harness/collision_phase2_tetragonal_rows_recompute.py; dated addendum in harness/COLLISION_PHASE2_RESULTS.md): the 62 unstored printed rows behind the 106 v4-UNRESOLVED types recomputed at the printed points with the documented setting conversions of PHASE2_SCHMITT_ORIGIN_CHECK.md through the accepted phase-2 exact chain",
+  "overlay_json_md5": "a3716a2330c6dbe9c93414dfe8e832ee",
+  "rows_json_md5": "4d27ce41466509feab6a180249330af7",
+  "n_rows_recomputed": 62,
+  "row_status_counts": {
+   "REPRODUCED": 62
+  },
+  "rows_per_group": {
+   "126": 2,
+   "130": 3,
+   "133": 4,
+   "134": 3,
+   "137": 2,
+   "138": 3,
+   "141": 15,
+   "142": 8,
+   "80": 1,
+   "86": 5,
+   "88": 6,
+   "95": 5,
+   "96": 5
+  },
+  "n_cells_computed": 306,
+  "rows_with_documented_conventions_agreeing": 62,
+  "rows_where_the_other_origin_or_enantiomorph_reading_reproduces_f": 0,
+  "row_cells_not_stored_under_any_id": 18,
+  "row_cells_that_are_stored_types_outside_the_106": {
+   "SURVIVOR_hits": 0,
+   "cubic_first_hits": 2,
+   "expected_S_cell_hits_COLLISION_or_printed_only": 15
+  },
+  "counts_106": {
+   "COLLISION": 24,
+   "SURVIVOR": 82
+  },
+  "counts_404_before_v4": {
+   "COLLISION": 177,
+   "SURVIVOR": 121,
+   "UNRESOLVED": 106
+  },
+  "counts_404_after_v5": {
+   "COLLISION": 201,
+   "SURVIVOR": 203,
+   "UNRESOLVED": 0
+  },
+  "transitions_v4_to_v5": {
+   "COLLISION -> COLLISION": 177,
+   "SURVIVOR -> SURVIVOR": 121,
+   "UNRESOLVED -> COLLISION": 24,
+   "UNRESOLVED -> SURVIVOR": 82
+  },
+  "still_unresolved": [],
+  "secondary_hits": [
+   {
+    "rows_not_hung_on_with_this_cell": [
+     [
+      142,
+      "3497/1000",
+      [
+       "58/125",
+       "58/125",
+       "29/250"
+      ]
+     ]
+    ],
+    "status_primary_rule": "COLLISION",
+    "type": "5c6382a9ef3bc209"
+   }
+  ],
+  "surprises": [
+   "IT(137) b=3497/1000 pt=(1/4, -1/4, 1/4): row cell = cubic-first store type c1824c64dfbb3615 (f (18, 28, 12), p 4^8 6^4, aut 16): a cubic-store type IS Schmitt's printed representative at this tetragonal row (cross-system fact; cubic-first types are not-screened by the phase-2 screens by construction; recorded only)",
+   "IT(95) b=797/1000 pt=(309/500, 59/500, 1/8): row cell = cubic-first store type 8c69db9e84095469 (f (30, 45, 17), p 4^6 5^6 6^2 8^3, aut 12): a cubic-store type IS Schmitt's printed representative at this tetragonal row (cross-system fact; cubic-first types are not-screened by the phase-2 screens by construction; recorded only)",
+   "type 5c6382a9ef3bc209 (COLLISION by its hung-on rows) also equals the recomputed cell of a row it does not hang on (a printed cell of the type in a group where our menu never sighted it): [[142, '3497/1000', ['58/125', '58/125', '29/250']]]; no status effect"
+  ],
+  "rule": "per UNRESOLVED type (collision_phase2_tetragonal_storeside.json status UNRESOLVED): compare its canonical code with the recomputed cell of every printed row it hangs on (unstored_rows): any SAME TYPE -> COLLISION (the type reproduces one of his printed cells; first-realization reframe); every row REPRODUCED and DIFFERENT TYPE -> SURVIVOR ('not matched against the records checked as of 2026-09-04', never novelty); any row not REPRODUCED and no SAME -> UNRESOLVED",
+  "note": "row status REPRODUCED = printed f-vector reproduced under >= 1 documented convention with one canonical code across the reproducing conventions; the other origin / enantiomorph reading (printed point verbatim) was run and recorded for every two-origin / 95 / 96 row and never reproduced the printed f (it is exactly pass P2's quarantined run); the 14 certified survivors were never UNRESOLVED and are untouched; nothing was added to any store"
+ }
+}

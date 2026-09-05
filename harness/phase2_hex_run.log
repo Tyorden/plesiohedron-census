@@ -1,0 +1,69 @@
+PHASE 2 hexagonal sweep — invocation 1 (workers 10, budget 420 s per invocation); resume log has 0 tasks
+seeded 891 types from phase2_types.json (sha256 71685b9ab41b4dc0...): {'cubic (phase 1 store)': 102, 'tetragonal (phase 2)': 789}
+digitized 958 Schmitt hexagonal-family rows over 52 groups (45 blocks); 38 distinct printed b-ratios; using non-grid b-ratios ['3497/1000', '797/1000', '4/5', '527/1000', '7/8'] for P3 (cap 5)
+menus: 4651 coarse orbits (special + general), 676 line/fixed orbits new on the 1/24 grid, 2740 plane orbits at 1/24 skipped by design
+  P1: 2000/60463 tasks, store 920 types, quar 0, 9s
+  P1: 4000/60463 tasks, store 941 types, quar 0, 17s
+  P1: 6000/60463 tasks, store 968 types, quar 0, 31s
+  P1: 8000/60463 tasks, store 968 types, quar 0, 38s
+  P1: 10000/60463 tasks, store 968 types, quar 0, 45s
+  P1: 12000/60463 tasks, store 968 types, quar 0, 53s
+  P1: 14000/60463 tasks, store 968 types, quar 0, 63s
+  P1: 16000/60463 tasks, store 972 types, quar 0, 79s
+  P1: 18000/60463 tasks, store 974 types, quar 0, 94s
+  P1: 20000/60463 tasks, store 974 types, quar 0, 108s
+  P1: 22000/60463 tasks, store 1014 types, quar 0, 153s
+  P1: 24000/60463 tasks, store 1028 types, quar 0, 170s
+  P1: 26000/60463 tasks, store 1028 types, quar 0, 185s
+  P1: 28000/60463 tasks, store 1028 types, quar 0, 199s
+  P1: 30000/60463 tasks, store 1028 types, quar 0, 217s
+  P1: 32000/60463 tasks, store 1031 types, quar 0, 232s
+  P1: 34000/60463 tasks, store 1097 types, quar 0, 252s
+  P1: 36000/60463 tasks, store 1103 types, quar 0, 265s
+  P1: 38000/60463 tasks, store 1103 types, quar 0, 277s
+  P1: 40000/60463 tasks, store 1103 types, quar 0, 289s
+  P1: 42000/60463 tasks, store 1103 types, quar 0, 299s
+  P1: 44000/60463 tasks, store 1103 types, quar 0, 309s
+  P1: 46000/60463 tasks, store 1103 types, quar 0, 320s
+  P1: 48000/60463 tasks, store 1103 types, quar 0, 331s
+  P1: 50000/60463 tasks, store 1103 types, quar 0, 343s
+  P1: 52000/60463 tasks, store 1104 types, quar 0, 355s
+  P1: 54000/60463 tasks, store 1108 types, quar 0, 370s
+  P1: 56000/60463 tasks, store 1108 types, quar 0, 388s
+  P1: 58000/60463 tasks, store 1108 types, quar 0, 408s
+BUDGET HIT in P1 after 59437/60463 tasks (1026 remain for the next invocation)
+
+INCOMPLETE (budget stop in pass P1) after 420s: 59437 tasks this invocation, 0 from the log; pass_done={'P1': 59437} of {'P1': 60463}
+  [checkpoint partial phase2_hexagonal_types.json: 1109 types, 59437 records, 1.0s]
+RESUME: cd <repo>/harness && nice -n 10 python3 sweep_phase2_hexagonal.py
+PHASE 2 hexagonal sweep — invocation 2 (workers 9, budget 430 s per invocation); resume log has 59437 tasks
+seeded 891 types from phase2_types.json (sha256 71685b9ab41b4dc0...): {'cubic (phase 1 store)': 102, 'tetragonal (phase 2)': 789}
+digitized 958 Schmitt hexagonal-family rows over 52 groups (45 blocks); 38 distinct printed b-ratios; using non-grid b-ratios ['3497/1000', '797/1000', '4/5', '527/1000', '7/8'] for P3 (cap 5)
+menus: 4651 coarse orbits (special + general), 676 line/fixed orbits new on the 1/24 grid, 2740 plane orbits at 1/24 skipped by design
+pass P1: 59437/60463 tasks absorbed from the resume log
+pass P1 complete: 60463 tasks (1026 this run) in 10s (store 1109 types, quarantines 0)
+pass P2 complete: 1276 tasks (1276 this run) in 27s (store 1525 types, quarantines 46)
+Schmitt screen: {'reproduced': 1230, 'conv_H1': 1085, 'conv_H1+zflip': 145, 'mismatch': 46}
+  P3: 2000/23255 tasks, store 1530 types, quar 46, 49s
+  P3: 4000/23255 tasks, store 1531 types, quar 46, 57s
+  P3: 6000/23255 tasks, store 1532 types, quar 46, 70s
+  P3: 8000/23255 tasks, store 1532 types, quar 46, 85s
+  P3: 10000/23255 tasks, store 1536 types, quar 46, 101s
+  P3: 12000/23255 tasks, store 1536 types, quar 46, 113s
+  P3: 14000/23255 tasks, store 1539 types, quar 46, 128s
+  P3: 16000/23255 tasks, store 1539 types, quar 46, 140s
+  P3: 18000/23255 tasks, store 1539 types, quar 46, 151s
+  P3: 20000/23255 tasks, store 1539 types, quar 46, 164s
+  P3: 22000/23255 tasks, store 1539 types, quar 46, 182s
+pass P3 complete: 23255 tasks (23255 this run) in 156s (store 1539 types, quarantines 46)
+  P4: 2000/8788 tasks, store 1539 types, quar 46, 203s
+  P4: 4000/8788 tasks, store 1539 types, quar 46, 211s
+  P4: 6000/8788 tasks, store 1540 types, quar 46, 225s
+  P4: 8000/8788 tasks, store 1540 types, quar 46, 233s
+pass P4 complete: 8788 tasks (8788 this run) in 44s (store 1540 types, quarantines 46)
+P5: 1951 orbits with at least one code transition
+pass P5 complete: 1951 tasks (1951 this run) in 156s (store 1583 types, quarantines 46)
+
+COMPLETE in this invocation after 394s: 108580 candidates evaluated (0 skipped), 1583 types in store (891 prior store + 692 hexagonal, not matched against the records checked as of 2026-09-04), max stored facets 34, 46 quarantines
+  [checkpoint FINAL phase2_hexagonal_types.json: 1583 types, 108622 records, 1.8s]
+wrote PHASE2_HEX_RESULT.md

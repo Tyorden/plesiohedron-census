@@ -1,0 +1,82 @@
+[
+ {
+  "name": "Josehedron (control)",
+  "site": "(0, 2, 3)",
+  "rho2": "23/3",
+  "mes_centre": "(0, 2, 3)",
+  "mes_r2": "23/3",
+  "coincide": true,
+  "round_site": 47.9833,
+  "round_mes": 47.9833
+ },
+ {
+  "name": "S Satchelhedron",
+  "site": "(0, 0, 3)",
+  "rho2": "51/4",
+  "mes_centre": "(0, 0, 3)",
+  "mes_r2": "51/4",
+  "coincide": true,
+  "round_site": 37.7554,
+  "round_mes": 37.7554
+ },
+ {
+  "name": "O Ordenhedron",
+  "site": "(3, 4, 10)",
+  "rho2": "125",
+  "mes_centre": "(57/16, 57/16, 69/8)",
+  "mes_r2": "12771/128",
+  "coincide": false,
+  "round_site": 9.8394,
+  "round_mes": 13.7979
+ },
+ {
+  "name": "P11 Pn-3m 11-facet cell",
+  "site": "(2, 9, 9)",
+  "rho2": "118",
+  "mes_centre": "(3, 9, 9)",
+  "mes_r2": "99",
+  "coincide": false,
+  "round_site": 10.7278,
+  "round_mes": 13.9599
+ },
+ {
+  "name": "P7 Pn-3m 7-facet cell",
+  "site": "(3, 4, 10)",
+  "rho2": "125",
+  "mes_centre": "(57/16, 57/16, 69/8)",
+  "mes_r2": "12771/128",
+  "coincide": false,
+  "round_site": 4.9197,
+  "round_mes": 6.8989
+ },
+ {
+  "name": "H212 IT(212) (37,57,22) cell",
+  "site": "(1, 1, 1)",
+  "rho2": "507/16",
+  "mes_centre": "(3/4, 3/4, 3/4)",
+  "mes_r2": "63/2",
+  "coincide": false,
+  "round_site": 28.909,
+  "round_mes": 29.1675
+ },
+ {
+  "name": "H230 IT(230) (40,61,23) cell",
+  "site": "(2, 4, 3)",
+  "rho2": "44",
+  "mes_centre": "(9/10, 51/10, 3)",
+  "mes_r2": "3969/100",
+  "coincide": false,
+  "round_site": 23.5573,
+  "round_mes": 27.4968
+ },
+ {
+  "name": "H214 IT(214) (30,47,19) cell",
+  "site": "(0, 3, 1)",
+  "rho2": "115/4",
+  "mes_centre": "(0, 3, -3/10)",
+  "mes_r2": "19773/800",
+  "coincide": false,
+  "round_site": 11.1503,
+  "round_mes": 13.9885
+ }
+]

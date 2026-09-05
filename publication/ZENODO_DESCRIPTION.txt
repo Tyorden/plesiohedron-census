@@ -1,0 +1,89 @@
+Code, certificates, and per-shape data from MINT, a gated agentic search for
+space-filling polyhedra (plesiohedra) in the 36 cubic space groups.
+
+Contents: the complete harness (exact-arithmetic pipeline: orbit expansion
+under frozen space-group operations, floating-point Voronoi proposal, exact
+rational confirmation, canonical planar codes); the frozen operation store for
+all 230 space groups (independently confirmed, operation by operation, against
+a recovered pre-LLM 2016 derivation - zero discrepancies on all 229 comparable
+groups); pre-registered gates and all gate results; the type store (102
+combinatorial types with witnesses from a 1,597-orbit sweep); and full
+publication packages for seven certified space-filling cells, including exact
+vertex coordinates, tiling certificates, symmetry certification, polyform
+counts with Burnside verification, and renders. Two cells are named
+(Satchelhedron, IT 220, f-vector (16,25,11); Ordenhedron, IT 201, (20,33,15),
+a space-filler with trivial symmetry); three are held pending diligence
+against print-only catalogs (Engel 1981, Koch 1972) and are included as
+certified-but-diligence-pending.
+
+Novelty wording throughout is catalog-relative by rule: the seven cells are
+"not matched against the records checked as of 2026-09-01" (classical
+catalogs, Bernhard 2026, and exact recomputation at every printed
+representative point of Schmitt's 2016 survey); this is never a claim of
+being new to science.
+
+Licenses: Python code MIT; data, tables, and documents CC-BY-4.0.
+
+Disclosure: the pipeline was built and operated with Claude (Anthropic)
+assistance under the verification discipline documented in the gate records;
+all results were independently re-verified before acceptance.
+
+===== v2 description block (2026-09-04 22:48 PDT, subagent #165; supersedes the block above when the refreshed
+record is uploaded; paste each labelled part into the Zenodo form) =====
+
+DESCRIPTION:
+Code, certificates, catalog, and per-shape data from MINT, a gated agentic search for
+space-filling polyhedra (plesiohedra) in the cubic, tetragonal, trigonal and hexagonal
+space groups.
+
+Contents: the complete harness (exact-arithmetic pipeline: orbit expansion under frozen
+space-group operations, floating-point Voronoi proposal, exact rational confirmation with a
+proven neighbour cutoff, canonical planar codes; an exact Gram-matrix metric for the
+non-cubic families); the frozen operation store for all 230 space groups (confirmed
+operation by operation against a recovered 2016 derivation, zero mismatches on all 229
+comparable groups); the pre-registered gates and every gate result; the type stores of the
+three sweeps (1,597 cubic orbits; 148,816 tetragonal and 108,580 hexagonal-family
+evaluations); full publication packages for seven certified cubic cells, including exact
+vertex coordinates, tiling certificates, symmetry certification, polyform counts with
+Burnside verification, and renders; certificate tables for 165 further tetragonal and
+hexagonal-family cells with a pre-registered open/wall classification (115 open, 41 wall, 9
+one-sided at the stored witness); the digitizations of Schmitt's 2016 printed tables (881
+cubic, 1,476 tetragonal and 958 trigonal/hexagonal rows, the last blind re-keyed with zero
+discrepancies); and THE CATALOG, version 5: 1,583 combinatorial types (102 cubic-first, 789
+tetragonal-first, 692 hexagonal-first; 196 distinct f-vectors; observed maximum 35 facets),
+each with its exact generating point, group, axial ratio where relevant, f-vector, facet-size
+multiset, automorphism order, canonical code, every sighting, certificate status, open/wall
+verdict and type-level status against Schmitt's printed representatives, in JSON and CSV with
+SHA-256 sums and an independent recount script.
+
+Two cubic cells are named (Satchelhedron, IT 220, f-vector (16,25,11), a wall point of the
+24d line that Schmitt's grid provably never meets; Ordenhedron, IT 201, (20,33,15), an open
+presentation with trivial symmetry); the other five cubic cells carry systematic labels
+(group, f-vector, canonical type identifier) while two print-only catalogs (Engel 1981, Koch
+1972) are read. No cell outside the cubic system is named.
+
+Novelty wording throughout is catalog-relative by rule: every type is "not matched against
+the records checked as of 2026-09-04" (classical catalogs, Bernhard 2026, and Schmitt's 2016
+printed tables at f-vector and, at every printed representative point, at type level); this
+is never a claim of being new to science. The observed literature maximum is 38 facets; the
+refereed bound is 92.
+
+Licenses: Python code MIT; data, tables, and documents CC-BY-4.0.
+
+Disclosure: I used Claude (Anthropic), a large language model, throughout this work under my
+direction: it wrote the harness, the gate scripts and the catalog builders, ran the sweeps and
+certificates, performed the transcriptions and re-keys of the printed tables, and drafted the
+documents, which I rewrote. Every gate script was re-run by me, separately from the agent that
+built it, with exit code zero required before acceptance. I take full responsibility for the
+content.
+
+KEYWORDS:
+plesiohedron; Dirichlet stereohedron; space-filling polyhedron; Voronoi cell; space groups;
+cubic; tetragonal; trigonal; hexagonal; combinatorial type; catalog; polyform enumeration
+
+RELATED IDENTIFIERS:
+arXiv:2604.07160 (cites); doi:10.17169/refubium-14374 (cites);
+swh:1:dir:d812ef736b08ffd6072dfd59725f1ba5ff4194ec, swh:1:rev:97cb86b649d5bf9df82f9e9895150f2dfbb93616,
+swh:1:snp:8978d77b0000297a95f6a42926a3fa48c59f973b (references); A398957, A398958, A398959
+(is-supplemented-by); https://github.com/Tyorden/plesiohedron-census (is-supplemented-by; verify
+the repository exists before publishing: it did not resolve at 22:26 PDT 2026-09-04).

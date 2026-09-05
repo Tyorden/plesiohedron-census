@@ -1,0 +1,12 @@
+tables: 2de0a211_Ordenhedron/g4_tables_2de0a21129cabe90.json
+T=24 neighbours/type=[15] max|delta|=1 |ops|=24 |proper|=12
+n=1 fixed=24 free=1 onesided=2 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=180 free=9 onesided=18 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=1992 free=85 onesided=170 burnside(all=ok,proper=ok) grow=0.0s quot=0.1s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=25974 free=1099 onesided=2196 burnside(all=ok,proper=ok) grow=0.1s quot=0.3s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=371136 free=15464 onesided=30928 burnside(all=ok,proper=ok) grow=1.2s quot=3.9s fixed:MATCH free:MATCH onesided:MATCH
+n=6 fixed=5619868 free=234420 onesided=468793 burnside(all=ok,proper=ok) grow=11.1s quot=68.7s fixed:MATCH free:MATCH onesided:MATCH
+total wall 85.5s  workers=14  ALL CHECKS PASSED
+real 85.76
+user 1001.50
+sys 6.70

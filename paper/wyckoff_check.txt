@@ -1,0 +1,7 @@
+Ordenhedron: package IT(201) Pn-3 gen (1/8, 1/6, 5/12); spglib: IT(201) Pn-3 hall 495 (P 2 2 3 -1n); orbit 24 pts; wyckoff ['h']; site sym ['1']; choice '1'; origin_shift [0.0, 0.0, 0.0]
+the IT(230) (40,61,23) cell: package IT(230) Ia-3d gen (1/12, 1/6, 1/8); spglib: IT(230) Ia-3d hall 530 (-I 4bd 2c 3); orbit 48 pts; wyckoff ['g']; site sym ['..2']; choice ''; origin_shift [0.0, -0.0, 0.0]
+Satchelhedron: package IT(220) I-43d gen (0, 0, 1/4); spglib: IT(220) I-43d hall 516 (I -4bd 2c 3); orbit 24 pts; wyckoff ['d']; site sym ['2..']; choice ''; origin_shift [0.0, 0.0, 0.0]
+the IT(214) (30,47,19) cell: package IT(214) I4_132 gen (0, 1/4, 1/12); spglib: IT(214) I4_132 hall 510 (I 4bd 2c 3); orbit 24 pts; wyckoff ['f']; site sym ['2..']; choice ''; origin_shift [0.0, 0.0, -0.0]
+the Pn-3m 11-facet cell: package IT(224) Pn-3m gen (1/12, 3/8, 3/8); spglib: IT(224) Pn-3m hall 521 (P 4n 2 3 -1n); orbit 24 pts; wyckoff ['k']; site sym ['..m']; choice '1'; origin_shift [0.0, 0.0, 0.0]
+the IT(212) (37,57,22) cell: package IT(212) P4_332 gen (1/12, 1/12, 1/12); spglib: IT(212) P4_332 hall 508 (P 4acd 2ab 3); orbit 8 pts; wyckoff ['c']; site sym ['.3.']; choice ''; origin_shift [0.0, 0.0, 0.0]
+the Pn-3m 7-facet cell: package IT(224) Pn-3m gen (1/8, 1/6, 5/12); spglib: IT(224) Pn-3m hall 521 (P 4n 2 3 -1n); orbit 48 pts; wyckoff ['l']; site sym ['1']; choice '1'; origin_shift [0.0, 0.0, 0.0]

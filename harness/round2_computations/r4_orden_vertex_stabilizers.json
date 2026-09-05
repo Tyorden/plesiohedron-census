@@ -1,0 +1,52 @@
+[
+ {
+  "vertex": "(-3, 3, 3)",
+  "frac": "(-1/8, 1/8, 1/8)",
+  "facets": 4,
+  "stab": 3,
+  "pg": "3",
+  "N": 6,
+  "free": true,
+  "forced": true
+ },
+ {
+  "vertex": "(0, 0, 0)",
+  "frac": "(0, 0, 0)",
+  "facets": 5,
+  "stab": 12,
+  "pg": "23",
+  "N": 12,
+  "free": true,
+  "forced": true
+ },
+ {
+  "vertex": "(6, 6, 6)",
+  "frac": "(1/4, 1/4, 1/4)",
+  "facets": 4,
+  "stab": 6,
+  "pg": "-3",
+  "N": 6,
+  "free": true,
+  "forced": true
+ },
+ {
+  "vertex": "(6, 6, 18)",
+  "frac": "(1/4, 1/4, 3/4)",
+  "facets": 4,
+  "stab": 6,
+  "pg": "-3",
+  "N": 6,
+  "free": true,
+  "forced": true
+ },
+ {
+  "vertex": "(9, 9, 15)",
+  "frac": "(3/8, 3/8, 5/8)",
+  "facets": 4,
+  "stab": 3,
+  "pg": "3",
+  "N": 6,
+  "free": true,
+  "forced": true
+ }
+]

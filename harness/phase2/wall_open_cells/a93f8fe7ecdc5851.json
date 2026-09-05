@@ -1,0 +1,826 @@
+{
+ "IT": 144,
+ "_secs": 1.6,
+ "agree": "NO",
+ "base_aut": 1,
+ "base_f": [
+  32,
+  48,
+  18
+ ],
+ "base_nonsimple": 0,
+ "base_p": "3^2 4^8 5^2 7^2 8^2 9^2",
+ "c_over_a": "9/8",
+ "combined_verdict": "OPEN",
+ "combined_walls": [],
+ "family": "hexagonal",
+ "flags": {
+  "degenerate_flag_any": false,
+  "float_superseded_any": false,
+  "line_isolated": false,
+  "nonsimple_vertex": false,
+  "quarantine_any": false,
+  "stab_change_any": false
+ },
+ "id": "a93f8fe7ecdc5851",
+ "metric_verdict": "OPEN",
+ "metric_wall": false,
+ "n_evaluations": 23,
+ "neighbours": [
+  {
+   "aut": 2,
+   "code_id": "e98412e7cb95aea2",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "fvec_printed_in_witness_group": true,
+   "nonsimple": 0,
+   "p": "3^4 4^6 6^2 8^6",
+   "schmitt_type_groups": null,
+   "seen": [
+    "point(1, 0, 0) eps=-1/48"
+   ],
+   "stored_id": "e98412e7cb95aea2"
+  },
+  {
+   "aut": 1,
+   "code_id": "6dba530a0828bdcf",
+   "f": [
+    36,
+    54,
+    20
+   ],
+   "fvec_printed_in_witness_group": true,
+   "nonsimple": 0,
+   "p": "3^8 4^2 5^2 7^4 9^2 10^2",
+   "schmitt_type_groups": [
+    144,
+    145
+   ],
+   "seen": [
+    "point(1, 0, 0) eps=-1/96",
+    "metric eps=-1/96"
+   ],
+   "stored_id": "6dba530a0828bdcf"
+  },
+  {
+   "aut": 2,
+   "code_id": "bff9b24ce78050f5",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "fvec_printed_in_witness_group": true,
+   "nonsimple": 0,
+   "p": "4^8 5^4 8^4",
+   "schmitt_type_groups": null,
+   "seen": [
+    "point(1, 0, 0) eps=1/96",
+    "point(1, 0, 0) eps=1/48",
+    "point(0, 1, 0) eps=-1/48",
+    "point(0, 1, 0) eps=-1/96",
+    "metric eps=1/96",
+    "point(1, 0, 0) eps=1/192",
+    "point(1, 0, 0) eps=1/384",
+    "point(0, 1, 0) eps=-1/192"
+   ],
+   "stored_id": "bff9b24ce78050f5"
+  }
+ ],
+ "point_direction_applicable": true,
+ "point_verdict": "OPEN",
+ "point_walls": [],
+ "previous_label": "wall-suspect (triage, 1 b; metric-thin: 1b,P5-only)",
+ "previous_label_class": "wall-suspect",
+ "rank": 102,
+ "rows": [
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "e98412e7cb95aea2",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "-1/48",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^4 4^6 6^2 8^6",
+   "point": "(1/16, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "e98412e7cb95aea2"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "6dba530a0828bdcf",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "-1/96",
+   "f": [
+    36,
+    54,
+    20
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^8 4^2 5^2 7^4 9^2 10^2",
+   "point": "(7/96, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": [
+    144,
+    145
+   ],
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "6dba530a0828bdcf"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "1/96",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(3/32, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "1/48",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(5/48, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "-1/48",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(1/12, 17/48, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "-1/96",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(1/12, 35/96, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "1/96",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 37/96, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "1/48",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 19/48, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    0,
+    1
+   ],
+   "eps": "-1/48",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 7/48)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    0,
+    1
+   ],
+   "eps": "-1/96",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 5/32)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    0,
+    1
+   ],
+   "eps": "1/96",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 17/96)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    0,
+    1
+   ],
+   "eps": "1/48",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 3/16)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "285/256",
+   "code_id": "6dba530a0828bdcf",
+   "degenerate_flag": false,
+   "direction": null,
+   "eps": "-1/96",
+   "f": [
+    36,
+    54,
+    20
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "metric",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^8 4^2 5^2 7^4 9^2 10^2",
+   "point": "(1/12, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": [
+    144,
+    145
+   ],
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "6dba530a0828bdcf"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "573/512",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": null,
+   "eps": "-1/192",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "metric",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "579/512",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": null,
+   "eps": "1/192",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "metric",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "291/256",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": null,
+   "eps": "1/96",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "metric",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(1/12, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": false,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "-1/192",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(5/64, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "1/192",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(17/192, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "1/384",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(11/128, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    1,
+    0,
+    0
+   ],
+   "eps": "1/768",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(65/768, 3/8, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  },
+  {
+   "W": 2,
+   "aut": 2,
+   "b": "9/8",
+   "code_id": "bff9b24ce78050f5",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "-1/192",
+   "f": [
+    28,
+    42,
+    16
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "4^8 5^4 8^4",
+   "point": "(1/12, 71/192, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "DIFFERENT",
+   "stored_id": "bff9b24ce78050f5"
+  },
+  {
+   "W": 2,
+   "aut": 1,
+   "b": "9/8",
+   "code_id": "a93f8fe7ecdc5851",
+   "degenerate_flag": false,
+   "direction": [
+    0,
+    1,
+    0
+   ],
+   "eps": "-1/384",
+   "f": [
+    32,
+    48,
+    18
+   ],
+   "float_superseded": false,
+   "fvec_printed": true,
+   "kind": "point",
+   "nonsimple": 0,
+   "off_stratum": false,
+   "p": "3^2 4^8 5^2 7^2 8^2 9^2",
+   "point": "(1/12, 143/384, 1/6)",
+   "quarantine": null,
+   "refine": true,
+   "schmitt_type_groups": null,
+   "stab": 1,
+   "stab_change": false,
+   "status": "SAME",
+   "stored_id": "a93f8fe7ecdc5851"
+  }
+ ],
+ "sides": {
+  "metric:+": "SAME",
+  "metric:-": "SAME",
+  "point(0, 0, 1):+": "SAME",
+  "point(0, 0, 1):-": "SAME",
+  "point(0, 1, 0):+": "SAME",
+  "point(0, 1, 0):-": "SAME",
+  "point(1, 0, 0):+": "SAME",
+  "point(1, 0, 0):-": "SAME"
+ },
+ "site_stab": 1,
+ "stratum_dim": 3,
+ "symbol": "P3_1",
+ "tangent_basis": [
+  [
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ]
+ ],
+ "witness_point": "(1/12, 3/8, 1/6)"
+}

@@ -1,0 +1,105 @@
+loading phase2_types.json ...
+== SANITY GATE 1: truncated octahedron, cubic ladder vs Gram ladder ==
+  cubic path (g4_certify functions, Im-3m #229 origin): {'code': '((1, 2, 3), (0, 4, 5), (0, 5, 6), (0, 7, 8), (1, 9, 10), (1, 11, 2), (2, 12, 13), (3, 13, 14), (3, 14, 9), (4, 8, 15), (4, 15, 16), (5, 16, 17), (6, 17, 18), (6, 18, 7), (7, 19, 8), (9, 20, 10), (10, 21, 11), (11, 21, 12), (12, 22, 13), (14, 22, 20), (15, 19, 23), (16, 23, 17), (18, 23, 19), (20, 22, 21))', 'f': (24, 36, 14), 'p': (4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 6, 6), 'aut': 48, 'T': 1, 'detL': 864, 'vol': '864', 'slots': 14, 'site': 48, 'stab_geo': 48, 'brav': 48, 'n_ops': 48, 'n_proper': 24, 'fixed': [1, 7, 67, 734], 'free': [1, 2, 6, 35]}
+[ctrl_truncoct_I4mmm_ca1] f=(24, 36, 14) p=4^6 6^8 aut=48 witness IT(139) point (0, 0, 0) c/a=1
+  V0 exact re-derivation (Gram chain): PASS (0.0s) IT(139) I4/mmm p=(0, 0, 0) c/a=1 G=diag(1,1,1) period=12 n_conv=2 T=1 site=16 dim=0 f=(24,36,14) p-vec 4^6 6^8 aut=48 W=
+  V1 tiling certificate in the G-norm (generator): PASS (0.0s) detL=864 T=1 vol=864 T*vol=864 (crystal-basis measure) slots=14 paired 1:1; disjointness G-ball D2=4rho2=180 (coord boun
+  V1 independent adapted audit (affine + Gram layer): PASS (0.2s) audit re-derived 1 cells x 14 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 864 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.2s) site=16, Isom_fix_site=48, Isom(solid)=48 (Isom+=24, improper=24; solid achiral), aut_comb=48; chain site<=Isom_fix (lin
+  V3 Burnside identity (banked + independent): PASS (1.2s) tables T=1 nbrs=14 |ops|=48 (24 proper, 24 improper; T*|site|=16), identity+closure exact; hands: inconsistent (achiral 
+GATE 1 PASS: I4/mmm #139 origin orbit at c/a=1 (G=I, same integer sites [(0, 0, 0), (6, 6, 6)] period 12 as Im-3m #229) through the Gram ladder == accepted cubic ladder on Im-3m #229 origin: all 14 compared numbers identical (code, f, p, aut, T, detL, vol, slots, geometric stabilizer 48, Bravais 48, |ops| 48, proper 24, fixed/free n<=4): {'code': '((1, 2, 3), (0, 4, 5), (0, 5, 6), (0, 7, 8), (1, 9, 10), (1, 11, 2), (2, 12, 13), (3, 13, 14), (3, 14, 9), (4, 8, 15), (4, 15, 16), (5, 16, 17), (6, 17, 18), (6, 18, 7), (7, 19, 8), (9, 20, 10), (10, 21, 11), (11, 21, 12), (12, 22, 13), (14, 22, 20), (15, 19, 23), (16, 23, 17), (18, 23, 19), (20, 22, 21))', 'f': (24, 36, 14), 'p': (4, 4, 4, 4, 4, 4, 6, 6, 6, 6, 6, 6, 6, 6), 'aut': 48, 'T': 1, 'detL': 864, 'vol': '864', 'slots': 14, 'site': 16, 'stab_geo': 48, 'brav': 48, 'n_ops': 48, 'n_proper': 24, 'fixed': [1, 7, 67, 734], 'free': [1, 2, 6, 35]}; the one legitimate difference is the SITE symmetry (Im-3m origin 48 vs I4/mmm origin 16) and the ladder's |H/L|=48 vs T*|site|=16 check correctly reports the honeycomb's full group as LARGER than I4/mmm (it is Im-3m); Isom(solid)=48 (Isom+=24); independent enumerator reached n=5 (2s)
+== SANITY GATE 2: banked cubic G4 row ceb70631e274e727 via Gram ladder ==
+[ctrl_ceb70631e274e727_cubic] f=(37, 57, 22) p=3^6 4^6 5^6 10^3 12^1 aut=3 witness IT(212) point (1/12, 1/12, 1/12) c/a=None
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(212) P4_332 p=(1/12, 1/12, 1/12) c/a=cubic G=diag(1,1,1) period=12 n_conv=8 T=8 site=3 dim=1 f=(37,57,22) p-vec 3^6 4
+  V1 tiling certificate in the G-norm (generator): PASS (0.5s) detL=1728 T=8 vol=216 T*vol=1728 (crystal-basis measure) slots=176 paired 1:1; disjointness G-ball D2=4rho2=507/4 (coord
+  V1 independent adapted audit (affine + Gram layer): PASS (8.9s) audit re-derived 8 cells x 22 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 216 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=3, Isom_fix_site=3, Isom(solid)=3 (Isom+=3, improper=0; solid CHIRAL), aut_comb=3; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (10.0s) tables T=8 nbrs=22 |ops|=24 (24 proper, 0 improper; T*|site|=24), identity+closure exact; hands: 0 of 8 classes of the o
+GATE 2 PASS: ceb70631e274e727 IT(212) witness (1/12,1/12,1/12) through the Gram ladder with G=I reproduces G4_RESULTS.md exactly: {'T': 8, 'detL': 1728, 'vol': '216', 'site': 3, 'stab_geo': 3, 'aut': 3, 'brav': 48, 'n_ops': 24, 'n_proper': 24, 'fixed': [8, 88, 1384, 25064], 'free': [1, 5, 59, 1065]}; Isom(solid)=3, |H/L|=24=T*|site|=24, independent enumerator reached n=5 (20s)
+[4e9c9b076cfec323] f=(40, 60, 22) p=3^8 4^4 5^4 8^2 11^4 aut=2 witness IT(92) point (5/24, 5/24, 0) c/a=5/4
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(92) P4_12_12 p=(5/24, 5/24, 0) c/a=5/4 G=diag(16,16,25) period=24 n_conv=4 T=4 site=2 dim=1 f=(40,60,22) p-vec 3^8 4^
+  V1 tiling certificate in the G-norm (generator): PASS (0.3s) detL=13824 T=4 vol=3456 T*vol=13824 (crystal-basis measure) slots=88 paired 1:1; disjointness G-ball D2=4rho2=116653/9 (
+  V1 independent adapted audit (affine + Gram layer): PASS (7.2s) audit re-derived 4 cells x 22 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 3456 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (3.6s) tables T=4 nbrs=22 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 4 classes of the othe
+[f654982d74d740f6] f=(38, 57, 21) p=3^6 4^7 6^3 8^2 10^2 14^1 aut=2 witness IT(141) point (0, 1/12, 1/12) c/a=1/2
+  V0 exact re-derivation (Gram chain): PASS (0.3s) IT(141) I4_1/amd p=(0, 1/12, 1/12) c/a=1/2 G=diag(4,4,1) period=12 n_conv=16 T=8 site=2 dim=2 f=(38,57,21) p-vec 3^6 4^7
+  V1 tiling certificate in the G-norm (generator): PASS (1.5s) detL=864 T=8 vol=108 T*vol=864 (crystal-basis measure) slots=168 paired 1:1; disjointness G-ball D2=4rho2=1953/8 (coord 
+  V1 independent adapted audit (affine + Gram layer): PASS (9.6s) audit re-derived 8 cells x 21 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 108 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=1, improper=1; solid achiral), aut_comb=2; chain site<=Isom_fix (linear pa
+  V3 Burnside identity (banked + independent): PASS (6.6s) tables T=8 nbrs=21 |ops|=16 (8 proper, 8 improper; T*|site|=16), identity+closure exact; hands: inconsistent (achiral so
+[4f6d3e68cbd9e729] f=(42, 63, 23) p=3^6 4^5 5^2 6^6 8^2 12^1 14^1 aut=1 witness IT(98) point (1/12, 3/8, 1/6) c/a=3/4
+  V0 exact re-derivation (Gram chain): PASS (0.4s) IT(98) I4_122 p=(1/12, 3/8, 1/6) c/a=3/4 G=diag(16,16,9) period=24 n_conv=16 T=8 site=1 dim=3 f=(42,63,23) p-vec 3^6 4^5
+  V1 tiling certificate in the G-norm (generator): PASS (1.4s) detL=6912 T=8 vol=864 T*vol=6912 (crystal-basis measure) slots=184 paired 1:1; disjointness G-ball D2=4rho2=34914448/562
+  V1 independent adapted audit (affine + Gram layer): PASS (14.9s) audit re-derived 8 cells x 23 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 864 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (6.2s) tables T=8 nbrs=23 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 8 classes of the othe
+[1497877268495988] f=(32, 48, 18) p=3^4 4^4 5^4 6^2 8^2 10^2 aut=2 witness IT(91) point (0, 1/12, 0) c/a=1/2
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(91) P4_122 p=(0, 1/12, 0) c/a=1/2 G=diag(4,4,1) period=12 n_conv=4 T=4 site=2 dim=1 f=(32,48,18) p-vec 3^4 4^4 5^4 6^
+  V1 tiling certificate in the G-norm (generator): PASS (0.2s) detL=1728 T=4 vol=432 T*vol=1728 (crystal-basis measure) slots=72 paired 1:1; disjointness G-ball D2=4rho2=480385/484 (c
+  V1 independent adapted audit (affine + Gram layer): PASS (2.4s) audit re-derived 4 cells x 18 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 432 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (1.5s) tables T=4 nbrs=18 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 4 classes of the othe
+[e0d18e5ea938d649] f=(36, 54, 20) p=3^4 4^8 8^8 aut=2 witness IT(122) point (1/24, 1/4, 1/8) c/a=1
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(122) I-42d p=(1/24, 1/4, 1/8) c/a=1 G=diag(1,1,1) period=24 n_conv=8 T=4 site=2 dim=1 f=(36,54,20) p-vec 3^4 4^8 8^8 
+  V1 tiling certificate in the G-norm (generator): PASS (0.4s) detL=6912 T=4 vol=1728 T*vol=6912 (crystal-basis measure) slots=80 paired 1:1; disjointness G-ball D2=4rho2=472 (coord b
+  V1 independent adapted audit (affine + Gram layer): PASS (3.9s) audit re-derived 4 cells x 20 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 1728 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (2.0s) tables T=4 nbrs=20 |ops|=8 (4 proper, 4 improper; T*|site|=8), identity+closure exact; hands: 2 of 4 classes of the othe
+[6797ab70c6015039] f=(32, 48, 18) p=3^4 4^4 5^4 6^2 9^4 aut=2 witness IT(76) point (1/8, 1/6, 5/12) c/a=3/2
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(76) P4_1 p=(1/8, 1/6, 5/12) c/a=3/2 G=diag(4,4,9) period=24 n_conv=4 T=4 site=1 dim=3 f=(32,48,18) p-vec 3^4 4^4 5^4 
+  V1 tiling certificate in the G-norm (generator): PASS (0.3s) detL=13824 T=4 vol=3456 T*vol=13824 (crystal-basis measure) slots=72 paired 1:1; disjointness G-ball D2=4rho2=1612052/40
+  V1 independent adapted audit (affine + Gram layer): PASS (2.9s) audit re-derived 4 cells x 18 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 3456 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (1.6s) tables T=4 nbrs=18 |ops|=4 (4 proper, 0 improper; T*|site|=4), identity+closure exact; hands: 0 of 4 classes of the othe
+[086ac96faf390886] f=(36, 54, 20) p=3^2 4^8 5^6 10^4 aut=2 witness IT(76) point (1/8, 1/6, 5/12) c/a=7/5
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(76) P4_1 p=(1/8, 1/6, 5/12) c/a=7/5 G=diag(25,25,49) period=24 n_conv=4 T=4 site=1 dim=3 f=(36,54,20) p-vec 3^2 4^8 5
+  V1 tiling certificate in the G-norm (generator): PASS (0.3s) detL=13824 T=4 vol=3456 T*vol=13824 (crystal-basis measure) slots=80 paired 1:1; disjointness G-ball D2=4rho2=10624321/4
+  V1 independent adapted audit (affine + Gram layer): PASS (4.4s) audit re-derived 4 cells x 20 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 3456 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (1.7s) tables T=4 nbrs=20 |ops|=4 (4 proper, 0 improper; T*|site|=4), identity+closure exact; hands: 0 of 4 classes of the othe
+[164d4bd63d82d0c3] f=(40, 60, 22) p=3^6 4^6 5^2 6^4 11^4 aut=1 witness IT(76) point (1/8, 1/6, 5/12) c/a=5/4
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(76) P4_1 p=(1/8, 1/6, 5/12) c/a=5/4 G=diag(16,16,25) period=24 n_conv=4 T=4 site=1 dim=3 f=(40,60,22) p-vec 3^6 4^6 5
+  V1 tiling certificate in the G-norm (generator): PASS (0.3s) detL=13824 T=4 vol=3456 T*vol=13824 (crystal-basis measure) slots=88 paired 1:1; disjointness G-ball D2=4rho2=130576/9 (
+  V1 independent adapted audit (affine + Gram layer): PASS (6.2s) audit re-derived 4 cells x 22 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 3456 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (2.3s) tables T=4 nbrs=22 |ops|=4 (4 proper, 0 improper; T*|site|=4), identity+closure exact; hands: 0 of 4 classes of the othe
+[5dc2479b9bc14edc] f=(42, 63, 23) p=3^8 4^5 5^2 6^2 8^3 10^2 16^1 aut=1 witness IT(98) point (1/12, 3/8, 1/6) c/a=9/16
+  V0 exact re-derivation (Gram chain): PASS (0.3s) IT(98) I4_122 p=(1/12, 3/8, 1/6) c/a=9/16 G=diag(256,256,81) period=24 n_conv=16 T=8 site=1 dim=3 f=(42,63,23) p-vec 3^8
+  V1 tiling certificate in the G-norm (generator): PASS (1.7s) detL=6912 T=8 vol=864 T*vol=6912 (crystal-basis measure) slots=184 paired 1:1; disjointness G-ball D2=4rho2=4444649/50 (
+  V1 independent adapted audit (affine + Gram layer): PASS (17.5s) audit re-derived 8 cells x 23 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 864 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (7.7s) tables T=8 nbrs=23 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 8 classes of the othe
+[3ebbca7ed2eda199] f=(40, 60, 22) p=3^4 4^8 5^2 6^5 8^1 12^1 16^1 aut=1 witness IT(98) point (1/12, 3/8, 1/6) c/a=1/2
+  V0 exact re-derivation (Gram chain): PASS (0.3s) IT(98) I4_122 p=(1/12, 3/8, 1/6) c/a=1/2 G=diag(4,4,1) period=24 n_conv=16 T=8 site=1 dim=3 f=(40,60,22) p-vec 3^4 4^8 5
+  V1 tiling certificate in the G-norm (generator): PASS (1.9s) detL=6912 T=8 vol=864 T*vol=6912 (crystal-basis measure) slots=176 paired 1:1; disjointness G-ball D2=4rho2=33488/25 (co
+  V1 independent adapted audit (affine + Gram layer): PASS (12.4s) audit re-derived 8 cells x 22 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 864 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (5.7s) tables T=8 nbrs=22 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 8 classes of the othe
+[7575121042ade3b3] f=(32, 48, 18) p=4^11 6^4 8^1 10^2 aut=2 witness IT(98) point (1/12, 1/12, 0) c/a=7/4
+  V0 exact re-derivation (Gram chain): PASS (0.2s) IT(98) I4_122 p=(1/12, 1/12, 0) c/a=7/4 G=diag(16,16,49) period=12 n_conv=8 T=4 site=2 dim=1 f=(32,48,18) p-vec 4^11 6^4
+  V1 tiling certificate in the G-norm (generator): PASS (0.4s) detL=864 T=4 vol=216 T*vol=864 (crystal-basis measure) slots=72 paired 1:1; disjointness G-ball D2=4rho2=412849/128 (coo
+  V1 independent adapted audit (affine + Gram layer): PASS (2.5s) audit re-derived 4 cells x 18 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 216 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (1.7s) tables T=4 nbrs=18 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 4 classes of the othe
+[213c7a114d5a97a8] f=(42, 63, 23) p=3^6 4^4 5^4 6^5 8^2 10^1 16^1 aut=1 witness IT(98) point (1/12, 3/8, 1/6) c/a=11/16
+  V0 exact re-derivation (Gram chain): PASS (0.3s) IT(98) I4_122 p=(1/12, 3/8, 1/6) c/a=11/16 G=diag(256,256,121) period=24 n_conv=16 T=8 site=1 dim=3 f=(42,63,23) p-vec 3
+  V1 tiling certificate in the G-norm (generator): PASS (1.6s) detL=6912 T=8 vol=864 T*vol=6912 (crystal-basis measure) slots=184 paired 1:1; disjointness G-ball D2=4rho2=4837369/50 (
+  V1 independent adapted audit (affine + Gram layer): PASS (16.5s) audit re-derived 8 cells x 23 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 864 each, T*vol == |det
+  V2 symmetry certification (G-isometries): PASS (0.1s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (6.5s) tables T=8 nbrs=23 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 8 classes of the othe
+[2e8e49eb28497267] f=(40, 60, 22) p=3^6 4^7 5^2 6^1 8^3 10^2 14^1 aut=1 witness IT(95) point (1/12, 3/8, 1/6) c/a=53/40
+  V0 exact re-derivation (Gram chain): PASS (0.3s) IT(95) P4_322 p=(1/12, 3/8, 1/6) c/a=53/40 G=diag(1600,1600,2809) period=24 n_conv=8 T=8 site=1 dim=3 f=(40,60,22) p-vec
+  V1 tiling certificate in the G-norm (generator): PASS (0.9s) detL=13824 T=8 vol=1728 T*vol=13824 (crystal-basis measure) slots=176 paired 1:1; disjointness G-ball D2=4rho2=1092836 (
+  V1 independent adapted audit (affine + Gram layer): PASS (15.1s) audit re-derived 8 cells x 22 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 1728 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=1, Isom_fix_site=1, Isom(solid)=1 (Isom+=1, improper=0; solid CHIRAL), aut_comb=1; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (5.4s) tables T=8 nbrs=22 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 8 classes of the othe
+[49cedbdd58376fac] f=(44, 66, 24) p=3^10 4^4 6^4 7^2 12^4 aut=2 witness IT(92) point (5/24, 5/24, 0) c/a=19/16
+  V0 exact re-derivation (Gram chain): PASS (0.1s) IT(92) P4_12_12 p=(5/24, 5/24, 0) c/a=19/16 G=diag(256,256,361) period=24 n_conv=4 T=4 site=2 dim=1 f=(44,66,24) p-vec 3
+  V1 tiling certificate in the G-norm (generator): PASS (0.3s) detL=13824 T=4 vol=3456 T*vol=13824 (crystal-basis measure) slots=96 paired 1:1; disjointness G-ball D2=4rho2=203536 (co
+  V1 independent adapted audit (affine + Gram layer): PASS (10.4s) audit re-derived 4 cells x 24 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 3456 each, T*vol == |de
+  V2 symmetry certification (G-isometries): PASS (0.0s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par
+  V3 Burnside identity (banked + independent): PASS (4.2s) tables T=4 nbrs=24 |ops|=8 (8 proper, 0 improper; T*|site|=8), identity+closure exact; hands: 0 of 4 classes of the othe
+
+G4 PHASE-2 VERDICT: ALL STAGES PASS (220s) — wrote G4_PHASE2_RESULTS.md
+EXIT 0

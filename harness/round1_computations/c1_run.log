@@ -1,0 +1,79 @@
+S     WALL     dim 1 basis [(1, 0, 0)]
+       d=(1, 0, 0) eps= -1/48 (-1/48, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps= -1/96 (-1/96, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps=  1/96 (1/96, 0, 1/4)               stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps=  1/48 (1/48, 0, 1/4)               stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps= -1/24 (-1/24, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps=  1/24 (1/24, 0, 1/4)               stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps=-1/192 (-1/192, 0, 1/4)             stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps=-1/384 (-1/384, 0, 1/4)             stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps=-1/768 (-1/768, 0, 1/4)             stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps=-1/1536 (-1/1536, 0, 1/4)            stab 2 f=(22, 35, 15) p=3^4 5^10 8^1 ns=4 DIFF stored=0ee26ed471c923e2 printed_f=True
+       d=(1, 0, 0) eps= 1/192 (1/192, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps= 1/384 (1/384, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps= 1/768 (1/768, 0, 1/4)              stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+       d=(1, 0, 0) eps=1/1536 (1/1536, 0, 1/4)             stab 2 f=(22, 35, 15) p=3^6 4^1 6^8 ns=4 DIFF stored=None printed_f=True
+   off d=(0, 1, 0) eps= -1/96 (0, -1/96, 1/4)              stab 1 f=(20, 32, 14) p=3^2 4^6 5^2 6^4 ns=4 DIFF stored=None printed_f=True
+   off d=(0, 1, 0) eps=  1/96 (0, 1/96, 1/4)               stab 1 f=(20, 32, 14) p=3^2 4^6 5^2 6^4 ns=4 DIFF stored=None printed_f=True
+O     OPEN     dim 3 basis [(1, 0, 0), (0, 1, 0), (0, 0, 1)]
+       d=(1, 0, 0) eps= -1/48 (5/48, 1/6, 5/12)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(1, 0, 0) eps= -1/96 (11/96, 1/6, 5/12)           stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(1, 0, 0) eps=  1/96 (13/96, 1/6, 5/12)           stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(1, 0, 0) eps=  1/48 (7/48, 1/6, 5/12)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 1, 0) eps= -1/48 (1/8, 7/48, 5/12)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 1, 0) eps= -1/96 (1/8, 5/32, 5/12)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 1, 0) eps=  1/96 (1/8, 17/96, 5/12)           stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 1, 0) eps=  1/48 (1/8, 3/16, 5/12)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 0, 1) eps= -1/48 (1/8, 1/6, 19/48)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 0, 1) eps= -1/96 (1/8, 1/6, 13/32)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 0, 1) eps=  1/96 (1/8, 1/6, 41/96)            stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+       d=(0, 0, 1) eps=  1/48 (1/8, 1/6, 7/16)             stab 1 f=(20, 33, 15) p=3^6 4^3 5^2 6^2 7^2 ns=5 SAME stored=2de0a21129cabe90 printed_f=False
+P11   OPEN     dim 2 basis [(1, 0, 0), (0, 1, 1)]
+       d=(1, 0, 0) eps= -1/48 (1/16, 3/8, 3/8)             stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(1, 0, 0) eps= -1/96 (7/96, 3/8, 3/8)             stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(1, 0, 0) eps=  1/96 (3/32, 3/8, 3/8)             stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(1, 0, 0) eps=  1/48 (5/48, 3/8, 3/8)             stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(0, 1, 1) eps= -1/48 (1/12, 17/48, 17/48)         stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(0, 1, 1) eps= -1/96 (1/12, 35/96, 35/96)         stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(0, 1, 1) eps=  1/96 (1/12, 37/96, 37/96)         stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+       d=(0, 1, 1) eps=  1/48 (1/12, 19/48, 19/48)         stab 2 f=(14, 23, 11) p=3^4 4^4 6^3 ns=4 SAME stored=c4ea3f32fdd6dc51 printed_f=False
+   off d=(0, 1, 0) eps= -1/96 (1/12, 35/96, 3/8)           stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 DIFF stored=f98a3ee5675fc121 printed_f=False
+   off d=(0, 1, 0) eps=  1/96 (1/12, 37/96, 3/8)           stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 DIFF stored=f98a3ee5675fc121 printed_f=False
+P7    OPEN     dim 3 basis [(1, 0, 0), (0, 1, 0), (0, 0, 1)]
+       d=(1, 0, 0) eps= -1/48 (5/48, 1/6, 5/12)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(1, 0, 0) eps= -1/96 (11/96, 1/6, 5/12)           stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(1, 0, 0) eps=  1/96 (13/96, 1/6, 5/12)           stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(1, 0, 0) eps=  1/48 (7/48, 1/6, 5/12)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 1, 0) eps= -1/48 (1/8, 7/48, 5/12)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 1, 0) eps= -1/96 (1/8, 5/32, 5/12)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 1, 0) eps=  1/96 (1/8, 17/96, 5/12)           stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 1, 0) eps=  1/48 (1/8, 3/16, 5/12)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 0, 1) eps= -1/48 (1/8, 1/6, 19/48)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 0, 1) eps= -1/96 (1/8, 1/6, 13/32)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 0, 1) eps=  1/96 (1/8, 1/6, 41/96)            stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+       d=(0, 0, 1) eps=  1/48 (1/8, 1/6, 7/16)             stab 1 f=(10, 15, 7) p=3^2 4^3 6^2 ns=0 SAME stored=f98a3ee5675fc121 printed_f=False
+H212  OPEN     dim 1 basis [(1, 1, 1)]
+       d=(1, 1, 1) eps= -1/48 (1/16, 1/16, 1/16)           stab 3 f=(37, 57, 22) p=3^6 4^6 5^6 10^3 12^1 ns=3 SAME stored=ceb70631e274e727 printed_f=True
+       d=(1, 1, 1) eps= -1/96 (7/96, 7/96, 7/96)           stab 3 f=(37, 57, 22) p=3^6 4^6 5^6 10^3 12^1 ns=3 SAME stored=ceb70631e274e727 printed_f=True
+       d=(1, 1, 1) eps=  1/96 (3/32, 3/32, 3/32)           stab 3 f=(37, 57, 22) p=3^6 4^6 5^6 10^3 12^1 ns=3 SAME stored=ceb70631e274e727 printed_f=True
+       d=(1, 1, 1) eps=  1/48 (5/48, 5/48, 5/48)           stab 3 f=(37, 57, 22) p=3^6 4^6 5^6 10^3 12^1 ns=3 SAME stored=ceb70631e274e727 printed_f=True
+   off d=(1, 0, 0) eps= -1/96 (7/96, 1/12, 1/12)           stab 1 f=(24, 38, 16) p=3^4 4^2 5^6 6^2 7^2 ns=4 DIFF stored=None printed_f=True
+   off d=(1, 0, 0) eps=  1/96 (3/32, 1/12, 1/12)           stab 1 f=(28, 45, 19) p=3^8 4^1 5^4 6^4 8^1 10^1 ns=6 DIFF stored=None printed_f=True
+H230  OPEN     dim 1 basis [(-1, 1, 0)]
+       d=(-1, 1, 0) eps= -1/48 (5/48, 7/48, 1/8)            stab 2 f=(40, 61, 23) p=4^20 11^2 20^1 ns=2 SAME stored=359beee832567a71 printed_f=True
+       d=(-1, 1, 0) eps= -1/96 (3/32, 5/32, 1/8)            stab 2 f=(40, 61, 23) p=4^20 11^2 20^1 ns=2 SAME stored=359beee832567a71 printed_f=True
+       d=(-1, 1, 0) eps=  1/96 (7/96, 17/96, 1/8)           stab 2 f=(40, 61, 23) p=4^20 11^2 20^1 ns=2 SAME stored=359beee832567a71 printed_f=True
+       d=(-1, 1, 0) eps=  1/48 (1/16, 3/16, 1/8)            stab 2 f=(40, 61, 23) p=4^20 11^2 20^1 ns=2 SAME stored=359beee832567a71 printed_f=True
+   off d=(1, 0, 0) eps= -1/96 (7/96, 1/6, 1/8)             stab 1 f=(23, 36, 15) p=4^10 5^3 6^1 11^1 ns=3 DIFF stored=None printed_f=True
+   off d=(1, 0, 0) eps=  1/96 (3/32, 1/6, 1/8)             stab 1 f=(23, 36, 15) p=4^10 5^3 6^1 11^1 ns=3 DIFF stored=None printed_f=True
+H214  OPEN     dim 1 basis [(0, 0, 1)]
+       d=(0, 0, 1) eps= -1/48 (0, 1/4, 1/16)               stab 2 f=(30, 47, 19) p=3^6 4^7 6^2 8^2 10^2 ns=4 DIFF stored=None printed_f=True
+       d=(0, 0, 1) eps= -1/96 (0, 1/4, 7/96)               stab 2 f=(30, 47, 19) p=3^4 4^5 5^6 6^2 10^2 ns=4 SAME stored=aa6b0077c3234d24 printed_f=True
+       d=(0, 0, 1) eps=  1/96 (0, 1/4, 3/32)               stab 2 f=(34, 53, 21) p=3^2 4^13 6^4 12^2 ns=4 DIFF stored=None printed_f=True
+       d=(0, 0, 1) eps=  1/48 (0, 1/4, 5/48)               stab 2 f=(38, 59, 23) p=3^8 4^4 6^6 7^2 8^1 10^2 ns=4 DIFF stored=None printed_f=True
+       d=(0, 0, 1) eps= 1/192 (0, 1/4, 17/192)             stab 2 f=(30, 47, 19) p=3^4 4^5 5^6 6^2 10^2 ns=4 SAME stored=aa6b0077c3234d24 printed_f=True
+   off d=(1, 0, 0) eps= -1/96 (-1/96, 1/4, 1/12)           stab 1 f=(32, 50, 20) p=3^10 4^3 6^2 7^2 8^1 10^1 14^1 ns=4 DIFF stored=None printed_f=True
+   off d=(1, 0, 0) eps=  1/96 (1/96, 1/4, 1/12)            stab 1 f=(32, 50, 20) p=3^10 4^3 6^2 7^2 8^1 10^1 14^1 ns=4 DIFF stored=None printed_f=True
+Satchelhedron neighbours on the 24d line: {((22, 35, 15), '3^4 5^10 8^1'): [('-1/48', '0ee26ed471c923e2'), ('-1/96', '0ee26ed471c923e2'), ('-1/24', '0ee26ed471c923e2'), ('-1/192', '0ee26ed471c923e2'), ('-1/384', '0ee26ed471c923e2'), ('-1/768', '0ee26ed471c923e2'), ('-1/1536', '0ee26ed471c923e2')], ((22, 35, 15), '3^6 4^1 6^8'): [('1/96', None), ('1/48', None), ('1/24', None), ('1/192', None), ('1/384', None), ('1/768', None), ('1/1536', None)]}
+(22,35,15) printed in Schmitt IT(220) table: True
+wrote c1_wall_open.md / .json

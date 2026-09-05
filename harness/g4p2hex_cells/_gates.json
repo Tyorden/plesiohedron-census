@@ -1,0 +1,205 @@
+{
+ "lines": [
+  "GATE (i) PASS: P6/mmm #191 origin orbit at c/a=1 (G=((2, -1, 0), (-1, 2, 0), (0, 0, 2)), period 12, 1 site) through the hexagonal ladder == the seed hexagonal-prism certificate: code == seed, f=(12,18,8), aut 24, site 24, geometric stabilizer (Isom_fix_site) 24, Isom(solid) 24 (Isom+ 12), Bravais point group of the hexagonal lattice 24, T=1, |H/L|=24 = T*|site|; Burnside counts n<=4 from the ladder (banked enumerate + independent verify_counts_independent.py, reached n=5) fixed=[1, 4, 24, 168] free=[1, 2, 5, 20] one-sided=[1, 2, 5, 23] EQUAL to the fresh independent hexagonal-prism polyform enumeration written in this file (8 neighbours = the 8 integer vectors of minimal G-norm; point group = the 24 integer matrices preserving G, brute-forced in [-2,2]^9, 12 proper): fixed=[1, 4, 24, 168] free=[1, 2, 5, 20] one-sided=[1, 2, 5, 23] (3s)",
+  "GATE (ii) PASS: R-3m #166 origin orbit at c/a=3 (rhombohedral lattice on hexagonal axes, 3 sites/conventional cell, period 12, G=((2, -1, 0), (-1, 2, 0), (0, 0, 18))) through the hexagonal ladder reproduces the ACCEPTED cubic ladder (g4_certify.py functions, unmodified) on the Fm-3m #225 origin orbit number for number in every lattice-independent quantity: canonical code (== seed rhombic_dodecahedron), f=(14, 24, 12), p=4^12, aut 48, T=1, slots 12, 6 non-simple vertices, FIXED counts n<=4 [1, 6, 50, 475] == [1, 6, 50, 475]. EXPECTED metric-dependent differences, all explained: {'site': (48, 12), 'stab_geo': (48, 12), 'brav': (48, 12), 'n_ops': (48, 12), 'n_proper': (24, 6), 'free': ([1, 1, 4, 20], [1, 2, 8, 54]), 'detL': (432, 576), 'vol': ('432', '576')} \u2014 at c/a=3 the rhombohedral lattice is not metrically cubic (FCC is at the irrational c/a=sqrt6), so site symmetry, Isom_fix_site, Isom(solid), Bravais group and |H/L| are all -3m (12) instead of m-3m (48) [|H/L|=12=T*|site|, full group IS R-3m]; FREE counts are orbits under the honeycomb's OWN symmetry group (12 vs 48 ops), hence free_hex(n) >= free_cubic(n) with equality only at n=1 (pre-run prediction free_hex(2)=2 vs 1: confirmed); detL/vol are crystal-basis measures in different bases (rhombohedral-on-hexagonal-axes vs cubic F) and are not comparable. VERIFIED: the unimodular change of basis M=((-1, 1, 0), (1, 0, 0), (1, -1, 1)) carries the 12 hexagonal-basis neighbour vectors onto the 12 cubic-basis ones and conjugates the 12 hexagonal honeycomb ops into a subgroup of the 48 cubic ones (fresh code); independent enumerator reached n=5 (1s)",
+  "GATE (iii) PASS: banked tetragonal g4p2 row 1497877268495988 (IT(91) P4_122, #5 of G4_PHASE2_RESULTS.md) through the extended code: V0-V3 all PASS; tables JSON byte-identical to the banked g4p2_tables_1497877268495988.json (10780 bytes); banked counts fixed=[4, 36, 468, 7048] free=[1, 8, 63, 926] and the independent rows n<=5 identical to the banked _indep.json; V2 numbers (site, Isom_fix, Isom, Isom+, improper, aut, Bravais, |H/L|) = (2, 2, 2, 2, 0, 2, 16, 8) identical to the banked doc (6s)"
+ ],
+ "pass": true,
+ "prism": {
+  "ladder": {
+   "code_is_seed": true,
+   "f": [
+    12,
+    18,
+    8
+   ],
+   "aut": 24,
+   "site": 24,
+   "stab_geo": 24,
+   "Isom": 24,
+   "brav": 24,
+   "T": 1,
+   "H_over_L": 24,
+   "full_is_G": true,
+   "G": [
+    [
+     2,
+     -1,
+     0
+    ],
+    [
+     -1,
+     2,
+     0
+    ],
+    [
+     0,
+     0,
+     2
+    ]
+   ],
+   "period": 12,
+   "fixed": [
+    1,
+    4,
+    24,
+    168
+   ],
+   "free": [
+    1,
+    2,
+    5,
+    20
+   ],
+   "onesided_indep": [
+    1,
+    2,
+    5,
+    23
+   ],
+   "indep_reached": 5
+  },
+  "independent": {
+   "fixed": [
+    1,
+    4,
+    24,
+    168
+   ],
+   "free": [
+    1,
+    2,
+    5,
+    20
+   ],
+   "onesided": [
+    1,
+    2,
+    5,
+    23
+   ],
+   "n_ops": 24,
+   "n_proper": 12
+  }
+ },
+ "rhombdod": {
+  "cubic_ref": {
+   "code": "((1, 2, 3), (0, 4, 5, 6), (0, 6, 7, 8), (0, 8, 9, 4), (1, 3, 10), (1, 10, 11), (1, 11, 2), (2, 11, 12), (2, 12, 3), (3, 12, 10), (4, 9, 13, 5), (5, 13, 7, 6), (7, 13, 9, 8), (10, 12, 11))",
+   "f": [
+    14,
+    24,
+    12
+   ],
+   "p": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "aut": 48,
+   "T": 1,
+   "detL": 432,
+   "vol": "432",
+   "slots": 12,
+   "site": 48,
+   "stab_geo": 48,
+   "brav": 48,
+   "n_ops": 48,
+   "n_proper": 24,
+   "fixed": [
+    1,
+    6,
+    50,
+    475
+   ],
+   "free": [
+    1,
+    1,
+    4,
+    20
+   ]
+  },
+  "hex": {
+   "code": "((1, 2, 3), (0, 4, 5, 6), (0, 6, 7, 8), (0, 8, 9, 4), (1, 3, 10), (1, 10, 11), (1, 11, 2), (2, 11, 12), (2, 12, 3), (3, 12, 10), (4, 9, 13, 5), (5, 13, 7, 6), (7, 13, 9, 8), (10, 12, 11))",
+   "f": [
+    14,
+    24,
+    12
+   ],
+   "p": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "aut": 48,
+   "T": 1,
+   "detL": 576,
+   "vol": "576",
+   "slots": 12,
+   "site": 12,
+   "stab_geo": 12,
+   "brav": 12,
+   "n_ops": 12,
+   "n_proper": 6,
+   "fixed": [
+    1,
+    6,
+    50,
+    475
+   ],
+   "free": [
+    1,
+    2,
+    8,
+    54
+   ]
+  },
+  "M": [
+   [
+    -1,
+    1,
+    0
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    -1,
+    1
+   ]
+  ]
+ },
+ "tet": {
+  "sym": [
+   2,
+   2,
+   2,
+   2,
+   0,
+   2,
+   16,
+   8
+  ],
+  "bytes": 10780
+ }
+}

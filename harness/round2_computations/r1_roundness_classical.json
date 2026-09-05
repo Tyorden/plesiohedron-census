@@ -1,0 +1,110 @@
+[
+ {
+  "name": "cube (P lattice)",
+  "f": [
+   8,
+   12,
+   6
+  ],
+  "p": "4^6",
+  "vol": "8",
+  "rho2": "3",
+  "mes_r2": "3",
+  "coincide": true,
+  "round_site": 36.7553,
+  "round_mes": 36.7553,
+  "closed": "2/(sqrt3 pi)"
+ },
+ {
+  "name": "rhombic dodecahedron (F lattice)",
+  "f": [
+   14,
+   24,
+   12
+  ],
+  "p": "4^12",
+  "vol": "2",
+  "rho2": "1",
+  "mes_r2": "1",
+  "coincide": true,
+  "round_site": 47.7465,
+  "round_mes": 47.7465,
+  "closed": "3/(2 pi)"
+ },
+ {
+  "name": "truncated octahedron (I lattice)",
+  "f": [
+   24,
+   36,
+   14
+  ],
+  "p": "4^6 6^8",
+  "vol": "4",
+  "rho2": "5/4",
+  "mes_r2": "5/4",
+  "coincide": true,
+  "round_site": 68.3292,
+  "round_mes": 68.3292,
+  "closed": "24/(5 sqrt5 pi)"
+ },
+ {
+  "name": "elongated dodecahedron (seed member, elongation e=1)",
+  "f": [
+   18,
+   28,
+   12
+  ],
+  "p": "4^8 6^4",
+  "vol": "32",
+  "rho2": "9",
+  "mes_r2": "9",
+  "coincide": true,
+  "round_site": 28.2942,
+  "round_mes": 28.2942,
+  "closed": "8/(9 pi)"
+ },
+ {
+  "name": "Josehedron (control; Bernhard prints ~47.98%)",
+  "f": [
+   12,
+   22,
+   12
+  ],
+  "p": "3^4 4^8",
+  "vol": "128/3",
+  "rho2": "23/3",
+  "mes_r2": "23/3",
+  "coincide": true,
+  "round_site": 47.9833,
+  "round_mes": 47.9833,
+  "closed": null
+ },
+ {
+  "name": "Laves-graph cell (IT(214) 8a, (30,45,17))",
+  "f": [
+   30,
+   45,
+   17
+  ],
+  "p": "4^6 5^6 6^2 8^3",
+  "vol": "1728",
+  "rho2": "126",
+  "mes_r2": "126",
+  "coincide": true,
+  "round_site": 29.1675,
+  "round_mes": 29.1675,
+  "closed": null
+ },
+ {
+  "name": "hexagonal prism, maximal inscribed",
+  "round_site": 47.7465,
+  "round_mes": 47.7465,
+  "closed": "3/(2 pi)"
+ },
+ {
+  "name": "hexagonal prism, equilateral",
+  "round_site": 44.3811,
+  "round_mes": 44.3811,
+  "closed": "9 sqrt3/(5 sqrt5 pi)"
+ }
+]

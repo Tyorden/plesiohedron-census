@@ -1,0 +1,57 @@
+{
+ "201": {
+  "normalizer_origins": [
+   1,
+   3
+  ],
+  "coverage_true": {
+   "4": 238,
+   "0": 762
+  },
+  "coverage_origin0": {
+   "1": 1000
+  },
+  "covered_fraction": 0.238
+ },
+ "O": {
+  "x_his": "(7/8, 11/12, 1/6)",
+  "images_true": [],
+  "images_origin0": [
+   "(1/6, 1/8, 1/12)"
+  ]
+ },
+ "224": {
+  "normalizer_origins": [
+   1,
+   3
+  ],
+  "coverage_true": {
+   "4": 238,
+   "0": 762
+  },
+  "coverage_origin0": {
+   "1": 1000
+  },
+  "covered_fraction": 0.238
+ },
+ "P7": {
+  "x_his": "(7/8, 11/12, 1/6)",
+  "images_true": [],
+  "images_origin0": [
+   "(1/6, 1/8, 1/12)"
+  ]
+ },
+ "P11": {
+  "x_his": "(5/6, 1/8, 1/8)",
+  "images_true": [],
+  "images_origin0": [
+   "(1/6, 1/8, 1/8)"
+  ]
+ },
+ "220_control": {
+  "normalizes": true,
+  "coverage": {
+   "1": 1000
+  }
+ }
+}

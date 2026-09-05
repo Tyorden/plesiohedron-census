@@ -1,0 +1,135 @@
+[
+ {
+  "id": "8cf50403cf88c455",
+  "label": "S",
+  "name": "Satchelhedron",
+  "aut": 4,
+  "aut_reversing": 2,
+  "isom": 2,
+  "isom_proper": 2,
+  "isom_fix_site": 2,
+  "site": 2,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 12,
+   "n_ops": 24,
+   "n_improper": 12,
+   "classes_other_hand": 6,
+   "hand_consistent": true
+  }
+ },
+ {
+  "id": "2de0a21129cabe90",
+  "label": "O",
+  "name": "Ordenhedron",
+  "aut": 1,
+  "aut_reversing": 0,
+  "isom": 1,
+  "isom_proper": 1,
+  "isom_fix_site": 1,
+  "site": 1,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 24,
+   "n_ops": 24,
+   "n_improper": 12,
+   "classes_other_hand": 12,
+   "hand_consistent": true
+  }
+ },
+ {
+  "id": "c4ea3f32fdd6dc51",
+  "label": "P11",
+  "name": "Pn-3m 11-facet cell",
+  "aut": 2,
+  "aut_reversing": 1,
+  "isom": 2,
+  "isom_proper": 1,
+  "isom_fix_site": 2,
+  "site": 2,
+  "solid_chiral": false,
+  "honeycomb": {
+   "T": 24,
+   "n_ops": 48,
+   "n_improper": 24,
+   "classes_other_hand": 11,
+   "hand_consistent": false
+  }
+ },
+ {
+  "id": "f98a3ee5675fc121",
+  "label": "P7",
+  "name": "Pn-3m 7-facet cell",
+  "aut": 4,
+  "aut_reversing": 2,
+  "isom": 1,
+  "isom_proper": 1,
+  "isom_fix_site": 1,
+  "site": 1,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 48,
+   "n_ops": 48,
+   "n_improper": 24,
+   "classes_other_hand": 24,
+   "hand_consistent": true
+  }
+ },
+ {
+  "id": "ceb70631e274e727",
+  "label": "H212",
+  "name": "IT(212) (37,57,22) cell",
+  "aut": 3,
+  "aut_reversing": 0,
+  "isom": 3,
+  "isom_proper": 3,
+  "isom_fix_site": 3,
+  "site": 3,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 8,
+   "n_ops": 24,
+   "n_improper": 0,
+   "classes_other_hand": 0,
+   "hand_consistent": true
+  }
+ },
+ {
+  "id": "359beee832567a71",
+  "label": "H230",
+  "name": "IT(230) (40,61,23) cell",
+  "aut": 4,
+  "aut_reversing": 2,
+  "isom": 2,
+  "isom_proper": 2,
+  "isom_fix_site": 2,
+  "site": 2,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 24,
+   "n_ops": 48,
+   "n_improper": 24,
+   "classes_other_hand": 12,
+   "hand_consistent": true
+  }
+ },
+ {
+  "id": "aa6b0077c3234d24",
+  "label": "H214",
+  "name": "IT(214) (30,47,19) cell",
+  "aut": 2,
+  "aut_reversing": 0,
+  "isom": 2,
+  "isom_proper": 2,
+  "isom_fix_site": 2,
+  "site": 2,
+  "solid_chiral": true,
+  "honeycomb": {
+   "T": 12,
+   "n_ops": 24,
+   "n_improper": 0,
+   "classes_other_hand": 0,
+   "hand_consistent": true
+  }
+ }
+]

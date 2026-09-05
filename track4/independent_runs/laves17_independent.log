@@ -1,0 +1,9 @@
+tables: g4_tables_laves17.json
+T=4 neighbours/type=[17] max|delta|=2 |ops|=24 |proper|=24
+n=1 fixed=4 free=1 onesided=1 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=34 free=4 onesided=4 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=416 free=22 onesided=22 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=6000 free=278 onesided=278 burnside(all=ok,proper=ok) grow=0.0s quot=0.2s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=94740 free=4005 onesided=4005 burnside(all=ok,proper=ok) grow=0.5s quot=2.1s fixed:MATCH free:MATCH onesided:MATCH
+n=6 fixed=1582610 free=66346 onesided=66346 burnside(all=ok,proper=ok) grow=5.3s quot=39.7s fixed:MATCH free:MATCH onesided:MATCH
+total wall 48.0s  workers=4  ALL CHECKS PASSED

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, data or the catalog, please cite it as below."
+title: "plesiohedron-census: certified space-filling polyhedra from a gated agentic search (code, certificates, catalog)"
+type: software
+version: "2026.09.04"
+date-released: "2026-09-04"
+authors:
+  - family-names: Orden
+    given-names: Tyler Satchel
+    orcid: "https://orcid.org/0009-0004-9205-7422"
+repository-code: "https://github.com/Tyorden/plesiohedron-census"
+license: "MIT AND CC-BY-4.0"
+keywords:
+  - plesiohedron
+  - Dirichlet stereohedron
+  - space-filling polyhedron
+  - Voronoi cell
+  - space groups
+  - combinatorial type
+  - polyform enumeration
+  - crystallography
+references:
+  - type: thesis
+    title: "On Space Groups and Dirichlet-Voronoi Stereohedra"
+    authors:
+      - family-names: Schmitt
+        given-names: Moritz
+    year: 2016
+    institution:
+      name: "Freie Universität Berlin"
+    doi: "10.17169/refubium-14374"
+  - type: article
+    title: "The Josehedron: A space-filling plesiohedron based on the Fischer-Koch S Triply Periodic Minimal Surface"
+    authors:
+      - family-names: Bernhard
+        given-names: Mathias
+    year: 2026
+    url: "https://arxiv.org/abs/2604.07160"

@@ -1,0 +1,9 @@
+tables: g4_tables_engel38.json
+T=24 neighbours/type=[38] max|delta|=2 |ops|=24 |proper|=24
+n=1 fixed=24 free=1 onesided=1 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=456 free=25 onesided=25 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=13384 free=559 onesided=559 burnside(all=ok,proper=ok) grow=0.0s quot=0.2s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=477102 free=20051 onesided=20051 burnside(all=ok,proper=ok) grow=2.0s quot=6.3s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=18876408 free=786517 onesided=786517 burnside(all=ok,proper=ok) grow=38.1s quot=319.6s fixed:MATCH free:MATCH onesided:MATCH
+total wall 366.3s  workers=6  ALL CHECKS PASSED
+EXIT 0

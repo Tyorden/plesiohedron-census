@@ -1,0 +1,12 @@
+tables: 8cf50403_Satchelhedron/g4_tables_8cf50403cf88c455.json
+T=12 neighbours/type=[11] max|delta|=2 |ops|=24 |proper|=12
+n=1 fixed=12 free=1 onesided=2 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=66 free=4 onesided=7 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=524 free=25 onesided=50 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=4866 free=209 onesided=417 burnside(all=ok,proper=ok) grow=0.0s quot=0.3s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=49152 free=2070 onesided=4140 burnside(all=ok,proper=ok) grow=0.3s quot=0.6s fixed:MATCH free:MATCH onesided:MATCH
+n=6 fixed=523626 free=21882 onesided=43759 burnside(all=ok,proper=ok) grow=1.6s quot=6.4s fixed:MATCH free:MATCH onesided:MATCH
+total wall 9.3s  workers=14  ALL CHECKS PASSED
+real 9.39
+user 90.40
+sys 0.76

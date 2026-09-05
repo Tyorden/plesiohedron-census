@@ -1,0 +1,15 @@
+{
+ "point": "(-1/8, 55/2328, 437/3492)",
+ "f": [
+  22,
+  35,
+  15
+ ],
+ "p": "3^4 4^6 6^2 7^2 8^1",
+ "aut": 1,
+ "stab": 1,
+ "code_id": "c92d39651f11573d",
+ "same_as_A": false,
+ "same_as_B": false,
+ "stored_matches": []
+}

@@ -1,0 +1,68 @@
+[
+ {
+  "group": 199,
+  "point": "(1/8, 1/8, 1/8)",
+  "stab": 3,
+  "n_conv": 8,
+  "n_prim": 4,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8a",
+  "sitesym": ".3.",
+  "same": true
+ },
+ {
+  "group": 199,
+  "point": "(1/8, 3/8, 5/8)",
+  "stab": 3,
+  "n_conv": 8,
+  "n_prim": 4,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8a",
+  "sitesym": ".3.",
+  "same": true
+ },
+ {
+  "group": 212,
+  "point": "(1/8, 3/8, 5/8)",
+  "stab": 3,
+  "n_conv": 8,
+  "n_prim": 8,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8c",
+  "sitesym": ".3.",
+  "same": true
+ },
+ {
+  "group": 213,
+  "point": "(1/8, 1/8, 1/8)",
+  "stab": 3,
+  "n_conv": 8,
+  "n_prim": 8,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8c",
+  "sitesym": ".3.",
+  "same": true
+ },
+ {
+  "group": 214,
+  "point": "(1/8, 1/8, 1/8)",
+  "stab": 6,
+  "n_conv": 8,
+  "n_prim": 4,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8a",
+  "sitesym": ".32",
+  "same": true
+ },
+ {
+  "group": 214,
+  "point": "(1/8, 3/8, 5/8)",
+  "stab": 6,
+  "n_conv": 8,
+  "n_prim": 4,
+  "spglib": "IT(214) I4_132",
+  "wyckoff": "8b",
+  "sitesym": ".32",
+  "same": true
+ }
+]

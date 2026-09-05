@@ -1,0 +1,9 @@
+tables: ../../SCI_OEIS_josehedron/data/josehedron_tables.json
+T=6 neighbours/type=[12] max|delta|=1 |ops|=24 |proper|=12
+n=1 fixed=6 free=1 onesided=1 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=36 free=2 onesided=4 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=308 free=15 onesided=30 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=3030 free=131 onesided=261 burnside(all=ok,proper=ok) grow=0.0s quot=0.2s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=32262 free=1360 onesided=2717 burnside(all=ok,proper=ok) grow=0.2s quot=0.5s fixed:MATCH free:MATCH onesided:MATCH
+n=6 fixed=362010 free=15133 onesided=30265 burnside(all=ok,proper=ok) grow=1.5s quot=4.4s fixed:MATCH free:MATCH onesided:MATCH
+total wall 6.8s  workers=14  ALL CHECKS PASSED

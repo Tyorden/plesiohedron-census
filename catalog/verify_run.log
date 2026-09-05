@@ -1,0 +1,22 @@
+total types 1583; cubic-first 102; tetragonal-first 789; hexagonal-first 692
+tetragonal-first: menu-sighted 404, Schmitt-printed-only 385
+hexagonal-first: menu-sighted 288, Schmitt-printed-only 404
+cubic-first re-sighted in tetragonal groups: 19 (by menu: 18)
+prior types re-sighted in the hexagonal family: 43 (by menu 34; cubic-first 17, tetragonal-first 26)
+max F 35; distinct f-vectors 196
+per-family types sighted: {'cubic': 99, 'tetragonal': 808, 'hexagonal': 735}
+per group (IT: sighted / first-here):
+  75:3/1 76:25/14 77:9/3 78:25/0 79:10/3 80:42/30 81:17/2 82:45/22 83:3/0 84:29/14 85:9/1 86:23/16 87:27/10 88:37/26 89:5/1 90:15/3 91:93/70 92:97/70 93:37/18 94:50/21 95:44/10 96:57/11 97:37/15 98:170/137 99:2/0 100:3/0 101:7/0 102:10/0 103:4/0 104:10/0 105:7/0 106:8/0 107:10/0 108:6/2 109:19/6 110:24/13 111:8/0 112:23/6 113:15/0 114:36/10 115:10/0 116:34/14 117:8/0 118:59/24 119:25/4 120:17/7 121:28/4 122:136/91 123:2/0 124:7/0 125:6/0 126:16/2 127:3/0 128:24/6 129:11/0 130:14/4 131:14/1 132:13/0 133:12/5 134:27/9 135:17/3 136:24/3 137:20/5 138:22/6 139:18/0 140:13/5 141:65/37 142:36/24 143:2/0 144:15/7 145:15/0 146:23/16 147:13/3 148:79/52 149:5/0 150:14/3 151:34/20 152:86/65 153:36/5 154:91/16 155:110/71 156:3/0 157:3/0 158:4/0 159:10/0 160:18/5 161:23/10 162:8/0 163:24/5 164:12/0 165:23/9 166:79/47 167:103/64 168:4/0 169:35/22 170:35/0 171:45/29 172:45/0 173:8/0 174:2/0 175:4/0 176:24/5 177:5/0 178:138/109 179:138/17 180:63/46 181:102/49 182:31/9 183:3/0 184:4/0 185:7/0 186:11/0 187:3/0 188:8/0 189:3/0 190:27/7 191:3/0 192:7/0 193:14/0 194:19/1 195:6/3 196:4/0 197:8/6 198:4/4 199:8/7 200:7/3 201:9/3 202:7/0 203:8/3 204:17/8 205:5/3 206:7/6 207:6/1 208:10/3 209:6/1 210:9/0 211:15/3 212:11/5 213:11/1 214:13/8 215:8/0 216:5/0 217:14/2 218:8/1 219:5/0 220:10/5 221:5/0 222:13/1 223:20/4 224:18/4 225:6/0 226:7/1 227:12/1 228:8/0 229:17/3 230:16/9
+G4: accepted-cubic 12, certified-tetragonal 14, certified-hexagonal 151, none 1406
+chiral solids (where recorded): tetragonal 13/14, hexagonal 140/151; chiral honeycombs 138/177
+hexagonal screen: {'SURVIVOR': 151, 'COLLISION': 124, 'UNRESOLVED': 13}; printed-only 404; prior re-sighted 43
+open/wall verdicts per family: {'cubic': {'OPEN': 6, 'WALL': 1, 'ONE-SIDED': 0, 'not-computed': 95}, 'tetragonal': {'OPEN': 13, 'WALL': 1, 'ONE-SIDED': 0, 'not-computed': 775}, 'hexagonal': {'OPEN': 102, 'WALL': 40, 'ONE-SIDED': 9, 'not-computed': 541}}
+tetragonal store-side (own re-derivation): pure {'SURVIVOR': 116, 'COLLISION': 176, 'UNRESOLVED': 112} overlaid {'SURVIVOR': 121, 'COLLISION': 177, 'UNRESOLVED': 106}
+tetragonal v5 (own re-derivation): the 106 -> {'COLLISION': 24, 'SURVIVOR': 82, 'UNRESOLVED': 0} ; 404 -> {'SURVIVOR': 203, 'COLLISION': 201, 'UNRESOLVED': 0}
+type status per family: {'cubic': {'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 102}, 'tetragonal': {'SURVIVOR': 203, 'COLLISION': 201, 'UNRESOLVED': 0, 'printed-only': 385, 'not-screened': 0}, 'hexagonal': {'SURVIVOR': 151, 'COLLISION': 124, 'UNRESOLVED': 13, 'printed-only': 404, 'not-screened': 0}}
+cross-tab cubic: {'OPEN': {'not-screened': 6}, 'WALL': {'not-screened': 1}, 'ONE-SIDED': {}, 'not-computed': {'not-screened': 95}}
+cross-tab tetragonal: {'OPEN': {'SURVIVOR': 13}, 'WALL': {'SURVIVOR': 1}, 'ONE-SIDED': {}, 'not-computed': {'SURVIVOR': 189, 'COLLISION': 201, 'printed-only': 385}}
+cross-tab hexagonal: {'OPEN': {'SURVIVOR': 102}, 'WALL': {'SURVIVOR': 40}, 'ONE-SIDED': {'SURVIVOR': 9}, 'not-computed': {'COLLISION': 124, 'UNRESOLVED': 13, 'printed-only': 404}}
+naming pool (certified AND OPEN AND unnamed): {'cubic': 0, 'tetragonal': 13, 'hexagonal': 102}
+
+0 failures

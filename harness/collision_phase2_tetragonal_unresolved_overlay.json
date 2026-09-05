@@ -1,0 +1,3921 @@
+{
+ "certified_14_untouched": [
+  "086ac96faf390886",
+  "1497877268495988",
+  "164d4bd63d82d0c3",
+  "213c7a114d5a97a8",
+  "2e8e49eb28497267",
+  "3ebbca7ed2eda199",
+  "49cedbdd58376fac",
+  "4e9c9b076cfec323",
+  "4f6d3e68cbd9e729",
+  "5dc2479b9bc14edc",
+  "6797ab70c6015039",
+  "7575121042ade3b3",
+  "e0d18e5ea938d649",
+  "f654982d74d740f6"
+ ],
+ "counts_106": {
+  "COLLISION": 24,
+  "SURVIVOR": 82
+ },
+ "counts_404_after_v5": {
+  "COLLISION": 201,
+  "SURVIVOR": 203,
+  "UNRESOLVED": 0
+ },
+ "counts_404_before_v4": {
+  "COLLISION": 177,
+  "SURVIVOR": 121,
+  "UNRESOLVED": 106
+ },
+ "generated_by": "harness/collision_phase2_tetragonal_rows_recompute.py (subagent #154, Claude Fable 5.1), 2026-09-04",
+ "n_types": 106,
+ "rows_file": "collision_phase2_tetragonal_rows_recomputed.json",
+ "rows_file_md5": "4d27ce41466509feab6a180249330af7",
+ "rule": "per UNRESOLVED type (collision_phase2_tetragonal_storeside.json status UNRESOLVED): compare its canonical code with the recomputed cell of every printed row it hangs on (unstored_rows): any SAME TYPE -> COLLISION (the type reproduces one of his printed cells; first-realization reframe); every row REPRODUCED and DIFFERENT TYPE -> SURVIVOR ('not matched against the records checked as of 2026-09-04', never novelty); any row not REPRODUCED and no SAME -> UNRESOLVED",
+ "secondary_hits": [
+  {
+   "rows_not_hung_on_with_this_cell": [
+    [
+     142,
+     "3497/1000",
+     [
+      "58/125",
+      "58/125",
+      "29/250"
+     ]
+    ]
+   ],
+   "status_primary_rule": "COLLISION",
+   "type": "5c6382a9ef3bc209"
+  }
+ ],
+ "snapshot": "2026-09-04",
+ "still_unresolved": [],
+ "store_sha256": "71685b9ab41b4dc0c2ee1763fdd64f06b41fc51f5a0702d362f137822969f7a3",
+ "storeside_json_md5": "64cc7bb82e85164914d7ec441cfc1304",
+ "verdicts": {
+  "05578fa7044fded7": {
+   "f_vector": [
+    22,
+    34,
+    14
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    130
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 0)",
+     "group": 130,
+     "pdf_page": 76,
+     "pt": [
+      "52/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "05578fa7044fded7",
+     "row_cell_store_hit": "05578fa7044fded7",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "05f9eab1c6915aef": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    133
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "56/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "790d421c7d8f507c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "0882fd4b5b8cb62e": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "5be2e092046ee24b",
+     "row_cell_store_hit": "5be2e092046ee24b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "0b6473b240a3c9e9": {
+   "f_vector": [
+    36,
+    54,
+    20
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    95
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 95,
+     "pdf_page": 45,
+     "pt": [
+      "37/50",
+      "61/250",
+      "31/250"
+     ],
+     "row_cell_code_id": "a1c0f033a4e0a342",
+     "row_cell_store_hit": "a1c0f033a4e0a342",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "0d55f30856d2734f": {
+   "f_vector": [
+    21,
+    32,
+    13
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "0",
+      "31/250"
+     ],
+     "row_cell_code_id": "0d55f30856d2734f",
+     "row_cell_store_hit": "0d55f30856d2734f",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "0e291742552bfd85": {
+   "f_vector": [
+    18,
+    27,
+    11
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    134
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 134,
+     "pdf_page": 79,
+     "pt": [
+      "62/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "0e291742552bfd85",
+     "row_cell_store_hit": "0e291742552bfd85",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "10f9a0d8ff07b3e4": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "49/999",
+      "-7/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "822163f15ffc16d1",
+     "row_cell_store_hit": "822163f15ffc16d1",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "15a334b4c643f5b6": {
+   "f_vector": [
+    18,
+    27,
+    11
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    138
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 138,
+     "pdf_page": 82,
+     "pt": [
+      "62/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "15a334b4c643f5b6",
+     "row_cell_store_hit": "15a334b4c643f5b6",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "1811b0d16d82bdda": {
+   "f_vector": [
+    16,
+    24,
+    10
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    134,
+    138
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 2,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 134,
+     "pdf_page": 78,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "1811b0d16d82bdda",
+     "row_cell_store_hit": "1811b0d16d82bdda",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    },
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 138,
+     "pdf_page": 81,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "1811b0d16d82bdda",
+     "row_cell_store_hit": "1811b0d16d82bdda",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "18b35afa85c5a929": {
+   "f_vector": [
+    31,
+    47,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    95
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "14/25",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 95,
+     "pdf_page": 45,
+     "pt": [
+      "7/333",
+      "-2/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "d059d2ebab300484",
+     "row_cell_store_hit": "d059d2ebab300484",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "19c7c8de77b6ce20": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    80
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "none (printed point verbatim)",
+     "group": 80,
+     "pdf_page": 35,
+     "pt": [
+      "353/1413",
+      "235/942",
+      "0"
+     ],
+     "row_cell_code_id": "19c7c8de77b6ce20",
+     "row_cell_store_hit": "19c7c8de77b6ce20",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "1a1a0de250f0da27": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "11/25",
+      "11/25",
+      "11/100"
+     ],
+     "row_cell_code_id": "1dcbbedea6d41f23",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "1a1c3bd1605b8d49": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "9f7f5010b17cc9db",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "1b269a7a84560401": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "21/50",
+      "21/50",
+      "21/200"
+     ],
+     "row_cell_code_id": "503375aa4e8d2f36",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "1c45cdaed191693e": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "9f7f5010b17cc9db",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "1f2332434c9e64b8": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "58/125",
+      "58/125",
+      "29/250"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "1fcd5245be090d59": {
+   "f_vector": [
+    23,
+    36,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/2",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "57/125",
+      "38/125",
+      "4/125"
+     ],
+     "row_cell_code_id": "e9bac39d5a13cba7",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "2204c0ceea51430d": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "5be2e092046ee24b",
+     "row_cell_store_hit": "5be2e092046ee24b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "230e451f710229a7": {
+   "f_vector": [
+    20,
+    30,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    138
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 138,
+     "pdf_page": 82,
+     "pt": [
+      "123/250",
+      "0",
+      "1/500"
+     ],
+     "row_cell_code_id": "230e451f710229a7",
+     "row_cell_store_hit": "230e451f710229a7",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "26a8212cbd6c8b62": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "49/999",
+      "-7/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "822163f15ffc16d1",
+     "row_cell_store_hit": "822163f15ffc16d1",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "278f5cc0bdb53b51": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "33/250",
+      "33/250",
+      "31/250"
+     ],
+     "row_cell_code_id": "8c0bde1b0fee079d",
+     "row_cell_store_hit": "8c0bde1b0fee079d",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "29f80b9c127f79a9": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "133/1998",
+      "91/1998",
+      "61/2664"
+     ],
+     "row_cell_code_id": "62ca11329dfd99e4",
+     "row_cell_store_hit": "62ca11329dfd99e4",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "2a3cf777c624752c": {
+   "f_vector": [
+    24,
+    36,
+    14
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "97/250",
+      "97/250",
+      "97/1000"
+     ],
+     "row_cell_code_id": "0ecfae17ab770551",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "2ae9d568eb9bfb4c": {
+   "f_vector": [
+    14,
+    21,
+    9
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "2a089105ae08c36d",
+     "row_cell_store_hit": "2a089105ae08c36d",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "32451695e287120d": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "59/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "ee2ed254a2e46a56",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "32810102c8039911": {
+   "f_vector": [
+    18,
+    28,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    137
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 137,
+     "pdf_page": 81,
+     "pt": [
+      "1/4",
+      "-1/4",
+      "1/4"
+     ],
+     "row_cell_code_id": "c1824c64dfbb3615",
+     "row_cell_store_hit": "c1824c64dfbb3615",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "32b4d3d2ab4957a6": {
+   "f_vector": [
+    20,
+    31,
+    13
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    126
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 126,
+     "pdf_page": 73,
+     "pt": [
+      "59/125",
+      "0",
+      "1/500"
+     ],
+     "row_cell_code_id": "32b4d3d2ab4957a6",
+     "row_cell_store_hit": "32b4d3d2ab4957a6",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "343d241f8d586edb": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "3/250",
+      "3/250",
+      "3/1000"
+     ],
+     "row_cell_code_id": "bf5eadab641c997b",
+     "row_cell_store_hit": "bf5eadab641c997b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "35398c494f7e95b0": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 47,
+     "pt": [
+      "85/1998",
+      "-29/1998",
+      "61/2664"
+     ],
+     "row_cell_code_id": "5ba951cdd58406f2",
+     "row_cell_store_hit": "5ba951cdd58406f2",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "3c177440d8084cb5": {
+   "f_vector": [
+    18,
+    27,
+    11
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    134
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 134,
+     "pdf_page": 79,
+     "pt": [
+      "62/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "0e291742552bfd85",
+     "row_cell_store_hit": "0e291742552bfd85",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "42f6d76b9fc019fd": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "4e702e95c290afbd": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "9f7f5010b17cc9db",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "519d875aa973e258": {
+   "f_vector": [
+    10,
+    16,
+    8
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "4/5",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 83,
+     "pt": [
+      "1/5",
+      "2/125",
+      "1/20"
+     ],
+     "row_cell_code_id": "ba5c53fa257d38ee",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "5561cb5efa0a7c0c": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "133/1998",
+      "91/1998",
+      "61/2664"
+     ],
+     "row_cell_code_id": "62ca11329dfd99e4",
+     "row_cell_store_hit": "62ca11329dfd99e4",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "5a7de3df1296531a": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    133
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "59/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "8ac4f8b1c6ca250e",
+     "row_cell_store_hit": "8ac4f8b1c6ca250e",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "5ae136b2bdd40066": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "5be2e092046ee24b",
+     "row_cell_store_hit": "5be2e092046ee24b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "5be2e092046ee24b": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86,
+    92,
+    96,
+    122
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "5be2e092046ee24b",
+     "row_cell_store_hit": "5be2e092046ee24b",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    },
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "133/1998",
+      "91/1998",
+      "61/2664"
+     ],
+     "row_cell_code_id": "62ca11329dfd99e4",
+     "row_cell_store_hit": "62ca11329dfd99e4",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "5c6382a9ef3bc209": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    133
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "103/250",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [
+    [
+     142,
+     "3497/1000",
+     [
+      "58/125",
+      "58/125",
+      "29/250"
+     ]
+    ]
+   ],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "5ebc1b8c073a87a9": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88,
+    95,
+    98,
+    122,
+    141
+   ],
+   "n_different": 3,
+   "n_quarantined_rows": 0,
+   "n_rows": 3,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "3/250",
+      "3/250",
+      "3/1000"
+     ],
+     "row_cell_code_id": "bf5eadab641c997b",
+     "row_cell_store_hit": "bf5eadab641c997b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    },
+    {
+     "b": "4/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 95,
+     "pdf_page": 45,
+     "pt": [
+      "1997/3996",
+      "1075/3996",
+      "5/7992"
+     ],
+     "row_cell_code_id": "c8c6299f9321c3cb",
+     "row_cell_store_hit": "c8c6299f9321c3cb",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    },
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "0",
+      "0",
+      "0"
+     ],
+     "row_cell_code_id": "e4200db43401702b",
+     "row_cell_store_hit": "e4200db43401702b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "5f2e35e62d0aa64d": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    80
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "none (printed point verbatim)",
+     "group": 80,
+     "pdf_page": 35,
+     "pt": [
+      "353/1413",
+      "235/942",
+      "0"
+     ],
+     "row_cell_code_id": "19c7c8de77b6ce20",
+     "row_cell_store_hit": "19c7c8de77b6ce20",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "675cc4f2c640cd11": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "686f3af67d8e9d60": {
+   "f_vector": [
+    23,
+    35,
+    14
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "0",
+      "31/250"
+     ],
+     "row_cell_code_id": "686f3af67d8e9d60",
+     "row_cell_store_hit": "686f3af67d8e9d60",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "6eb2bc88106b9dcd": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "23/50",
+      "23/50",
+      "23/200"
+     ],
+     "row_cell_code_id": "b96cf29a9246cd2c",
+     "row_cell_store_hit": "b96cf29a9246cd2c",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "72d03fdd4ab546d7": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "58/125",
+      "58/125",
+      "29/250"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "74076f8341f71199": {
+   "f_vector": [
+    24,
+    36,
+    14
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88,
+    133,
+    142
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 2,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "62/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "74076f8341f71199",
+     "row_cell_store_hit": "74076f8341f71199",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    },
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "109/250",
+      "109/250",
+      "109/1000"
+     ],
+     "row_cell_code_id": "74076f8341f71199",
+     "row_cell_store_hit": "74076f8341f71199",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "74b20b492f403316": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "21/50",
+      "21/50",
+      "21/200"
+     ],
+     "row_cell_code_id": "503375aa4e8d2f36",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "799b17ae5c44c23a": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "7bde4c1d5a885234": {
+   "f_vector": [
+    14,
+    21,
+    9
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    137,
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 137,
+     "pdf_page": 81,
+     "pt": [
+      "141/500",
+      "-107/500",
+      "17/500"
+     ],
+     "row_cell_code_id": "7bde4c1d5a885234",
+     "row_cell_store_hit": "7bde4c1d5a885234",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    },
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "2a089105ae08c36d",
+     "row_cell_store_hit": "2a089105ae08c36d",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "804dd9fb0c1a57ca": {
+   "f_vector": [
+    38,
+    57,
+    21
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "1/250",
+      "1/250",
+      "61/500"
+     ],
+     "row_cell_code_id": "15b43127f72b56e7",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "818521767ac611bd": {
+   "f_vector": [
+    15,
+    25,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "4/5",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "19/50",
+      "1/8"
+     ],
+     "row_cell_code_id": "03d1f56619ac3f4a",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "81d176073d947bda": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "82b129fb96de7dae": {
+   "f_vector": [
+    22,
+    33,
+    13
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    134
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 134,
+     "pdf_page": 79,
+     "pt": [
+      "42/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "82b129fb96de7dae",
+     "row_cell_store_hit": "82b129fb96de7dae",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "8357998c809f5d36": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "3/250",
+      "3/250",
+      "3/1000"
+     ],
+     "row_cell_code_id": "bf5eadab641c997b",
+     "row_cell_store_hit": "bf5eadab641c997b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "841ca21dc8f5c770": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "33/250",
+      "33/250",
+      "31/250"
+     ],
+     "row_cell_code_id": "8c0bde1b0fee079d",
+     "row_cell_store_hit": "8c0bde1b0fee079d",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8a3d9b4f9a849029": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "70be474815baf42b",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8ac4f8b1c6ca250e": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    133
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "59/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "8ac4f8b1c6ca250e",
+     "row_cell_store_hit": "8ac4f8b1c6ca250e",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "8b7f38eb72520356": {
+   "f_vector": [
+    18,
+    28,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "4/5",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "47/125",
+      "7/125",
+      "2/25"
+     ],
+     "row_cell_code_id": "771186009d020142",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8b96d46626c486fe": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "79/250",
+      "0",
+      "119/500"
+     ],
+     "row_cell_code_id": "8b96d46626c486fe",
+     "row_cell_store_hit": "8b96d46626c486fe",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "8b991972fb6aab30": {
+   "f_vector": [
+    36,
+    54,
+    20
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 47,
+     "pt": [
+      "73/999",
+      "22/333",
+      "61/2664"
+     ],
+     "row_cell_code_id": "fdecd8c917108d43",
+     "row_cell_store_hit": "fdecd8c917108d43",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8dce1cb5e78590f9": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "49/999",
+      "-7/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "822163f15ffc16d1",
+     "row_cell_store_hit": "822163f15ffc16d1",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8fc19c6bf41cc1fd": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    80
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "none (printed point verbatim)",
+     "group": 80,
+     "pdf_page": 35,
+     "pt": [
+      "353/1413",
+      "235/942",
+      "0"
+     ],
+     "row_cell_code_id": "19c7c8de77b6ce20",
+     "row_cell_store_hit": "19c7c8de77b6ce20",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "8fc980b921be3244": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "900973c9cdd62294": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "9f7f5010b17cc9db",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "925e5163e8cf6e42": {
+   "f_vector": [
+    20,
+    32,
+    14
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "19/50",
+      "1/8"
+     ],
+     "row_cell_code_id": "925e5163e8cf6e42",
+     "row_cell_store_hit": "925e5163e8cf6e42",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "94a19a39b99e1366": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "96c135294ff83fe2": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "974ed1256562acc3": {
+   "f_vector": [
+    23,
+    36,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "299/250",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "62/125",
+      "1/500"
+     ],
+     "row_cell_code_id": "974ed1256562acc3",
+     "row_cell_store_hit": "974ed1256562acc3",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "9aa9148ffc66fe2e": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    80
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "none (printed point verbatim)",
+     "group": 80,
+     "pdf_page": 35,
+     "pt": [
+      "353/1413",
+      "235/942",
+      "0"
+     ],
+     "row_cell_code_id": "19c7c8de77b6ce20",
+     "row_cell_store_hit": "19c7c8de77b6ce20",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9b708cb2bde13500": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    95
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "14/25",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 95,
+     "pdf_page": 45,
+     "pt": [
+      "677/1332",
+      "347/1332",
+      "263/7992"
+     ],
+     "row_cell_code_id": "6f79177bf480b895",
+     "row_cell_store_hit": "6f79177bf480b895",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9ccf2947d0051c0c": {
+   "f_vector": [
+    20,
+    31,
+    13
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "0",
+      "0",
+      "1/8"
+     ],
+     "row_cell_code_id": "e956ba4b05a47f01",
+     "row_cell_store_hit": "e956ba4b05a47f01",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9dd29764e82d4595": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9ed821a3c69a01f6": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "49/999",
+      "-7/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "822163f15ffc16d1",
+     "row_cell_store_hit": "822163f15ffc16d1",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9f3af33a5a619342": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "46/999",
+      "-16/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "327ca8d2dd09e1c0",
+     "row_cell_store_hit": "327ca8d2dd09e1c0",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "9ff7306e4a6cbf44": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "2/5",
+      "1/10"
+     ],
+     "row_cell_code_id": "2ab69895d37a722a",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "a0be76769745bbaf": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "58/125",
+      "58/125",
+      "29/250"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "acb8eed6b8a82612": {
+   "f_vector": [
+    36,
+    54,
+    20
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "13/50",
+      "13/50",
+      "31/250"
+     ],
+     "row_cell_code_id": "c4788e9cca25e7d2",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "b1355d63057fb8b6": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88,
+    110,
+    142
+   ],
+   "n_different": 2,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "11/25",
+      "11/25",
+      "11/100"
+     ],
+     "row_cell_code_id": "1dcbbedea6d41f23",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    },
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "58/125",
+      "58/125",
+      "29/250"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "b504635d2b404e93": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "b77e98e2c4a01aad": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "11/25",
+      "11/25",
+      "11/100"
+     ],
+     "row_cell_code_id": "1dcbbedea6d41f23",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "b96cf29a9246cd2c": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "23/50",
+      "23/50",
+      "23/200"
+     ],
+     "row_cell_code_id": "b96cf29a9246cd2c",
+     "row_cell_store_hit": "b96cf29a9246cd2c",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "c64d7a44fc7eafce": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "11/25",
+      "11/25",
+      "11/100"
+     ],
+     "row_cell_code_id": "1dcbbedea6d41f23",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "cc1e165a04008058": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    133
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 133,
+     "pdf_page": 78,
+     "pt": [
+      "103/250",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "cde6f488fa3b5e98": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "d0db3b3d60ce68a2": {
+   "f_vector": [
+    16,
+    24,
+    10
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "26/125",
+      "26/125",
+      "1/8"
+     ],
+     "row_cell_code_id": "d0db3b3d60ce68a2",
+     "row_cell_store_hit": "d0db3b3d60ce68a2",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "d167fc392cd667a6": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "d1c13a36caa38829": {
+   "f_vector": [
+    16,
+    26,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "5/4",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "1/2",
+      "7/25",
+      "7/100"
+     ],
+     "row_cell_code_id": "1cdcaee40c97428f",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "d25aa9f2dff2be4e": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "62/125",
+      "62/125",
+      "31/250"
+     ],
+     "row_cell_code_id": "70be474815baf42b",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "d25e09a426bd8ecf": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "d70cf5c792428eab": {
+   "f_vector": [
+    24,
+    37,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    126
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 126,
+     "pdf_page": 73,
+     "pt": [
+      "56/125",
+      "0",
+      "1/250"
+     ],
+     "row_cell_code_id": "d70cf5c792428eab",
+     "row_cell_store_hit": "d70cf5c792428eab",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "d84f3b8159a92b4b": {
+   "f_vector": [
+    20,
+    31,
+    13
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    130
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 0)",
+     "group": 130,
+     "pdf_page": 76,
+     "pt": [
+      "59/125",
+      "0",
+      "1/500"
+     ],
+     "row_cell_code_id": "d84f3b8159a92b4b",
+     "row_cell_store_hit": "d84f3b8159a92b4b",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "db0320ad071ab1eb": {
+   "f_vector": [
+    34,
+    51,
+    19
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 47,
+     "pt": [
+      "85/1998",
+      "-29/1998",
+      "61/2664"
+     ],
+     "row_cell_code_id": "5ba951cdd58406f2",
+     "row_cell_store_hit": "5ba951cdd58406f2",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "db9ffdbe1d267b0a": {
+   "f_vector": [
+    26,
+    40,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    130
+   ],
+   "n_different": 0,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 1,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 0)",
+     "group": 130,
+     "pdf_page": 76,
+     "pt": [
+      "59/125",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "db9ffdbe1d267b0a",
+     "row_cell_store_hit": "db9ffdbe1d267b0a",
+     "row_status": "REPRODUCED",
+     "verdict": "SAME TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "COLLISION",
+   "status_v4": "UNRESOLVED"
+  },
+  "dfe1108b777824fa": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88,
+    142
+   ],
+   "n_different": 2,
+   "n_quarantined_rows": 0,
+   "n_rows": 2,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "21/50",
+      "21/50",
+      "21/200"
+     ],
+     "row_cell_code_id": "503375aa4e8d2f36",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    },
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "23/50",
+      "23/50",
+      "23/200"
+     ],
+     "row_cell_code_id": "b96cf29a9246cd2c",
+     "row_cell_store_hit": "b96cf29a9246cd2c",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "e127689d5833b02a": {
+   "f_vector": [
+    16,
+    24,
+    10
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    138
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 3/4, 1/4)",
+     "group": 138,
+     "pdf_page": 81,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "1811b0d16d82bdda",
+     "row_cell_store_hit": "1811b0d16d82bdda",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "e23ad48c69ddca62": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "62/125",
+      "123/250",
+      "0"
+     ],
+     "row_cell_code_id": "89f6df138c88edf8",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "e64ff7d1f133b6c9": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    91,
+    95
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 95,
+     "pdf_page": 45,
+     "pt": [
+      "309/500",
+      "59/500",
+      "1/8"
+     ],
+     "row_cell_code_id": "8c69db9e84095469",
+     "row_cell_store_hit": "8c69db9e84095469",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "e73ddea1cde2be65": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "117/250",
+      "0",
+      "31/125"
+     ],
+     "row_cell_code_id": "1457e9a93eea5438",
+     "row_cell_store_hit": "1457e9a93eea5438",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "e969c24510c5b82b": {
+   "f_vector": [
+    32,
+    48,
+    18
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "12/25",
+      "0",
+      "6/25"
+     ],
+     "row_cell_code_id": "b4ff381c9014f14c",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "eab762a24b28a094": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "21/50",
+      "21/50",
+      "21/200"
+     ],
+     "row_cell_code_id": "503375aa4e8d2f36",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "eaf8f8e7b00c0da0": {
+   "f_vector": [
+    26,
+    39,
+    15
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    88
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 1/4, 1/8)",
+     "group": 88,
+     "pdf_page": 42,
+     "pt": [
+      "21/50",
+      "21/50",
+      "21/200"
+     ],
+     "row_cell_code_id": "503375aa4e8d2f36",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "ec59577573c34683": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "797/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "62/125",
+      "69/250",
+      "121/1000"
+     ],
+     "row_cell_code_id": "318f50f8f38fd957",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "edc763d5d4420075": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "93/250",
+      "93/250",
+      "93/1000"
+     ],
+     "row_cell_code_id": "d167fc392cd667a6",
+     "row_cell_store_hit": "d167fc392cd667a6",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "ee87e3504746e36b": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    92,
+    96
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "7/5",
+     "convention": "second enantiomorph: z -> -z",
+     "group": 96,
+     "pdf_page": 46,
+     "pt": [
+      "49/999",
+      "-7/999",
+      "61/2664"
+     ],
+     "row_cell_code_id": "822163f15ffc16d1",
+     "row_cell_store_hit": "822163f15ffc16d1",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "f2338eb96662d54f": {
+   "f_vector": [
+    18,
+    28,
+    12
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    141
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "4/5",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 141,
+     "pdf_page": 84,
+     "pt": [
+      "47/125",
+      "7/125",
+      "2/25"
+     ],
+     "row_cell_code_id": "771186009d020142",
+     "row_cell_store_hit": null,
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "f5534a0cdd155dd1": {
+   "f_vector": [
+    30,
+    45,
+    17
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    142
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(0, 3/4, 1/8)",
+     "group": 142,
+     "pdf_page": 86,
+     "pt": [
+      "58/125",
+      "58/125",
+      "29/250"
+     ],
+     "row_cell_code_id": "5c6382a9ef3bc209",
+     "row_cell_store_hit": "5c6382a9ef3bc209",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  },
+  "f78cb8eda2f6b557": {
+   "f_vector": [
+    28,
+    42,
+    16
+   ],
+   "g4_certified": false,
+   "groups_sighted": [
+    86
+   ],
+   "n_different": 1,
+   "n_quarantined_rows": 0,
+   "n_rows": 1,
+   "n_same": 0,
+   "rows": [
+    {
+     "b": "3497/1000",
+     "convention": "origin-2 -> origin-1 shift +(1/4, 1/4, 1/4)",
+     "group": 86,
+     "pdf_page": 40,
+     "pt": [
+      "58/125",
+      "0",
+      "29/125"
+     ],
+     "row_cell_code_id": "5be2e092046ee24b",
+     "row_cell_store_hit": "5be2e092046ee24b",
+     "row_status": "REPRODUCED",
+     "verdict": "DIFFERENT TYPE"
+    }
+   ],
+   "secondary_hit_rows": [],
+   "status": "SURVIVOR",
+   "status_v4": "UNRESOLVED"
+  }
+ }
+}

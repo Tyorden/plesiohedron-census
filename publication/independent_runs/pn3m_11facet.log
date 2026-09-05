@@ -1,0 +1,12 @@
+tables: c4ea3f32_Pn3m_11facet/g4_tables_c4ea3f32fdd6dc51.json
+T=24 neighbours/type=[11] max|delta|=1 |ops|=48 |proper|=24
+n=1 fixed=24 free=1 onesided=1 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=2 fixed=132 free=6 onesided=9 burnside(all=ok,proper=ok) grow=0.0s quot=0.0s fixed:MATCH free:MATCH onesided:MATCH
+n=3 fixed=1048 free=25 onesided=45 burnside(all=ok,proper=ok) grow=0.0s quot=0.1s fixed:MATCH free:MATCH onesided:MATCH
+n=4 fixed=9630 free=225 onesided=427 burnside(all=ok,proper=ok) grow=0.0s quot=0.6s fixed:MATCH free:MATCH onesided:MATCH
+n=5 fixed=96240 free=2027 onesided=4010 burnside(all=ok,proper=ok) grow=0.5s quot=2.3s fixed:MATCH free:MATCH onesided:MATCH
+n=6 fixed=1016472 free=21408 onesided=42607 burnside(all=ok,proper=ok) grow=2.5s quot=25.1s fixed:MATCH free:MATCH onesided:MATCH
+total wall 31.3s  workers=14  ALL CHECKS PASSED
+real 31.37
+user 354.37
+sys 2.38

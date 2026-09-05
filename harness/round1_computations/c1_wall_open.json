@@ -1,0 +1,1735 @@
+[
+ {
+  "id": "8cf50403cf88c455",
+  "label": "S",
+  "name": "Satchelhedron",
+  "group": 220,
+  "point": "(0, 0, 1/4)",
+  "stratum_dim": 1,
+  "basis": [
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "base_f": [
+   16,
+   25,
+   11
+  ],
+  "base_p": "3^2 4^1 5^8",
+  "rows": [
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(-1/48, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(-1/96, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(1/96, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(1/48, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/24",
+    "point": "(-1/24, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/24",
+    "point": "(1/24, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/192",
+    "point": "(-1/192, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/384",
+    "point": "(-1/384, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/768",
+    "point": "(-1/768, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/1536",
+    "point": "(-1/1536, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^4 5^10 8^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": "0ee26ed471c923e2",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/192",
+    "point": "(1/192, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/384",
+    "point": "(1/384, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/768",
+    "point": "(1/768, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/1536",
+    "point": "(1/1536, 0, 1/4)",
+    "stab": 2,
+    "f": [
+     22,
+     35,
+     15
+    ],
+    "p": "3^6 4^1 6^8",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(0, -1/96, 1/4)",
+    "stab": 1,
+    "f": [
+     20,
+     32,
+     14
+    ],
+    "p": "3^2 4^6 5^2 6^4",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(0, 1/96, 1/4)",
+    "stab": 1,
+    "f": [
+     20,
+     32,
+     14
+    ],
+    "p": "3^2 4^6 5^2 6^4",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   }
+  ],
+  "verdict": "WALL",
+  "wall_dirs": [
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ {
+  "id": "2de0a21129cabe90",
+  "label": "O",
+  "name": "Ordenhedron",
+  "group": 201,
+  "point": "(1/8, 1/6, 5/12)",
+  "stratum_dim": 3,
+  "basis": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "base_f": [
+   20,
+   33,
+   15
+  ],
+  "base_p": "3^6 4^3 5^2 6^2 7^2",
+  "rows": [
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(5/48, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(11/96, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(13/96, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(7/48, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(1/8, 7/48, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(1/8, 5/32, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(1/8, 17/96, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(1/8, 3/16, 5/12)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/48",
+    "point": "(1/8, 1/6, 19/48)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/96",
+    "point": "(1/8, 1/6, 13/32)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/96",
+    "point": "(1/8, 1/6, 41/96)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/48",
+    "point": "(1/8, 1/6, 7/16)",
+    "stab": 1,
+    "f": [
+     20,
+     33,
+     15
+    ],
+    "p": "3^6 4^3 5^2 6^2 7^2",
+    "nonsimple": 5,
+    "same": true,
+    "stored_id": "2de0a21129cabe90",
+    "aut": 1,
+    "fvec_printed": false,
+    "off_stratum": false
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ },
+ {
+  "id": "c4ea3f32fdd6dc51",
+  "label": "P11",
+  "name": "Pn-3m 11-facet cell",
+  "group": 224,
+  "point": "(1/12, 3/8, 3/8)",
+  "stratum_dim": 2,
+  "basis": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    1
+   ]
+  ],
+  "base_f": [
+   14,
+   23,
+   11
+  ],
+  "base_p": "3^4 4^4 6^3",
+  "rows": [
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(1/16, 3/8, 3/8)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(7/96, 3/8, 3/8)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(3/32, 3/8, 3/8)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(5/48, 3/8, 3/8)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     1
+    ],
+    "eps": "-1/48",
+    "point": "(1/12, 17/48, 17/48)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     1
+    ],
+    "eps": "-1/96",
+    "point": "(1/12, 35/96, 35/96)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     1
+    ],
+    "eps": "1/96",
+    "point": "(1/12, 37/96, 37/96)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     1
+    ],
+    "eps": "1/48",
+    "point": "(1/12, 19/48, 19/48)",
+    "stab": 2,
+    "f": [
+     14,
+     23,
+     11
+    ],
+    "p": "3^4 4^4 6^3",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "c4ea3f32fdd6dc51",
+    "aut": 2,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(1/12, 35/96, 3/8)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": false,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": true
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(1/12, 37/96, 3/8)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": false,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": true
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ },
+ {
+  "id": "f98a3ee5675fc121",
+  "label": "P7",
+  "name": "Pn-3m 7-facet cell",
+  "group": 224,
+  "point": "(1/8, 1/6, 5/12)",
+  "stratum_dim": 3,
+  "basis": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "base_f": [
+   10,
+   15,
+   7
+  ],
+  "base_p": "3^2 4^3 6^2",
+  "rows": [
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(5/48, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(11/96, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(13/96, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(7/48, 1/6, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(1/8, 7/48, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(1/8, 5/32, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(1/8, 17/96, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     1,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(1/8, 3/16, 5/12)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/48",
+    "point": "(1/8, 1/6, 19/48)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/96",
+    "point": "(1/8, 1/6, 13/32)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/96",
+    "point": "(1/8, 1/6, 41/96)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/48",
+    "point": "(1/8, 1/6, 7/16)",
+    "stab": 1,
+    "f": [
+     10,
+     15,
+     7
+    ],
+    "p": "3^2 4^3 6^2",
+    "nonsimple": 0,
+    "same": true,
+    "stored_id": "f98a3ee5675fc121",
+    "aut": 4,
+    "fvec_printed": false,
+    "off_stratum": false
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ },
+ {
+  "id": "ceb70631e274e727",
+  "label": "H212",
+  "name": "IT(212) (37,57,22) cell",
+  "group": 212,
+  "point": "(1/12, 1/12, 1/12)",
+  "stratum_dim": 1,
+  "basis": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "base_f": [
+   37,
+   57,
+   22
+  ],
+  "base_p": "3^6 4^6 5^6 10^3 12^1",
+  "rows": [
+   {
+    "direction": [
+     1,
+     1,
+     1
+    ],
+    "eps": "-1/48",
+    "point": "(1/16, 1/16, 1/16)",
+    "stab": 3,
+    "f": [
+     37,
+     57,
+     22
+    ],
+    "p": "3^6 4^6 5^6 10^3 12^1",
+    "nonsimple": 3,
+    "same": true,
+    "stored_id": "ceb70631e274e727",
+    "aut": 3,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     1,
+     1
+    ],
+    "eps": "-1/96",
+    "point": "(7/96, 7/96, 7/96)",
+    "stab": 3,
+    "f": [
+     37,
+     57,
+     22
+    ],
+    "p": "3^6 4^6 5^6 10^3 12^1",
+    "nonsimple": 3,
+    "same": true,
+    "stored_id": "ceb70631e274e727",
+    "aut": 3,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     1,
+     1
+    ],
+    "eps": "1/96",
+    "point": "(3/32, 3/32, 3/32)",
+    "stab": 3,
+    "f": [
+     37,
+     57,
+     22
+    ],
+    "p": "3^6 4^6 5^6 10^3 12^1",
+    "nonsimple": 3,
+    "same": true,
+    "stored_id": "ceb70631e274e727",
+    "aut": 3,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     1,
+     1
+    ],
+    "eps": "1/48",
+    "point": "(5/48, 5/48, 5/48)",
+    "stab": 3,
+    "f": [
+     37,
+     57,
+     22
+    ],
+    "p": "3^6 4^6 5^6 10^3 12^1",
+    "nonsimple": 3,
+    "same": true,
+    "stored_id": "ceb70631e274e727",
+    "aut": 3,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(7/96, 1/12, 1/12)",
+    "stab": 1,
+    "f": [
+     24,
+     38,
+     16
+    ],
+    "p": "3^4 4^2 5^6 6^2 7^2",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(3/32, 1/12, 1/12)",
+    "stab": 1,
+    "f": [
+     28,
+     45,
+     19
+    ],
+    "p": "3^8 4^1 5^4 6^4 8^1 10^1",
+    "nonsimple": 6,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ },
+ {
+  "id": "359beee832567a71",
+  "label": "H230",
+  "name": "IT(230) (40,61,23) cell",
+  "group": 230,
+  "point": "(1/12, 1/6, 1/8)",
+  "stratum_dim": 1,
+  "basis": [
+   [
+    -1,
+    1,
+    0
+   ]
+  ],
+  "base_f": [
+   40,
+   61,
+   23
+  ],
+  "base_p": "4^20 11^2 20^1",
+  "rows": [
+   {
+    "direction": [
+     -1,
+     1,
+     0
+    ],
+    "eps": "-1/48",
+    "point": "(5/48, 7/48, 1/8)",
+    "stab": 2,
+    "f": [
+     40,
+     61,
+     23
+    ],
+    "p": "4^20 11^2 20^1",
+    "nonsimple": 2,
+    "same": true,
+    "stored_id": "359beee832567a71",
+    "aut": 4,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     -1,
+     1,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(3/32, 5/32, 1/8)",
+    "stab": 2,
+    "f": [
+     40,
+     61,
+     23
+    ],
+    "p": "4^20 11^2 20^1",
+    "nonsimple": 2,
+    "same": true,
+    "stored_id": "359beee832567a71",
+    "aut": 4,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     -1,
+     1,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(7/96, 17/96, 1/8)",
+    "stab": 2,
+    "f": [
+     40,
+     61,
+     23
+    ],
+    "p": "4^20 11^2 20^1",
+    "nonsimple": 2,
+    "same": true,
+    "stored_id": "359beee832567a71",
+    "aut": 4,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     -1,
+     1,
+     0
+    ],
+    "eps": "1/48",
+    "point": "(1/16, 3/16, 1/8)",
+    "stab": 2,
+    "f": [
+     40,
+     61,
+     23
+    ],
+    "p": "4^20 11^2 20^1",
+    "nonsimple": 2,
+    "same": true,
+    "stored_id": "359beee832567a71",
+    "aut": 4,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(7/96, 1/6, 1/8)",
+    "stab": 1,
+    "f": [
+     23,
+     36,
+     15
+    ],
+    "p": "4^10 5^3 6^1 11^1",
+    "nonsimple": 3,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(3/32, 1/6, 1/8)",
+    "stab": 1,
+    "f": [
+     23,
+     36,
+     15
+    ],
+    "p": "4^10 5^3 6^1 11^1",
+    "nonsimple": 3,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ },
+ {
+  "id": "aa6b0077c3234d24",
+  "label": "H214",
+  "name": "IT(214) (30,47,19) cell",
+  "group": 214,
+  "point": "(0, 1/4, 1/12)",
+  "stratum_dim": 1,
+  "basis": [
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "base_f": [
+   30,
+   47,
+   19
+  ],
+  "base_p": "3^4 4^5 5^6 6^2 10^2",
+  "rows": [
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/48",
+    "point": "(0, 1/4, 1/16)",
+    "stab": 2,
+    "f": [
+     30,
+     47,
+     19
+    ],
+    "p": "3^6 4^7 6^2 8^2 10^2",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "-1/96",
+    "point": "(0, 1/4, 7/96)",
+    "stab": 2,
+    "f": [
+     30,
+     47,
+     19
+    ],
+    "p": "3^4 4^5 5^6 6^2 10^2",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "aa6b0077c3234d24",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/96",
+    "point": "(0, 1/4, 3/32)",
+    "stab": 2,
+    "f": [
+     34,
+     53,
+     21
+    ],
+    "p": "3^2 4^13 6^4 12^2",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/48",
+    "point": "(0, 1/4, 5/48)",
+    "stab": 2,
+    "f": [
+     38,
+     59,
+     23
+    ],
+    "p": "3^8 4^4 6^6 7^2 8^1 10^2",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false
+   },
+   {
+    "direction": [
+     0,
+     0,
+     1
+    ],
+    "eps": "1/192",
+    "point": "(0, 1/4, 17/192)",
+    "stab": 2,
+    "f": [
+     30,
+     47,
+     19
+    ],
+    "p": "3^4 4^5 5^6 6^2 10^2",
+    "nonsimple": 4,
+    "same": true,
+    "stored_id": "aa6b0077c3234d24",
+    "aut": 2,
+    "fvec_printed": true,
+    "off_stratum": false,
+    "refine": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "-1/96",
+    "point": "(-1/96, 1/4, 1/12)",
+    "stab": 1,
+    "f": [
+     32,
+     50,
+     20
+    ],
+    "p": "3^10 4^3 6^2 7^2 8^1 10^1 14^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   },
+   {
+    "direction": [
+     1,
+     0,
+     0
+    ],
+    "eps": "1/96",
+    "point": "(1/96, 1/4, 1/12)",
+    "stab": 1,
+    "f": [
+     32,
+     50,
+     20
+    ],
+    "p": "3^10 4^3 6^2 7^2 8^1 10^1 14^1",
+    "nonsimple": 4,
+    "same": false,
+    "stored_id": null,
+    "aut": 1,
+    "fvec_printed": true,
+    "off_stratum": true
+   }
+  ],
+  "verdict": "OPEN",
+  "wall_dirs": []
+ }
+]

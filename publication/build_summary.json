@@ -1,0 +1,228 @@
+{
+ "roundness": {
+  "Josehedron (control, Bernhard 2026)": 47.9833,
+  "Satchelhedron": 37.7554,
+  "Ordenhedron": 9.8394,
+  "the Pn-3m 11-facet cell": 10.7278,
+  "the Pn-3m 7-facet cell": 4.9197,
+  "the IT(212) (37,57,22) cell": 28.909,
+  "the IT(230) (40,61,23) cell": 23.5573,
+  "the IT(214) (30,47,19) cell": 11.1503
+ },
+ "counts": {
+  "8cf50403cf88c455": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    12,
+    66,
+    524,
+    4866,
+    49152,
+    523626
+   ],
+   "free": [
+    1,
+    4,
+    25,
+    209,
+    2070,
+    21882
+   ],
+   "onesided": [
+    2,
+    7,
+    50,
+    417,
+    4140,
+    43759
+   ],
+   "burnside": "INDEPENDENT n<=6: second, code-disjoint enumerator (verify_counts_independent.py, INDEPENDENT_COUNTS_2026-09-03.md) reproduced every fixed/one-sided/free term and asserted the Burnside identity for both groups at every n <= 6; burnside_generic.py growth check n<=6 (build of 2026-09-01)",
+   "drafts": 3,
+   "independent_2026_09_03": true
+  },
+  "2de0a21129cabe90": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    24,
+    180,
+    1992,
+    25974,
+    371136,
+    5619868
+   ],
+   "free": [
+    1,
+    9,
+    85,
+    1099,
+    15464,
+    234420
+   ],
+   "onesided": [
+    2,
+    18,
+    170,
+    2196,
+    30928,
+    468793
+   ],
+   "burnside": "INDEPENDENT n<=6: second, code-disjoint enumerator (verify_counts_independent.py, INDEPENDENT_COUNTS_2026-09-03.md) reproduced every fixed/one-sided/free term and asserted the Burnside identity for both groups at every n <= 6; burnside_generic.py growth check n<=4 only (G4)",
+   "drafts": 3,
+   "independent_2026_09_03": true
+  },
+  "c4ea3f32fdd6dc51": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    24,
+    132,
+    1048,
+    9630,
+    96240,
+    1016472
+   ],
+   "free": [
+    1,
+    6,
+    25,
+    225,
+    2027,
+    21408
+   ],
+   "onesided": [
+    1,
+    9,
+    45,
+    427,
+    4010,
+    42607
+   ],
+   "burnside": "INDEPENDENT n<=6: second, code-disjoint enumerator (verify_counts_independent.py, INDEPENDENT_COUNTS_2026-09-03.md) reproduced every fixed/one-sided/free term and asserted the Burnside identity for both groups at every n <= 6; burnside_generic.py growth check n<=6 (build of 2026-09-01)",
+   "drafts": 3,
+   "independent_2026_09_03": true
+  },
+  "f98a3ee5675fc121": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    48,
+    168,
+    912,
+    5748,
+    39312,
+    283856
+   ],
+   "free": [
+    1,
+    7,
+    19,
+    135,
+    819,
+    6012
+   ],
+   "onesided": [
+    2,
+    10,
+    38,
+    254,
+    1638,
+    11928
+   ],
+   "burnside": "INDEPENDENT n<=6: second, code-disjoint enumerator (verify_counts_independent.py, INDEPENDENT_COUNTS_2026-09-03.md) reproduced every fixed/one-sided/free term and asserted the Burnside identity for both groups at every n <= 6; burnside_generic.py growth check n<=6 (build of 2026-09-01)",
+   "drafts": 3,
+   "independent_2026_09_03": true
+  },
+  "ceb70631e274e727": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    8,
+    88,
+    1384,
+    25064,
+    492672,
+    10213156
+   ],
+   "free": [
+    1,
+    5,
+    59,
+    1065,
+    20532,
+    425874
+   ],
+   "onesided": [
+    1,
+    5,
+    59,
+    1065,
+    20532,
+    425874
+   ],
+   "burnside": "an independent Burnside/growth verification at n = 5, 6 was NOT run in this build (counts at n = 5, 6 rest on the single banked enumerator; the fixed column is reproduced identically by the proper-ops run).",
+   "drafts": 0
+  },
+  "359beee832567a71": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    24,
+    276,
+    5096,
+    111732,
+    2695656,
+    68781576
+   ],
+   "free": [
+    1,
+    7,
+    112,
+    2349,
+    56280,
+    1433432
+   ],
+   "onesided": [
+    2,
+    14,
+    224,
+    4694,
+    112560,
+    2866790
+   ],
+   "burnside": "an independent Burnside/growth verification at n = 5, 6 was NOT run in this build (counts at n = 5, 6 rest on the single banked enumerator; the fixed column is reproduced identically by the proper-ops run).",
+   "drafts": 0
+  },
+  "aa6b0077c3234d24": {
+   "nmax": 6,
+   "pnmax": 6,
+   "fixed": [
+    12,
+    114,
+    1588,
+    25734,
+    454824,
+    8503400
+   ],
+   "free": [
+    1,
+    8,
+    72,
+    1118,
+    19021,
+    355110
+   ],
+   "onesided": [
+    1,
+    8,
+    72,
+    1118,
+    19021,
+    355110
+   ],
+   "burnside": "an independent Burnside/growth verification at n = 5, 6 was NOT run in this build (counts at n = 5, 6 rest on the single banked enumerator; the fixed column is reproduced identically by the proper-ops run).",
+   "drafts": 0
+  }
+ }
+}

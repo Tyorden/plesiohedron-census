@@ -1,0 +1,208 @@
+catalog.json / catalog.csv (+ .gz forms, catalog.SHA256SUMS) written: 1583 types (v5); sightings sidecar 258521 records
+  catalog_version: 5
+  n_types_total: 1583
+  n_types_cubic_first: 102
+  n_types_tetragonal_first: 789
+  n_types_hexagonal_first: 692
+  n_types_by_first_sighting_family: OrderedDict({'cubic': 102, 'tetragonal': 789, 'hexagonal': 692})
+  n_types_by_first_sighting_crystal_system: OrderedDict({'cubic': 99, 'hexagonal': 294, 'none (seeded type without a phase-1 witness)': 3, 'tetragonal': 789, 'trigonal': 398})
+  n_seeded: 7
+  n_seeded_never_sighted: 1
+  n_tetragonal_first_menu_sighted: 404
+  n_tetragonal_first_schmitt_printed_only: 385
+  n_hexagonal_first_menu_sighted: 288
+  n_hexagonal_first_schmitt_printed_only: 404
+  n_cubic_first_resighted_tetragonal: 19
+  n_cubic_first_resighted_tetragonal_menu: 18
+  n_prior_resighted_hexagonal: 43
+  n_prior_resighted_hexagonal_menu: 34
+  n_cubic_first_resighted_hexagonal: 17
+  n_tetragonal_first_resighted_hexagonal: 26
+  n_G4_certified_accepted: 177
+  n_G4_provisional_tables_present: 0
+  g4_status_counts: OrderedDict({'accepted-cubic': 12, 'certified-tetragonal': 14, 'certified-hexagonal': 151, 'none': 1406})
+  g4_chiral_solid_counts: OrderedDict({'chiral': 153, 'achiral': 12, 'not_recorded_in_certificate': 12, 'by_status': OrderedDict({'accepted-cubic': OrderedDict({'chiral': 0, 'achiral': 0, 'not_recorded': 12}), 'certified-tetragonal': OrderedDict({'chiral': 13, 'achiral': 1, 'not_recorded': 0}), 'certified-hexagonal': OrderedDict({'chiral': 140, 'achiral': 11, 'not_recorded': 0})})})
+  g4_chiral_honeycomb_counts: OrderedDict({'chiral': 138, 'achiral': 39})
+  n_named_program: 2
+  n_held: 3
+  n_descriptive_pending: 2
+  max_F_all: 35
+  max_F_cubic_first: 23
+  max_F_tetragonal_menu: 26
+  max_F_tetragonal_first: 35
+  max_F_hexagonal_menu: 24
+  max_F_hexagonal_first: 34
+  n_distinct_fvectors: 196
+  n_distinct_fvectors_cubic_first: 65
+  n_distinct_fvectors_tetragonal_first: 153
+  n_distinct_fvectors_hexagonal_first: 167
+  schmitt_type_level: Counter({'SAME': 1125, 'DIFFERENT': 449, 'unchecked': 9})
+  schmitt_fvector_flag: Counter({'P': 1568, 'A': 14, 'n/a (seeded type never sighted by a sweep)': 1})
+  schmitt_match_hexagonal: OrderedDict({'hexagonal_first_SURVIVOR': 151, 'hexagonal_first_COLLISION': 124, 'hexagonal_first_UNRESOLVED': 13, 'hexagonal_first_S_cell_printed_only': 404, 'prior_resighted_in_family': 43, 'no_hexagonal_sighting': 848})
+  per_system_types_sighted: OrderedDict({'cubic': 99, 'tetragonal': 808, 'hexagonal': 735})
+  per_crystal_system_types_sighted: OrderedDict({'cubic': 99, 'tetragonal': 808, 'trigonal': 450, 'hexagonal': 353})
+  open_wall_verdict_counts: OrderedDict({'cubic': OrderedDict({'OPEN': 6, 'WALL': 1, 'ONE-SIDED': 0, 'not-computed': 95}), 'tetragonal': OrderedDict({'OPEN': 13, 'WALL': 1, 'ONE-SIDED': 0, 'not-computed': 775}), 'hexagonal': OrderedDict({'OPEN': 102, 'WALL': 40, 'ONE-SIDED': 9, 'not-computed': 541})})
+  open_wall_verdict_source_counts: OrderedDict({'cubic': OrderedDict({'c1 cubic': 7, 'phase2 #148': 0, 'none': 95}), 'tetragonal': OrderedDict({'c1 cubic': 0, 'phase2 #148': 14, 'none': 775}), 'hexagonal': OrderedDict({'c1 cubic': 0, 'phase2 #148': 151, 'none': 541})})
+  schmitt_type_status_counts: OrderedDict({'cubic': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 102}), 'tetragonal': OrderedDict({'SURVIVOR': 203, 'COLLISION': 201, 'UNRESOLVED': 0, 'printed-only': 385, 'not-screened': 0}), 'hexagonal': OrderedDict({'SURVIVOR': 151, 'COLLISION': 124, 'UNRESOLVED': 13, 'printed-only': 404, 'not-screened': 0})})
+  open_wall_x_schmitt_type_status: OrderedDict({'cubic': OrderedDict({'OPEN': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 6}), 'WALL': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 1}), 'ONE-SIDED': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'not-computed': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 95})}), 'tetragonal': OrderedDict({'OPEN': OrderedDict({'SURVIVOR': 13, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'WALL': OrderedDict({'SURVIVOR': 1, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'ONE-SIDED': OrderedDict({'SURVIVOR': 0, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'not-computed': OrderedDict({'SURVIVOR': 189, 'COLLISION': 201, 'UNRESOLVED': 0, 'printed-only': 385, 'not-screened': 0})}), 'hexagonal': OrderedDict({'OPEN': OrderedDict({'SURVIVOR': 102, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'WALL': OrderedDict({'SURVIVOR': 40, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'ONE-SIDED': OrderedDict({'SURVIVOR': 9, 'COLLISION': 0, 'UNRESOLVED': 0, 'printed-only': 0, 'not-screened': 0}), 'not-computed': OrderedDict({'SURVIVOR': 0, 'COLLISION': 124, 'UNRESOLVED': 13, 'printed-only': 404, 'not-screened': 0})})})
+  naming_pool: OrderedDict({'cubic': OrderedDict({'definition': 'G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)', 'n_certified_open_unnamed': 0, 'n_certified': 12, 'n_certified_open': 6, 'n_certified_not_computed': 5, 'catalog_ids': [], 'type_ids': []}), 'tetragonal': OrderedDict({'definition': 'G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)', 'n_certified_open_unnamed': 13, 'n_certified': 14, 'n_certified_open': 13, 'n_certified_not_computed': 0, 'catalog_ids': ['MINT-T004', 'MINT-T005', 'MINT-T076', 'MINT-T137', 'MINT-T151', 'MINT-T152', 'MINT-T264', 'MINT-T716', 'MINT-T721', 'MINT-T722', 'MINT-T758', 'MINT-T766', 'MINT-T767'], 'type_ids': ['164d4bd63d82d0c3', '6797ab70c6015039', '1497877268495988', '7575121042ade3b3', '3ebbca7ed2eda199', '4f6d3e68cbd9e729', 'f654982d74d740f6', '086ac96faf390886', '4e9c9b076cfec323', 'e0d18e5ea938d649', '2e8e49eb28497267', '5dc2479b9bc14edc', '213c7a114d5a97a8']}), 'hexagonal': OrderedDict({'definition': 'G4-certified (g4_status != none) AND open_wall_verdict == OPEN AND unnamed (name is null: no program / descriptive / HELD / literature / seed name)', 'n_certified_open_unnamed': 102, 'n_certified': 151, 'n_certified_open': 102, 'n_certified_not_computed': 0, 'catalog_ids': ['MINT-H002', 'MINT-H003', 'MINT-H007', 'MINT-H021', 'MINT-H024', 'MINT-H025', 'MINT-H034', 'MINT-H035', 'MINT-H041', 'MINT-H045', 'MINT-H047', 'MINT-H050', 'MINT-H051', 'MINT-H052', 'MINT-H055', 'MINT-H058', 'MINT-H059', 'MINT-H063', 'MINT-H065', 'MINT-H070', 'MINT-H072', 'MINT-H073', 'MINT-H095', 'MINT-H105', 'MINT-H112', 'MINT-H120', 'MINT-H121', 'MINT-H126', 'MINT-H127', 'MINT-H128', 'MINT-H129', 'MINT-H131', 'MINT-H133', 'MINT-H135', 'MINT-H136', 'MINT-H137', 'MINT-H141', 'MINT-H142', 'MINT-H145', 'MINT-H146', 'MINT-H147', 'MINT-H148', 'MINT-H150', 'MINT-H153', 'MINT-H157', 'MINT-H158', 'MINT-H159', 'MINT-H160', 'MINT-H161', 'MINT-H162', 'MINT-H163', 'MINT-H165', 'MINT-H166', 'MINT-H167', 'MINT-H168', 'MINT-H169', 'MINT-H176', 'MINT-H177', 'MINT-H194', 'MINT-H201', 'MINT-H203', 'MINT-H207', 'MINT-H208', 'MINT-H635', 'MINT-H636', 'MINT-H637', 'MINT-H638', 'MINT-H639', 'MINT-H640', 'MINT-H641', 'MINT-H642', 'MINT-H643', 'MINT-H645', 'MINT-H646', 'MINT-H648', 'MINT-H650', 'MINT-H651', 'MINT-H652', 'MINT-H653', 'MINT-H654', 'MINT-H655', 'MINT-H660', 'MINT-H661', 'MINT-H663', 'MINT-H664', 'MINT-H665', 'MINT-H667', 'MINT-H668', 'MINT-H670', 'MINT-H671', 'MINT-H672', 'MINT-H673', 'MINT-H674', 'MINT-H675', 'MINT-H676', 'MINT-H678', 'MINT-H679', 'MINT-H680', 'MINT-H681', 'MINT-H683', 'MINT-H687', 'MINT-H692'], 'type_ids': ['bff9b24ce78050f5', 'c0071756347c5a8a', '7b9cfe26fe4a9c4b', 'f0b07b168368759b', 'f429e996b3f455a6', '56918d2cff883e22', 'ce3b42c8a4ceff6f', '36ec4ad2f530e145', 'e98412e7cb95aea2', '847d2695a14ae424', '5838282f46223111', '72bcd959be4ab7dd', 'e198aac88f223892', '23594bd7053503aa', 'b2430fc4bea4e06d', '542cbe76934b484b', '3d6b109f392fda19', '2c121297dbaa80af', '64203f15fcf6c09b', 'a46cbaad3c23e834', 'c3b4b14633c9d4d5', 'd9bf7fb7a80eaa38', '9d4396ca0b08fc3c', 'ab801b11bead62ef', '36c92427e3d084dc', '057255f61286b052', '6de3dac5f334cfed', '85244add8d1f2d55', 'f05f0b009e0929f6', '16025e0680843c36', 'a35623e347ef03b4', '9c0b7e0c29dfebb2', '2b9726574a0a8bed', '3ddc41389e6d484f', '29bbba1adec778da', 'cff2d5fb5e0d4149', 'a348875c3f707895', '2d654c836f3731c6', 'b0f80776885f3ae1', '59585d778cb3a7a4', '095ce61d28388c98', 'c49077384aaebeb0', '9be0f2271a14b6a9', 'dcc38ea9177089b9', '34351050a4f29035', '24a6b511067d37b2', '042c19cbfdc869cb', '7a448bed1119dfad', 'f6f8b3050a1eef42', 'd718e083bd23d2b1', '8cc8c5ab3cf36d8f', 'd176b8d859dd651a', '30f2a1e483babf55', '437fbe758a6dd8e3', '0948aa6184f13a8a', 'a182e87006c7a00d', 'e19babba732f5fd4', 'dd3fb07fe11d73d3', '257b627a90b78038', 'e0bf1a48f096c10d', 'f14a8c4e7c5b3e3a', '7715c7010e513b71', '505a4911e298c933', 'cda1d1c03659b67d', '2165f5c5260120de', 'd10bb4a25bbf4c80', 'c82ebc15c49c1413', '4a560e459032166a', '87c94384d7851cb2', '466b12546dd936c3', 'c53bc05bc306c97d', '74a69fba4266de3b', '5b86a254c715306c', 'ac4489d658eb445e', 'af8b2135c913b13b', 'e598ffd8a1cac138', 'a93f8fe7ecdc5851', '75bbbcb4a37e70e8', '3a491fd6426d90b2', 'fac4317d5a65b959', '5f812747976b224a', 'd0c5a15c25ab6413', '07d543d89e2934f2', 'd770abfcee4deb90', 'cbead3df2d2f1d0e', 'fcffad0da2b5b62f', '59b28b3a59c27092', '37aa18e6e10583be', '2081d7b9a734e4fe', '27dbb77012555d28', 'e1a38303b2378f17', '6f4101f83371033d', 'd9ac68100a276dfe', '646b518ccf3bd724', '322d5ff451e4101d', '8d90c524c89922d9', 'd07f950b8309de82', '27d463eac6cda5ea', 'aef8972953d53d20', '7e05ce00d8a7cbf6', '0b5d9beb0fc972f6', '43e4e46001b4d8b9']})})
+  naming_pool_note: Pool membership is catalog-relative: every member is 'not matched against the records checked as of 2026-09-04'; G5 diligence (print-only Engel / Koch exposure) still applies before any name; no name is proposed here. Asserted == PROGRAM_LEDGER 2026-09-04 14:10 ('13 tetragonal + 102 hexagonal').
+  schmitt_type_status_tetragonal_storeside: OrderedDict({'source': 'v4: harness/collision_phase2_tetragonal_storeside.json (subagent #152, 2026-09-04; rule = COLLISION_PHASE2_HEX_RESULTS.md section 1 store-side rule re-implemented, hexagonal equivalence asserted 151/124/13; dated addendum in harness/COLLISION_PHASE2_RESULTS.md)', 'json_md5': '64cc7bb82e85164914d7ec441cfc1304', 'n_menu_sighted': 404, 'n_s_cells': 176, 'counts_pure_store_side_rule': OrderedDict({'COLLISION': 176, 'SURVIVOR': 116, 'UNRESOLVED': 112}), 'counts_with_recomputed_pairs_overlaid': OrderedDict({'COLLISION': 177, 'SURVIVOR': 121, 'UNRESOLVED': 106}), 'counts_catalog_v3': OrderedDict({'COLLISION': 1, 'SURVIVOR': 14, 'not-screened': 389}), 'transitions_v3_to_v4': OrderedDict({'COLLISION -> COLLISION': 1, 'SURVIVOR -> SURVIVOR': 14, 'not-screened -> COLLISION': 176, 'not-screened -> SURVIVOR': 107, 'not-screened -> UNRESOLVED': 106}), 'shortlist_disagreements': [], 'note': 'the overlay = the 27 printed pairs recomputed in collision_phase2_check.py resolve their rows (SAME -> COLLISION; DIFFERENT on an unstored row -> row resolved); under the pure rule alone 5 of the 14 certified survivors and the 1 collision read UNRESOLVED because their worklist rows were unstored; [v5] the 106 UNRESOLVED of this block are settled in the block schmitt_type_status_tetragonal_unresolved_recomputed'})
+  schmitt_type_status_tetragonal_unresolved_recomputed: OrderedDict({'source': 'v5: harness/collision_phase2_tetragonal_unresolved_overlay.json + collision_phase2_tetragonal_rows_recomputed.json (subagent #154, 2026-09-04; script harness/collision_phase2_tetragonal_rows_recompute.py; dated addendum in harness/COLLISION_PHASE2_RESULTS.md): the 62 unstored printed rows behind the 106 v4-UNRESOLVED types recomputed at the printed points with the documented setting conversions of PHASE2_SCHMITT_ORIGIN_CHECK.md through the accepted phase-2 exact chain', 'overlay_json_md5': 'a3716a2330c6dbe9c93414dfe8e832ee', 'rows_json_md5': '4d27ce41466509feab6a180249330af7', 'n_rows_recomputed': 62, 'row_status_counts': OrderedDict({'REPRODUCED': 62}), 'rows_per_group': OrderedDict({'126': 2, '130': 3, '133': 4, '134': 3, '137': 2, '138': 3, '141': 15, '142': 8, '80': 1, '86': 5, '88': 6, '95': 5, '96': 5}), 'n_cells_computed': 306, 'rows_with_documented_conventions_agreeing': 62, 'rows_where_the_other_origin_or_enantiomorph_reading_reproduces_f': 0, 'row_cells_not_stored_under_any_id': 18, 'row_cells_that_are_stored_types_outside_the_106': OrderedDict({'SURVIVOR_hits': 0, 'cubic_first_hits': 2, 'expected_S_cell_hits_COLLISION_or_printed_only': 15}), 'counts_106': OrderedDict({'COLLISION': 24, 'SURVIVOR': 82}), 'counts_404_before_v4': OrderedDict({'COLLISION': 177, 'SURVIVOR': 121, 'UNRESOLVED': 106}), 'counts_404_after_v5': OrderedDict({'COLLISION': 201, 'SURVIVOR': 203, 'UNRESOLVED': 0}), 'transitions_v4_to_v5': OrderedDict({'COLLISION -> COLLISION': 177, 'SURVIVOR -> SURVIVOR': 121, 'UNRESOLVED -> COLLISION': 24, 'UNRESOLVED -> SURVIVOR': 82}), 'still_unresolved': [], 'secondary_hits': [{'rows_not_hung_on_with_this_cell': [[142, '3497/1000', ['58/125', '58/125', '29/250']]], 'status_primary_rule': 'COLLISION', 'type': '5c6382a9ef3bc209'}], 'surprises': ["IT(137) b=3497/1000 pt=(1/4, -1/4, 1/4): row cell = cubic-first store type c1824c64dfbb3615 (f (18, 28, 12), p 4^8 6^4, aut 16): a cubic-store type IS Schmitt's printed representative at this tetragonal row (cross-system fact; cubic-first types are not-screened by the phase-2 screens by construction; recorded only)", "IT(95) b=797/1000 pt=(309/500, 59/500, 1/8): row cell = cubic-first store type 8c69db9e84095469 (f (30, 45, 17), p 4^6 5^6 6^2 8^3, aut 12): a cubic-store type IS Schmitt's printed representative at this tetragonal row (cross-system fact; cubic-first types are not-screened by the phase-2 screens by construction; recorded only)", "type 5c6382a9ef3bc209 (COLLISION by its hung-on rows) also equals the recomputed cell of a row it does not hang on (a printed cell of the type in a group where our menu never sighted it): [[142, '3497/1000', ['58/125', '58/125', '29/250']]]; no status effect"], 'rule': "per UNRESOLVED type (collision_phase2_tetragonal_storeside.json status UNRESOLVED): compare its canonical code with the recomputed cell of every printed row it hangs on (unstored_rows): any SAME TYPE -> COLLISION (the type reproduces one of his printed cells; first-realization reframe); every row REPRODUCED and DIFFERENT TYPE -> SURVIVOR ('not matched against the records checked as of 2026-09-04', never novelty); any row not REPRODUCED and no SAME -> UNRESOLVED", 'note': "row status REPRODUCED = printed f-vector reproduced under >= 1 documented convention with one canonical code across the reproducing conventions; the other origin / enantiomorph reading (printed point verbatim) was run and recorded for every two-origin / 95 / 96 row and never reproduced the printed f (it is exactly pass P2's quarantined run); the 14 certified survivors were never UNRESOLVED and are untouched; nothing was added to any store"})
+  per_group (types_first_here / types_sighted / types_sighted_menu[tet+hex]):
+    IT75 P4: first_here=1 sighted=3 menu=2
+    IT76 P4_1: first_here=14 sighted=25 menu=18
+    IT77 P4_2: first_here=3 sighted=9 menu=7
+    IT78 P4_3: first_here=0 sighted=25 menu=18
+    IT79 I4: first_here=3 sighted=10 menu=6
+    IT80 I4_1: first_here=30 sighted=42 menu=22
+    IT81 P-4: first_here=2 sighted=17 menu=8
+    IT82 I-4: first_here=22 sighted=45 menu=13
+    IT83 P4/m: first_here=0 sighted=3 menu=3
+    IT84 P4_2/m: first_here=14 sighted=29 menu=20
+    IT85 P4/n: first_here=1 sighted=9 menu=8
+    IT86 P4_2/n: first_here=16 sighted=23 menu=23
+    IT87 I4/m: first_here=10 sighted=27 menu=20
+    IT88 I4_1/a: first_here=26 sighted=37 menu=37
+    IT89 P422: first_here=1 sighted=5 menu=4
+    IT90 P42_12: first_here=3 sighted=15 menu=8
+    IT91 P4_122: first_here=70 sighted=93 menu=26
+    IT92 P4_12_12: first_here=70 sighted=97 menu=36
+    IT93 P4_222: first_here=18 sighted=37 menu=19
+    IT94 P4_22_12: first_here=21 sighted=50 menu=21
+    IT95 P4_322: first_here=10 sighted=44 menu=25
+    IT96 P4_32_12: first_here=11 sighted=57 menu=35
+    IT97 I422: first_here=15 sighted=37 menu=18
+    IT98 I4_122: first_here=137 sighted=170 menu=54
+    IT99 P4mm: first_here=0 sighted=2 menu=2
+    IT100 P4bm: first_here=0 sighted=3 menu=2
+    IT101 P4_2cm: first_here=0 sighted=7 menu=6
+    IT102 P4_2nm: first_here=0 sighted=10 menu=9
+    IT103 P4cc: first_here=0 sighted=4 menu=3
+    IT104 P4nc: first_here=0 sighted=10 menu=5
+    IT105 P4_2mc: first_here=0 sighted=7 menu=7
+    IT106 P4_2bc: first_here=0 sighted=8 menu=3
+    IT107 I4mm: first_here=0 sighted=10 menu=10
+    IT108 I4cm: first_here=2 sighted=6 menu=5
+    IT109 I4_1md: first_here=6 sighted=19 menu=19
+    IT110 I4_1cd: first_here=13 sighted=24 menu=18
+    IT111 P-42m: first_here=0 sighted=8 menu=7
+    IT112 P-42c: first_here=6 sighted=23 menu=12
+    IT113 P-42_1m: first_here=0 sighted=15 menu=10
+    IT114 P-42_1c: first_here=10 sighted=36 menu=14
+    IT115 P-4m2: first_here=0 sighted=10 menu=9
+    IT116 P-4c2: first_here=14 sighted=34 menu=15
+    IT117 P-4b2: first_here=0 sighted=8 menu=4
+    IT118 P-4n2: first_here=24 sighted=59 menu=19
+    IT119 I-4m2: first_here=4 sighted=25 menu=19
+    IT120 I-4c2: first_here=7 sighted=17 menu=7
+    IT121 I-42m: first_here=4 sighted=28 menu=20
+    IT122 I-42d: first_here=91 sighted=136 menu=43
+    IT123 P4/mmm: first_here=0 sighted=2 menu=2
+    IT124 P4/mcc: first_here=0 sighted=7 menu=6
+    IT125 P4/nbm: first_here=0 sighted=6 menu=6
+    IT126 P4/nnc: first_here=2 sighted=16 menu=15
+    IT127 P4/mbm: first_here=0 sighted=3 menu=3
+    IT128 P4/mnc: first_here=6 sighted=24 menu=19
+    IT129 P4/nmm: first_here=0 sighted=11 menu=11
+    IT130 P4/ncc: first_here=4 sighted=14 menu=12
+    IT131 P4_2/mmc: first_here=1 sighted=14 menu=14
+    IT132 P4_2/mcm: first_here=0 sighted=13 menu=11
+    IT133 P4_2/nbc: first_here=5 sighted=12 menu=12
+    IT134 P4_2/nnm: first_here=9 sighted=27 menu=27
+    IT135 P4_2/mbc: first_here=3 sighted=17 menu=11
+    IT136 P4_2/mnm: first_here=3 sighted=24 menu=19
+    IT137 P4_2/nmc: first_here=5 sighted=20 menu=19
+    IT138 P4_2/ncm: first_here=6 sighted=22 menu=22
+    IT139 I4/mmm: first_here=0 sighted=18 menu=18
+    IT140 I4/mcm: first_here=5 sighted=13 menu=12
+    IT141 I4_1/amd: first_here=37 sighted=65 menu=65
+    IT142 I4_1/acd: first_here=24 sighted=36 menu=33
+    IT143 P3: first_here=0 sighted=2 menu=1
+    IT144 P3_1: first_here=7 sighted=15 menu=9
+    IT145 P3_2: first_here=0 sighted=15 menu=9
+    IT146 R3: first_here=16 sighted=23 menu=12
+    IT147 P-3: first_here=3 sighted=13 menu=6
+    IT148 R-3: first_here=52 sighted=79 menu=25
+    IT149 P312: first_here=0 sighted=5 menu=4
+    IT150 P321: first_here=3 sighted=14 menu=9
+    IT151 P3_112: first_here=20 sighted=34 menu=14
+    IT152 P3_121: first_here=65 sighted=86 menu=28
+    IT153 P3_212: first_here=5 sighted=36 menu=16
+    IT154 P3_221: first_here=16 sighted=91 menu=32
+    IT155 R32: first_here=71 sighted=110 menu=33
+    IT156 P3m1: first_here=0 sighted=3 menu=3
+    IT157 P31m: first_here=0 sighted=3 menu=3
+    IT158 P3c1: first_here=0 sighted=4 menu=3
+    IT159 P31c: first_here=0 sighted=10 menu=6
+    IT160 R3m: first_here=5 sighted=18 menu=12
+    IT161 R3c: first_here=10 sighted=23 menu=14
+    IT162 P-31m: first_here=0 sighted=8 menu=7
+    IT163 P-31c: first_here=5 sighted=24 menu=14
+    IT164 P-3m1: first_here=0 sighted=12 menu=11
+    IT165 P-3c1: first_here=9 sighted=23 menu=9
+    IT166 R-3m: first_here=47 sighted=79 menu=57
+    IT167 R-3c: first_here=64 sighted=103 menu=27
+    IT168 P6: first_here=0 sighted=4 menu=4
+    IT169 P6_1: first_here=22 sighted=35 menu=21
+    IT170 P6_5: first_here=0 sighted=35 menu=21
+    IT171 P6_2: first_here=29 sighted=45 menu=14
+    IT172 P6_4: first_here=0 sighted=45 menu=14
+    IT173 P6_3: first_here=0 sighted=8 menu=4
+    IT174 P-6: first_here=0 sighted=2 menu=2
+    IT175 P6/m: first_here=0 sighted=4 menu=4
+    IT176 P6_3/m: first_here=5 sighted=24 menu=17
+    IT177 P622: first_here=0 sighted=5 menu=4
+    IT178 P6_122: first_here=109 sighted=138 menu=45
+    IT179 P6_522: first_here=17 sighted=138 menu=46
+    IT180 P6_222: first_here=46 sighted=63 menu=49
+    IT181 P6_422: first_here=49 sighted=102 menu=44
+    IT182 P6_322: first_here=9 sighted=31 menu=18
+    IT183 P6mm: first_here=0 sighted=3 menu=3
+    IT184 P6cc: first_here=0 sighted=4 menu=4
+    IT185 P6_3cm: first_here=0 sighted=7 menu=7
+    IT186 P6_3mc: first_here=0 sighted=11 menu=11
+    IT187 P-6m2: first_here=0 sighted=3 menu=3
+    IT188 P-6c2: first_here=0 sighted=8 menu=6
+    IT189 P-62m: first_here=0 sighted=3 menu=3
+    IT190 P-62c: first_here=7 sighted=27 menu=22
+    IT191 P6/mmm: first_here=0 sighted=3 menu=3
+    IT192 P6/mcc: first_here=0 sighted=7 menu=6
+    IT193 P6_3/mcm: first_here=0 sighted=14 menu=12
+    IT194 P6_3/mmc: first_here=1 sighted=19 menu=19
+    IT195 P23: first_here=3 sighted=6 menu=-
+    IT196 F23: first_here=0 sighted=4 menu=-
+    IT197 I23: first_here=6 sighted=8 menu=-
+    IT198 P2_13: first_here=4 sighted=4 menu=-
+    IT199 I2_13: first_here=7 sighted=8 menu=-
+    IT200 Pm-3: first_here=3 sighted=7 menu=-
+    IT201 Pn-3: first_here=3 sighted=9 menu=-
+    IT202 Fm-3: first_here=0 sighted=7 menu=-
+    IT203 Fd-3: first_here=3 sighted=8 menu=-
+    IT204 Im-3: first_here=8 sighted=17 menu=-
+    IT205 Pa-3: first_here=3 sighted=5 menu=-
+    IT206 Ia-3: first_here=6 sighted=7 menu=-
+    IT207 P432: first_here=1 sighted=6 menu=-
+    IT208 P4_232: first_here=3 sighted=10 menu=-
+    IT209 F432: first_here=1 sighted=6 menu=-
+    IT210 F4_132: first_here=0 sighted=9 menu=-
+    IT211 I432: first_here=3 sighted=15 menu=-
+    IT212 P4_332: first_here=5 sighted=11 menu=-
+    IT213 P4_132: first_here=1 sighted=11 menu=-
+    IT214 I4_132: first_here=8 sighted=13 menu=-
+    IT215 P-43m: first_here=0 sighted=8 menu=-
+    IT216 F-43m: first_here=0 sighted=5 menu=-
+    IT217 I-43m: first_here=2 sighted=14 menu=-
+    IT218 P-43n: first_here=1 sighted=8 menu=-
+    IT219 F-43c: first_here=0 sighted=5 menu=-
+    IT220 I-43d: first_here=5 sighted=10 menu=-
+    IT221 Pm-3m: first_here=0 sighted=5 menu=-
+    IT222 Pn-3n: first_here=1 sighted=13 menu=-
+    IT223 Pm-3n: first_here=4 sighted=20 menu=-
+    IT224 Pn-3m: first_here=4 sighted=18 menu=-
+    IT225 Fm-3m: first_here=0 sighted=6 menu=-
+    IT226 Fm-3c: first_here=1 sighted=7 menu=-
+    IT227 Fd-3m: first_here=1 sighted=12 menu=-
+    IT228 Fd-3c: first_here=0 sighted=8 menu=-
+    IT229 Im-3m: first_here=3 sighted=17 menu=-
+    IT230 Ia-3d: first_here=9 sighted=16 menu=-

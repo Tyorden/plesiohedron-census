@@ -1,0 +1,281 @@
+{
+ "rank": 146,
+ "cid": "f0e2036d295195b4",
+ "label": "wall-suspect (triage, 1 b; metric-thin: 1b,P5-only)",
+ "f_vector": [
+  12,
+  20,
+  10
+ ],
+ "p_vector": [
+  3,
+  3,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  6,
+  6
+ ],
+ "p_compact": "3^4 4^4 6^2",
+ "aut_order": 2,
+ "witness": {
+  "group": 152,
+  "group_symbol": "P3_121",
+  "point": [
+   "0",
+   "1/8",
+   "1/6"
+  ],
+  "kind": "special",
+  "b": "9/8",
+  "pass": "P5",
+  "stratum_dim": 1,
+  "stabilizer_order": 2,
+  "orbit_conventional": 3,
+  "orbit_primitive": 3,
+  "lattice_degenerate": false,
+  "degenerate_flag": true,
+  "float_superseded": false,
+  "nonsimple_vertices": 4,
+  "W": 2,
+  "congruence_checked": true
+ },
+ "group_symbol": "P3_121",
+ "stages": [
+  {
+   "name": "V0 exact re-derivation (Gram chain)",
+   "verdict": "PASS",
+   "detail": "IT(152) P3_121 p=(0, 1/8, 1/6) c/a=9/8 G=diag(64,64,81) period=24 n_conv=3 T=3 site=2 dim=1 f=(12,20,10) p-vec 3^4 4^4 6^2 aut=2 W=2 nonsimple=4 cutoff_D2=186624 4rho2_G=50176",
+   "t": 0.03198099136352539
+  },
+  {
+   "name": "V1 tiling certificate in the G-norm (generator)",
+   "verdict": "PASS",
+   "detail": "detL=13824 T=3 vol=4608 T*vol=13824 (crystal-basis measure) slots=30 paired 1:1; disjointness G-ball D2=4rho2=50176 (coord bound (33, 33, 25)), ball sizes 24..24 sites/rep, all G-bisectors weakly satisfied, no unlisted 2-face contact",
+   "t": 0.1393129825592041
+  },
+  {
+   "name": "V1 independent adapted audit (affine + Gram layer)",
+   "verdict": "PASS",
+   "detail": "audit re-derived 3 cells x 10 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 4608 each, T*vol == |det|; all 30 pairing claims verified full-facet both sides, slots covered exactly once; Gram layer: 120 shared-vertex G-equidistance checks, 360 vertex-side checks, 30 facet normals parallel to G(r-c) \u2014 all exact",
+   "t": 0.06713700294494629
+  },
+  {
+   "name": "V2 symmetry certification (G-isometries)",
+   "verdict": "PASS",
+   "detail": "site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear parts) contained, divisibility 2|2|2|2 holds; Gram-triple re-derivation agrees; Bravais point group of L in G: order 24 (embedded ops NOT all signed perms); honeycomb point group |H/L|=6 (0 improper) vs T*|site|=6: full symmetry group of the honeycomb IS exactly G (|H_cell|=2)",
+   "t": 0.023442983627319336
+  },
+  {
+   "name": "V3 Burnside identity (banked + independent)",
+   "verdict": "PASS",
+   "detail": "tables T=3 nbrs=10 |ops|=6 (6 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the other hand; banked enumerate n<=4: fixed=[3, 15, 111, 945], free=[1, 3, 21, 162]; burnside_generic ALL PASS n<=4; INDEPENDENT enumerator (verify_counts_independent.py) reached n=5: fixed=[3, 15, 111, 945, 8691], free=[1, 3, 21, 162, 1468], one-sided=[1, 3, 21, 162, 1468], n<=4 identical to banked, its own Burnside (all + proper) ok at every n, 0s",
+   "t": 0.5237162113189697
+  }
+ ],
+ "elapsed": 0.7856638431549072,
+ "log": [
+  "[f0e2036d295195b4] f=(12, 20, 10) p=3^4 4^4 6^2 aut=2 witness IT(152) point (0, 1/8, 1/6) c/a=9/8",
+  "  V0 exact re-derivation (Gram chain): PASS (0.0s) IT(152) P3_121 p=(0, 1/8, 1/6) c/a=9/8 G=diag(64,64,81) period=24 n_conv=3 T=3 site=2 dim=1 f=(12,20,10) p-vec 3^4 4^4 6",
+  "  V1 tiling certificate in the G-norm (generator): PASS (0.1s) detL=13824 T=3 vol=4608 T*vol=13824 (crystal-basis measure) slots=30 paired 1:1; disjointness G-ball D2=4rho2=50176 (coo",
+  "  V1 independent adapted audit (affine + Gram layer): PASS (0.1s) audit re-derived 3 cells x 10 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 4608 each, T*vol == |de",
+  "  V2 symmetry certification (G-isometries): PASS (0.0s) site=2, Isom_fix_site=2, Isom(solid)=2 (Isom+=2, improper=0; solid CHIRAL), aut_comb=2; chain site<=Isom_fix (linear par",
+  "  V3 Burnside identity (banked + independent): PASS (0.5s) tables T=3 nbrs=10 |ops|=6 (6 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the othe"
+ ],
+ "ctx": {
+  "V": 12,
+  "E": 20,
+  "F": 10,
+  "aut": 2,
+  "G": [
+   [
+    64,
+    -32,
+    0
+   ],
+   [
+    -32,
+    64,
+    0
+   ],
+   [
+    0,
+    0,
+    81
+   ]
+  ],
+  "period": 24,
+  "n_conv": 3,
+  "site": 2,
+  "W": 2,
+  "nonsimple": 4,
+  "code": "((1, 2, 3), (0, 3, 4), (0, 5, 6), (0, 6, 7, 1), (1, 8, 9), (2, 9, 10), (2, 10, 7, 3), (3, 6, 11), (4, 11, 9), (4, 8, 10, 5), (5, 9, 11, 6), (7, 10, 8))"
+ },
+ "lat": {
+  "T": 3,
+  "detL": 13824,
+  "vol": "4608"
+ },
+ "sym": {
+  "n_site": 2,
+  "n_fix": 2,
+  "n_iso": 2,
+  "n_proper": 2,
+  "chiral": true,
+  "n_aut": 2,
+  "n_brav": 24,
+  "n_ops": 6,
+  "n_ops_improper": 0,
+  "h_cell": 2,
+  "full_is_G": true,
+  "iso": [
+   {
+    "A": [
+     [
+      "1",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "t": [
+     "0",
+     "0",
+     "0"
+    ],
+    "det": 1,
+    "fixes_site": true
+   },
+   {
+    "A": [
+     [
+      "-1",
+      "0",
+      "0"
+     ],
+     [
+      "-1",
+      "1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "t": [
+     "0",
+     "0",
+     "8"
+    ],
+    "det": 1,
+    "fixes_site": true
+   }
+  ]
+ },
+ "v3": {
+  "deferred": false,
+  "detail": "tables T=3 nbrs=10 |ops|=6 (6 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the other hand; banked enumerate n<=4: fixed=[3, 15, 111, 945], free=[1, 3, 21, 162]; burnside_generic ALL PASS n<=4; INDEPENDENT enumerator (verify_counts_independent.py) reached n=5: fixed=[3, 15, 111, 945, 8691], free=[1, 3, 21, 162, 1468], one-sided=[1, 3, 21, 162, 1468], n<=4 identical to banked, its own Burnside (all + proper) ok at every n, 0s",
+  "counts": {
+   "1": [
+    3,
+    1
+   ],
+   "2": [
+    15,
+    3
+   ],
+   "3": [
+    111,
+    21
+   ],
+   "4": [
+    945,
+    162
+   ]
+  },
+  "n_ops": 6,
+  "n_proper": 6,
+  "hand_consistent": true,
+  "n_other_hand": 0,
+  "indep": {
+   "reached": 5,
+   "target": 5,
+   "timed_out": false,
+   "wall": 0.39751601219177246,
+   "capped_by_field": false,
+   "rows": {
+    "1": [
+     3,
+     1,
+     1,
+     true
+    ],
+    "2": [
+     15,
+     3,
+     3,
+     true
+    ],
+    "3": [
+     111,
+     21,
+     21,
+     true
+    ],
+    "4": [
+     945,
+     162,
+     162,
+     true
+    ],
+    "5": [
+     8691,
+     1468,
+     1468,
+     true
+    ]
+   }
+  }
+ },
+ "gen_groups": {
+  "hits": [
+   {
+    "group": 144,
+    "symbol": "P3_1",
+    "site": 1,
+    "point_ops": 3
+   },
+   {
+    "group": 152,
+    "symbol": "P3_121",
+    "site": 2,
+    "point_ops": 6
+   }
+  ],
+  "max_point_ops": 6,
+  "identified": true,
+  "shift": null,
+  "full_groups": [
+   {
+    "group": 152,
+    "symbol": "P3_121",
+    "site": 2,
+    "point_ops": 6
+   }
+  ]
+ }
+}

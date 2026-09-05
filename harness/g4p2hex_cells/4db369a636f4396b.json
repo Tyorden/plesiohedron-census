@@ -1,0 +1,389 @@
+{
+ "rank": 53,
+ "cid": "4db369a636f4396b",
+ "label": "indeterminate (triage, 2 b)",
+ "f_vector": [
+  18,
+  30,
+  14
+ ],
+ "p_vector": [
+  3,
+  3,
+  3,
+  3,
+  4,
+  4,
+  4,
+  4,
+  4,
+  4,
+  6,
+  6,
+  6,
+  6
+ ],
+ "p_compact": "3^4 4^6 6^4",
+ "aut_order": 4,
+ "witness": {
+  "group": 151,
+  "group_symbol": "P3_112",
+  "point": [
+   "0",
+   "1/2",
+   "0"
+  ],
+  "kind": "special",
+  "b": "3/2",
+  "pass": "P1",
+  "stratum_dim": 1,
+  "stabilizer_order": 2,
+  "orbit_conventional": 3,
+  "orbit_primitive": 3,
+  "lattice_degenerate": false,
+  "degenerate_flag": true,
+  "float_superseded": false,
+  "nonsimple_vertices": 6,
+  "W": 2,
+  "congruence_checked": true
+ },
+ "group_symbol": "P3_112",
+ "stages": [
+  {
+   "name": "V0 exact re-derivation (Gram chain)",
+   "verdict": "PASS",
+   "detail": "IT(151) P3_112 p=(0, 1/2, 0) c/a=3/2 G=diag(4,4,9) period=12 n_conv=3 T=3 site=2 dim=1 f=(18,30,14) p-vec 3^4 4^6 6^4 aut=4 W=2 nonsimple=6 cutoff_D2=5184 4rho2_G=768",
+   "t": 0.04416394233703613
+  },
+  {
+   "name": "V1 tiling certificate in the G-norm (generator)",
+   "verdict": "PASS",
+   "detail": "detL=1728 T=3 vol=576 T*vol=1728 (crystal-basis measure) slots=42 paired 1:1; disjointness G-ball D2=4rho2=768 (coord bound (16, 16, 10)), ball sizes 18..18 sites/rep, all G-bisectors weakly satisfied, no unlisted 2-face contact",
+   "t": 0.08997702598571777
+  },
+  {
+   "name": "V1 independent adapted audit (affine + Gram layer)",
+   "verdict": "PASS",
+   "detail": "audit re-derived 3 cells x 14 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 576 each, T*vol == |det|; all 42 pairing claims verified full-facet both sides, slots covered exactly once; Gram layer: 180 shared-vertex G-equidistance checks, 756 vertex-side checks, 42 facet normals parallel to G(r-c) \u2014 all exact",
+   "t": 0.22934198379516602
+  },
+  {
+   "name": "V2 symmetry certification (G-isometries)",
+   "verdict": "PASS",
+   "detail": "site=2, Isom_fix_site=4, Isom(solid)=4 (Isom+=4, improper=0; solid CHIRAL), aut_comb=4; chain site<=Isom_fix (linear parts) contained, divisibility 2|4|4|4 holds; Gram-triple re-derivation agrees; Bravais point group of L in G: order 24 (embedded ops NOT all signed perms); honeycomb point group |H/L|=12 (0 improper) vs T*|site|=6: full symmetry group of the honeycomb is LARGER than G (|H_cell|=4)",
+   "t": 0.060436248779296875
+  },
+  {
+   "name": "V3 Burnside identity (banked + independent)",
+   "verdict": "PASS",
+   "detail": "tables T=3 nbrs=14 |ops|=12 (12 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the other hand; banked enumerate n<=4: fixed=[3, 21, 201, 2208], free=[1, 4, 22, 205]; burnside_generic ALL PASS n<=4; INDEPENDENT enumerator (verify_counts_independent.py) reached n=5: fixed=[3, 21, 201, 2208, 26310], free=[1, 4, 22, 205, 2248], one-sided=[1, 4, 22, 205, 2248], n<=4 identical to banked, its own Burnside (all + proper) ok at every n, 1s",
+   "t": 1.3912622928619385
+  }
+ ],
+ "elapsed": 1.8152518272399902,
+ "log": [
+  "[4db369a636f4396b] f=(18, 30, 14) p=3^4 4^6 6^4 aut=4 witness IT(151) point (0, 1/2, 0) c/a=3/2",
+  "  V0 exact re-derivation (Gram chain): PASS (0.0s) IT(151) P3_112 p=(0, 1/2, 0) c/a=3/2 G=diag(4,4,9) period=12 n_conv=3 T=3 site=2 dim=1 f=(18,30,14) p-vec 3^4 4^6 6^4 au",
+  "  V1 tiling certificate in the G-norm (generator): PASS (0.1s) detL=1728 T=3 vol=576 T*vol=1728 (crystal-basis measure) slots=42 paired 1:1; disjointness G-ball D2=4rho2=768 (coord bo",
+  "  V1 independent adapted audit (affine + Gram layer): PASS (0.2s) audit re-derived 3 cells x 14 facets (supporting-plane scan), closed surfaces, Euler ok; volumes 576 each, T*vol == |det",
+  "  V2 symmetry certification (G-isometries): PASS (0.1s) site=2, Isom_fix_site=4, Isom(solid)=4 (Isom+=4, improper=0; solid CHIRAL), aut_comb=4; chain site<=Isom_fix (linear par",
+  "  V3 Burnside identity (banked + independent): PASS (1.4s) tables T=3 nbrs=14 |ops|=12 (12 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the ot"
+ ],
+ "ctx": {
+  "V": 18,
+  "E": 30,
+  "F": 14,
+  "aut": 4,
+  "G": [
+   [
+    4,
+    -2,
+    0
+   ],
+   [
+    -2,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    9
+   ]
+  ],
+  "period": 12,
+  "n_conv": 3,
+  "site": 2,
+  "W": 2,
+  "nonsimple": 6,
+  "code": "((1, 2, 3), (0, 3, 4, 5), (0, 5, 6), (0, 7, 8, 1), (1, 9, 10), (1, 10, 2), (2, 11, 12), (3, 12, 13, 8), (3, 7, 14), (4, 14, 15), (4, 15, 16, 5), (6, 16, 17), (6, 17, 7), (7, 17, 14), (8, 13, 9), (9, 16, 10), (10, 15, 17, 11), (11, 16, 13, 12))"
+ },
+ "lat": {
+  "T": 3,
+  "detL": 1728,
+  "vol": "576"
+ },
+ "sym": {
+  "n_site": 2,
+  "n_fix": 4,
+  "n_iso": 4,
+  "n_proper": 4,
+  "chiral": true,
+  "n_aut": 4,
+  "n_brav": 24,
+  "n_ops": 12,
+  "n_ops_improper": 0,
+  "h_cell": 4,
+  "full_is_G": false,
+  "iso": [
+   {
+    "A": [
+     [
+      "1",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "t": [
+     "0",
+     "0",
+     "0"
+    ],
+    "det": 1,
+    "fixes_site": true
+   },
+   {
+    "A": [
+     [
+      "1",
+      "0",
+      "0"
+     ],
+     [
+      "1",
+      "-1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "t": [
+     "0",
+     "12",
+     "0"
+    ],
+    "det": 1,
+    "fixes_site": true
+   },
+   {
+    "A": [
+     [
+      "-1",
+      "0",
+      "0"
+     ],
+     [
+      "-1",
+      "1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "-1"
+     ]
+    ],
+    "t": [
+     "0",
+     "0",
+     "0"
+    ],
+    "det": 1,
+    "fixes_site": true
+   },
+   {
+    "A": [
+     [
+      "-1",
+      "0",
+      "0"
+     ],
+     [
+      "0",
+      "-1",
+      "0"
+     ],
+     [
+      "0",
+      "0",
+      "1"
+     ]
+    ],
+    "t": [
+     "0",
+     "12",
+     "0"
+    ],
+    "det": 1,
+    "fixes_site": true
+   }
+  ],
+  "double_check": [
+   {
+    "det": 1,
+    "fixes_site": true,
+    "G_orthogonal": true,
+    "permutes_vertices": true,
+    "linear_part_in_site_group": true,
+    "maps_site_set_to_itself": true
+   },
+   {
+    "det": 1,
+    "fixes_site": true,
+    "G_orthogonal": true,
+    "permutes_vertices": true,
+    "linear_part_in_site_group": true,
+    "maps_site_set_to_itself": true
+   },
+   {
+    "det": 1,
+    "fixes_site": true,
+    "G_orthogonal": true,
+    "permutes_vertices": true,
+    "linear_part_in_site_group": false,
+    "maps_site_set_to_itself": true
+   },
+   {
+    "det": 1,
+    "fixes_site": true,
+    "G_orthogonal": true,
+    "permutes_vertices": true,
+    "linear_part_in_site_group": false,
+    "maps_site_set_to_itself": true
+   }
+  ]
+ },
+ "v3": {
+  "deferred": false,
+  "detail": "tables T=3 nbrs=14 |ops|=12 (12 proper, 0 improper; T*|site|=6), identity+closure exact; hands: 0 of 3 classes of the other hand; banked enumerate n<=4: fixed=[3, 21, 201, 2208], free=[1, 4, 22, 205]; burnside_generic ALL PASS n<=4; INDEPENDENT enumerator (verify_counts_independent.py) reached n=5: fixed=[3, 21, 201, 2208, 26310], free=[1, 4, 22, 205, 2248], one-sided=[1, 4, 22, 205, 2248], n<=4 identical to banked, its own Burnside (all + proper) ok at every n, 1s",
+  "counts": {
+   "1": [
+    3,
+    1
+   ],
+   "2": [
+    21,
+    4
+   ],
+   "3": [
+    201,
+    22
+   ],
+   "4": [
+    2208,
+    205
+   ]
+  },
+  "n_ops": 12,
+  "n_proper": 12,
+  "hand_consistent": true,
+  "n_other_hand": 0,
+  "indep": {
+   "reached": 5,
+   "target": 5,
+   "timed_out": false,
+   "wall": 1.19071626663208,
+   "capped_by_field": false,
+   "rows": {
+    "1": [
+     3,
+     1,
+     1,
+     true
+    ],
+    "2": [
+     21,
+     4,
+     4,
+     true
+    ],
+    "3": [
+     201,
+     22,
+     22,
+     true
+    ],
+    "4": [
+     2208,
+     205,
+     205,
+     true
+    ],
+    "5": [
+     26310,
+     2248,
+     2248,
+     true
+    ]
+   }
+  }
+ },
+ "gen_groups": {
+  "hits": [
+   {
+    "group": 144,
+    "symbol": "P3_1",
+    "site": 1,
+    "point_ops": 3
+   },
+   {
+    "group": 151,
+    "symbol": "P3_112",
+    "site": 2,
+    "point_ops": 6
+   },
+   {
+    "group": 172,
+    "symbol": "P6_4",
+    "site": 2,
+    "point_ops": 6
+   }
+  ],
+  "max_point_ops": 6,
+  "identified": true,
+  "shift": [
+   [
+    "0",
+    "0",
+    "1/3"
+   ]
+  ],
+  "full_groups": [
+   {
+    "group": 181,
+    "symbol": "P6_422",
+    "site": 4,
+    "point_ops": 12,
+    "shift": [
+     "0",
+     "0",
+     "1/3"
+    ]
+   }
+  ]
+ },
+ "sightings_in_full_group": 3
+}
