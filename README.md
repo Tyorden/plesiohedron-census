@@ -5,7 +5,7 @@ Certified space-filling polyhedra from a gated agentic search: code, certificate
 A plesiohedron is the Voronoi cell of a point orbit under a crystallographic space group;
 every plesiohedron tiles space isohedrally. This repository is the complete public record of
 a search for their combinatorial types across the 36 cubic, 68 tetragonal and 52
-trigonal/hexagonal space groups (IT 143-230): the exact-arithmetic harness, the frozen
+trigonal/hexagonal space groups (IT 75-230; the 36 cubic groups are IT 195-230): the exact-arithmetic harness, the frozen
 space-group operation store, the pre-registered gates and every gate result, the per-cell
 certificates, the digitized comparison tables, and the resulting machine-readable catalog
 (version 5, snapshot 2026-09-04).
