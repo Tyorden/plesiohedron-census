@@ -34,6 +34,19 @@ statement made anywhere is that a type is "not matched against the records check
 that prints one representative point per (group, f-vector), not an enumeration. "His rows
 unreached" measures the coverage of our sample points, not of his.
 
+Related machine-readable data (added 2026-09-05). Ed Pegg has assembled, in a Wolfram Cloud
+notebook (https://www.wolframcloud.com/obj/5a7894fc-4cd0-439f-9d83-25d28bb47b37), a database of
+3,903 plesiohedra taken from Schmitt's printed tables, with generated geometry. That count equals
+our own per-group expansion of his 3,315 printed rows (986 cubic + 1,641 tetragonal + 1,276
+trigonal/hexagonal (group, row) pairs, `catalog/RECONCILIATION.md`), so it is a machine-readable
+form of the printed representative points. This catalog is a different object: deduplicated
+combinatorial types with canonical identifiers, every sighting attached, certificates for 177 and a
+type-level reconciliation, of which 794 types come from our own point menus. The notebook returned
+HTTP 503 at every fetch on 2026-09-05 (a scheduled Wolfram Cloud outage), so its description here is
+as relayed to the author and will be re-verified. No statement in this repository claims to be the
+first machine-readable form of anything; the claim made is "to our knowledge the first catalog of
+exact-confirmed types with certificates and a type-level reconciliation", dated 2026-09-05.
+
 ## The two named cells
 
 Two cubic cells carry names (`NAMING_DECISION_BRIEF_2026-09-01.md`); the other certified
