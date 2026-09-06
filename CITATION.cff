@@ -9,7 +9,7 @@ authors:
     given-names: Tyler Satchel
     orcid: "https://orcid.org/0009-0004-9205-7422"
 repository-code: "https://github.com/Tyorden/plesiohedron-census"
-license: "MIT AND CC-BY-4.0"
+license: MIT
 keywords:
   - plesiohedron
   - Dirichlet stereohedron

@@ -1,0 +1,17 @@
+{
+  "title": "plesiohedron-census: certified space-filling polyhedra from a gated agentic search (code, certificates, catalog)",
+  "upload_type": "software",
+  "description": "<p>Code, per-cell certificates and THE CATALOG (version 5, snapshot 2026-09-04) from an exact-arithmetic search for plesiohedra (Voronoi cells of point orbits under crystallographic space groups) across the 36 cubic, 68 tetragonal and 52 trigonal/hexagonal space groups: 1,583 exact-confirmed combinatorial types, 177 with tiling, symmetry and polyform-count certificates, reconciled at f-vector and type level against the 3,315 printed rows of Schmitt's 2016 survey tables. Two cubic cells carry names (Satchelhedron, Ordenhedron) with their diligence scope stated in the README; nothing here claims a shape is new to science. Code is MIT-licensed; data and catalog files are CC BY 4.0 (see LICENSE). Computation and drafting assisted by Claude (Anthropic); every result document names the command that reproduces it.</p>",
+  "creators": [
+    {"name": "Orden, Tyler Satchel", "orcid": "0009-0004-9205-7422"}
+  ],
+  "license": "MIT",
+  "keywords": ["plesiohedron", "Dirichlet stereohedron", "space-filling polyhedron", "Voronoi cell", "space groups", "combinatorial type", "polyform enumeration", "crystallography"],
+  "related_identifiers": [
+    {"identifier": "10.17169/refubium-14374", "relation": "cites", "resource_type": "publication-thesis"},
+    {"identifier": "arXiv:2604.07160", "relation": "cites", "resource_type": "publication-preprint"},
+    {"identifier": "https://oeis.org/A398957", "relation": "isSupplementedBy", "resource_type": "dataset"}
+  ],
+  "version": "2026.09.04",
+  "access_right": "open"
+}
