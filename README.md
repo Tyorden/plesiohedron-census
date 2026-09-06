@@ -1,5 +1,9 @@
 # plesiohedron-census
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22502081.svg)](https://doi.org/10.5281/zenodo.22502081)
+
+Archived at Zenodo: version DOI 10.5281/zenodo.22502081, concept DOI 10.5281/zenodo.22502080 (all versions). Cite the version DOI for the catalog v5 snapshot of 2026-09-04.
+
 Certified space-filling polyhedra from a gated agentic search: code, certificates, catalog.
 
 A plesiohedron is the Voronoi cell of a point orbit under a crystallographic space group;
